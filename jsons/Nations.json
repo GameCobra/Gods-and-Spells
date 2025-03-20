@@ -2,7 +2,7 @@
     {
 		"name": "Wizards Guild",
 		"leaderName": "Gandor",
-		"preferredVictoryType": "Scientific",
+		"preferredVictoryType": "Domination",
 
 		"startIntroPart1": "We rule this world with magic!",
 		"startIntroPart2": "Others may obtain magic but we are the supperior users of it!",
