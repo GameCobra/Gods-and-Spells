@@ -5,21 +5,20 @@
 		"uniqueTo": "Wizards Guild",
 		"production": -2,
         "culture": 4,
-		"uniques": ["[10]% Food is carried over after population increases [in all citys]"],
+		"uniques": ["[10]% Food is carried over after population increases [in all cities]"],
 		"hurryCostModifier": 0,
 		"maintenance": 1,
 		"percentStatBonus": {"food": -5, "culture" : 5},
 		"requiredTech": "Engineering"
 	},
     {
-		"name": "School of magic",
-		"cost": 300,
+		"name": "School of Magic",
+		"cost": 650,
 		"culture": 5,
-		"greatPersonPoints": {"Great Merchant": 1},
 		"isWonder": true,
-		"uniques": ["Cost increases by [50] per owned city", "Indicates the capital city",
-			"Destroyed when the city is captured", "Gain a free [Wizard Tower] [in this city]", "[+1 Culture] per every [3] [Production]"],
-		"requiredTech": "Sailing",
-		"quote": "'They that go down to the sea in ships, that do business in great waters; these see the works of the Lord, and his wonders in the deep.' - The Bible, Psalms 107:23-24"
+		"uniques": ["Cost increases by [50] per owned city",
+			"Destroyed when the city is captured", "Gain a free [Wizard Tower] [in this city]", "All healing effects doubled"],
+		"requiredTech": "Education",
+		"quote": "Magic is the future, the past, and the pressent. Thouse whom have magic rewrite time and warp it to their will."
 	}
 ]
