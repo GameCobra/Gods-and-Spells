@@ -2,14 +2,7 @@
     {
 		"name": "Wizards Guild",
 		"leaderName": "Gandor",
-		"startBias":"Avoid [Mountains]",
 		"preferredVictoryType": "Domination",
-
-		"priorities": {
-			"Tradition": 40,
-			"Liberty": 5,
-			"Honor": 40
-		},
 		"startIntroPart1": "We rule this world with magic!",
 		"startIntroPart2": "Others may obtain magic but we are the supperior users of it!",
 		"declaringWar": "You stand in the way of my people. We will destroy you with our supperior magic!",
