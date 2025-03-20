@@ -1,41 +1,21 @@
 [
     {
-		"name": "Adelle Corp",
-		"leaderName": "Kane",
-		"preferredVictoryType": "Domination",
+		"name": "Wizards Guild",
+		"leaderName": "Gandor",
+		"preferredVictoryType": "tech",
 
-		"startIntroPart1": "Sample text.",
-		"startIntroPart2": "Sample text.",
-		"declaringWar": "You stand in the way of my people. Let us solve this like warriors!",
-		"attacked": "You dare have the courage to challenge nod, but no fear, for I will sweep you out of history.",
-		"defeated": "You have the guts to call my body a corpse but beware, I know what will happen to our future- our tiberium future.",
-		"introduction": "If I am cut, Do I not bleed?",
-		"tradeRequest": "I am not always this generous, but we hope you take this rare opportunity we give you.",
-		"outerColor": [0,0,0],
-		"innerColor": [142,22,0],
-		"uniqueName": "Word of Nod",
-		"uniques": ["[+30]% Strength <vs [City-States]>", "[+2] Movement <for [Armored] units>"],
-		"cities": ["Ketilsstaoir","Frooaross","Hraun","Geirhildarvatn","Dumbshaf","Leioolfsstaoir","Hraunsass","Mosfell","Geirmundarstaoir","Holmgaror","Selaeyrr",
-"Horga","Fellshverfi","Kalfborgara","Reykir inir efri","Bolstaor","Beruvikrhraun","Berghylr","Rauosgil"]
-	},
-
-	{
-		"name": "The New Movement",
-		"leaderName": "Anton Slavik",
-		"preferredVictoryType": "Domination",
-
-		"startIntroPart1": "Sample text.",
-		"startIntroPart2": "Sample text",
-		"declaringWar": "It is in  my Intentions to spread the word of Nod into your land.",
-		"attacked": "Pitiful fool! Now we shall destroy you!",
-		"defeated": "I see for the black hand has been unworthy to serve Kane.",
-		"introduction": "If you would stay out of our way then you might live to tell your tale.",
-		"tradeRequest": "I would be grateful if you agreed on the following proposal.",
-		"outerColor": [139,0,0],
-		"innerColor": [0,0,0],
-		"uniqueName": "Purification",
-		"uniques": ["No damage penalty for wounded units <for [non-air] units>"],
-		"cities": ["Ketilsstaoir","Frooaross","Hraun","Geirhildarvatn","Dumbshaf","Leioolfsstaoir","Hraunsass","Mosfell","Geirmundarstaoir","Holmgaror","Selaeyrr",
-"Horga","Fellshverfi","Kalfborgara","Reykir inir efri","Bolstaor","Beruvikrhraun","Berghylr","Rauosgil"]
+		"startIntroPart1": "We rule this world with magic!",
+		"startIntroPart2": "Others may obtain magic but we are the supperior users of it!",
+		"declaringWar": "You stand in the way of my people. We will destroy you with our supperior magic!",
+		"attacked": "I will litteraly erase you from history! You will regreat every decision you have ever made!",
+		"defeated": "You may think that I have lost, but we are more powerful then you think, we will return and you will be death!",
+		"introduction": "Our magic can bring peace, but threten us an we will destroy!",
+		"tradeRequest": "A generous offer.",
+		"outerColor": [99,21,133],
+		"innerColor": [255,192,203],
+		"uniqueName": "Wizards of the Guild",
+		"uniques": ["-40]% Spread Religion Strength", "Heals [35] damage if it kills a unit, No damage penalty for wounded units"],
+		"cities": ["Magdoor","dormer","tackon","magis","mitermen","scifen","heelth","morfel","forgon","ifen","sen-nar",
+"enerlesh","coldkeep","LAB","expiriment efri","Magon","wiznor","wickness","Gilnet"]
 	}
 ]
