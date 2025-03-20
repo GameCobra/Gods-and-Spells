@@ -2,19 +2,27 @@
     {
 		"name": "Wizards Guild",
 		"leaderName": "Gandor",
+		"startBias":"Avoid [Mountains]",
 		"preferredVictoryType": "Domination",
 
+		"priorities": {
+			"Tradition": 40,
+			"Liberty": 5,
+			"Honor": 40
+		},
 		"startIntroPart1": "We rule this world with magic!",
 		"startIntroPart2": "Others may obtain magic but we are the supperior users of it!",
 		"declaringWar": "You stand in the way of my people. We will destroy you with our supperior magic!",
 		"attacked": "I will litteraly erase you from history! You will regreat every decision you have ever made!",
 		"defeated": "You may think that I have lost, but we are more powerful then you think, we will return and you will be death!",
 		"introduction": "Our magic can bring peace, but threten us an we will destroy!",
+		"neutralHello": "Greetings",
+		"hateHello": "Greetings lesser beings",
 		"tradeRequest": "A generous offer.",
 		"outerColor": [99,21,133],
 		"innerColor": [255,192,203],
 		"uniqueName": "The Great Wizards Guild",
-		"uniques": ["-40]% Spread Religion Strength", "Heals [35] damage if it kills a unit", "No damage penalty for wounded units"],
+		"uniques": ["[-40]% Spread Religion Strength", "Heals [35] damage if it kills a unit", "No damage penalty for wounded units"],
 		"cities": ["Magdoor","dormer","tackon","magis","mitermen","scifen","heelth","morfel","forgon","ifen","sen-nar",
 "enerlesh","coldkeep","LAB","expiriment efri","Magon","wiznor","wickness","Gilnet"]
 	}
