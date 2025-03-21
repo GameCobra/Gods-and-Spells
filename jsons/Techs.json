@@ -13,5 +13,20 @@
             "quote": "We have learned how to extract magic from our world and channel it into our progresion."
         }
     ]
-}
+    },
+    {
+        "columnNumber": 8,
+		"era": "Renaissance era",
+		"techCost": 1150,
+		"buildingCost": 250,
+		"wonderCost": 625,
+        "techs": [
+            {
+                "name": "Wind Magic",
+                "row": 1,
+                "prerequisites": ["Magic"],
+                "quote": "Zoom with the power of the wind!"
+            }
+        ]
+        }
 ]

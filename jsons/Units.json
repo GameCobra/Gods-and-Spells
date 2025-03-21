@@ -1,7 +1,7 @@
 [
     {
         "name": "Wizard",
-        "unitType": "Ranged",
+        "unitType": "Magic User",
         "cost": 55,
         "movement": 4,
         "strength": 3,
@@ -17,7 +17,7 @@
     },
     {
 		"name": "Sorcerer",
-		"unitType": "Ranged",
+		"unitType": "Magic User",
 		"movement": 3,
 		"strength": 10,
         "rangedStrength": 28,
@@ -26,5 +26,17 @@
 		"requiredTech": "Magic",
         "requiredResource": "Mana",
 		"attackSound": "shot"
-	}
+	},
+    {
+        "name": "Wind Wizard",
+		"unitType": "Magic User",
+		"movement": 8,
+		"strength": 7,
+		"rangedStrength": 20,
+		"cost": 185,
+		"requiredTech": "Wind Magic",
+		"requiredResource": "Mana",
+		"uniques": ["[+200]% Strength <vs [Embarked]> <when attacking>","No defensive terrain bonus","Must set up to ranged attack"],
+		"attackSound": "cannon"
+    }
 ]
