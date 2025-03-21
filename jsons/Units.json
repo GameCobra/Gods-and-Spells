@@ -24,6 +24,7 @@
         "range": 3,
 		"cost": 175,
 		"requiredTech": "Magic",
+        "requiredResource": "Mana",
 		"attackSound": "shot"
 	}
 ]

@@ -3,16 +3,18 @@
 		"name": "Mana",
 		"resourceType": "Strategic",
 		"revealedBy": "Magic",
-		"terrainsCanBeFoundOn": ["Marsh","Jungle","Forest","Snow","Desert"],
+		"terrainsCanBeFoundOn": ["Marsh","Jungle","Forest","Snow","Desert","Hill"],
 		"production": 1,
 		"improvement": "Mana Extractor",
 		"improvementStats": {"culture": 1},
 		"uniques": ["Generated with weight [30] <in [Marsh] tiles> <in tiles without [Hill]>",
 					"Generated with weight [50] <in [Jungle] tiles> <in tiles without [Hill]>",
 					"Generated with weight [60] <in [Forest] tiles> <in tiles without [Hill]>",
+					"Generated with weight [25] <in [Hill] tiles>",
 					"Minor deposits generated with weight [8] <in [Forest] tiles>",
+					"Minor deposits generated with weight [10] <in [Hill] tiles>",
 					"Minor deposits generated with weight [15] <in [{Featureless} {Snow}] tiles>"],
-		"majorDepositAmount": {"sparse": 2, "default": 4, "abundant": 4},
+		"majorDepositAmount": {"sparse": 2, "default": 3, "abundant": 4},
 		"minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 3}
 	}
 ]
