@@ -13,7 +13,7 @@ BuildingIcons/School of Magic
   index: -1
 BuildingIcons/Wizard Tower
   rotate: false
-  xy: 1252, 4
+  xy: 1460, 4
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
@@ -34,7 +34,7 @@ NationIcons/Gilded Kingdom
   index: -1
 NationIcons/Wizards Guild
   rotate: false
-  xy: 1460, 4
+  xy: 1668, 4
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
@@ -53,9 +53,16 @@ TechIcons/Magic
   orig: 200, 200
   offset: 0, 0
   index: -1
-UnitIcons/Wizard
+UnitIcons/Sorcerer
   rotate: false
   xy: 1044, 4
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/Wizard
+  rotate: false
+  xy: 1252, 4
   size: 200, 200
   orig: 200, 200
   offset: 0, 0

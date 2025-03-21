@@ -14,5 +14,16 @@
 			{"text": "Who needs fighters when you have magic slinging wizards!"}
 		],
         "attackSound": "shot"
-    }
+    },
+    {
+		"name": "Sorcerer",
+		"unitType": "Ranged",
+		"movement": 3,
+		"strength": 10,
+        "rangedStrength": 28,
+        "range": 3,
+		"cost": 175,
+		"requiredTech": "Magic",
+		"attackSound": "shot"
+	}
 ]

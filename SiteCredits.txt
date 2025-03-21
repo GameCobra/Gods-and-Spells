@@ -1,0 +1,10 @@
+Credit to the provided sites for creating the images used:
+School of Magic : https://www.flaticon.com/free-icon/magic-book_2106231
+Wizard Towner : https://www.flaticon.com/free-icon/tower_158101
+Mana Extractor : https://www.flaticon.com/free-icon/mana_15532677?term=mana&page=1&position=1&origin=style&related_id=15532677
+Golded Kingdom : https://www.flaticon.com/free-icon/gold_2997013
+Wizards Guild : https://github.com/yairm210/Unciv-minimal-base-ruleset
+Mana : https://www.flaticon.com/free-icon/mana_5966572
+Magic : https://www.clker.com/clipart-magic-wand.html
+Sorcerer : https://www.iconfinder.com/icons/892111/fairytale_hat_magician_sorcerer_icon
+Wizard : https://openclipart.org/detail/245968/wizards-white-hat
