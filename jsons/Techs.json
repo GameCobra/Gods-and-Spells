@@ -1,0 +1,17 @@
+[
+    {
+    "columnNumber": 6,
+    "era": "Renaissance era",
+    "techCost": 780,
+    "buildingCost": 200,
+    "wonderCost": 500,
+    "techs": [
+        {
+            "name": "Magic",
+            "row": 1,
+            "prerequisites": ["Education"],
+            "quote": "We have learned how to extract magic from our world and channel it into our progresion."
+        }
+    ]
+}
+]

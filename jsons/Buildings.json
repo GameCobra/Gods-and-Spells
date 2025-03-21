@@ -18,7 +18,7 @@
 		"isWonder": true,
 		"uniques": ["Cost increases by [50] per owned city",
 			"Destroyed when the city is captured", "Gain a free [Wizard Tower] [in this city]", "All healing effects doubled"],
-		"requiredTech": "Education",
+		"requiredTech": "Magic",
 		"quote": "Magic is the future, the past, and the pressent. Thouse whom have magic rewrite time and warp it to their will."
 	}
 ]
