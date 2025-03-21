@@ -1,0 +1,9 @@
+[
+    {
+		"name": "Mana Extractor",
+		"turnsToBuild": 9,
+		"techRequired": "Magic",
+		"uniques": ["Can only be built to improve a resource", "Pillaging this improvement yields approximately [+10 Gold]"],
+		"shortcutKey": "M"
+	}
+]

@@ -5,7 +5,7 @@
 		"revealedBy": "Magic",
 		"terrainsCanBeFoundOn": ["Marsh","Jungle","Forest","Snow","Desert"],
 		"production": 1,
-		"improvement": "Mine",
+		"improvement": "Mana Extractor",
 		"improvementStats": {"culture": 1},
 		"uniques": ["Generated with weight [30] <in [Marsh] tiles> <in tiles without [Hill]>",
 					"Generated with weight [50] <in [Jungle] tiles> <in tiles without [Hill]>",

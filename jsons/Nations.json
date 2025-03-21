@@ -16,7 +16,7 @@
 		"outerColor": [99,21,133],
 		"innerColor": [255,192,203],
 		"uniqueName": "The Great Wizards Guild",
-		"uniques": ["[-65]% Spread Religion Strength", "Heals [35] damage if it kills a unit", "No damage penalty for wounded units"],
+		"uniques": ["[-67]% Spread Religion Strength", "Heals [35] damage if it kills a unit", "No damage penalty for wounded units"],
 		"cities": ["Magdoor","dormer","tackon","magis","mitermen","scifen","heelth","morfel","forgon","ifen","sen-nar",
 "enerlesh","coldkeep","LAB","expiriment efri","Magon","wiznor","wickness","Gilnet"]
 	},
@@ -37,7 +37,7 @@
 		"outerColor": [153,153,0],
 		"innerColor": [255,255,224],
 		"uniqueName": "Midas's Gilded Kingdom",
-		"uniques": ["[Great Merchant] is earned [200]% faster", "[+3 Gold] from each Trade Route", "[+200]% Gold cost of acquiring tiles [in all cities]", "[-35]% [Culture]", "[+200]% City-State Influence degradation"],
+		"uniques": ["[Great Merchant] is earned [50]% faster", "[+1 Gold] from each Trade Route", "[-35]% Gold cost of acquiring tiles [in all cities]", "[-10]% [Culture]"],
 		"cities": ["Gold","Rich","Diamond","Ruby","Gem","Quartz","Pearl"]
 	}
 ]
