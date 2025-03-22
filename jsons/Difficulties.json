@@ -41,7 +41,7 @@
 		"unhappinessModifier": 0,
 		"barbarianBonus": 0,
 		"barbarianSpawnDelay": 10000,
-		"playerBonusStartingUnits": ["Wind Wizard"],
+		"playerBonusStartingUnits": ["Wind Wizard", "Wind Wizard"],
 		"aiCityGrowthModifier": 0,
 		"aiUnitCostModifier": 100000,
 		"aiBuildingCostModifier": 100000,

@@ -12,5 +12,9 @@
     {
         "name": "Mega Gust",
         "uniques": ["Unavailable", "[+50]% Strength", "[+1] Range"]
+    },
+    {
+        "name": "Mega Gust Attack",
+        "uniques": ["Unavailable","[-1] Range"]
     }
 ]
