@@ -11,11 +11,6 @@
     },
     {
         "name": "Mega Gust",
-        "uniques": ["Unavailable", "[+50]% Strength", "[+1] Range"],
-        "unitTypes": ["Magic User"],
-        "innerColor": [195,53,43],
-        "outerColor": [253,236,234],
-        "row": 0,
-        "column": 1
+        "uniques": ["Unavailable", "[+50]% Strength", "[+1] Range"]
     }
 ]

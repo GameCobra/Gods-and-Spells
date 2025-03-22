@@ -36,7 +36,7 @@
 		"cost": 185,
 		"requiredTech": "Wind Magic",
 		"requiredResource": "Mana",
-		"uniques": ["[+200]% Strength <vs [Embarked]> <when attacking>","No defensive terrain bonus","Must set up to ranged attack"],
+		"uniques": ["[+200]% Strength <vs [Embarked]> <when attacking>","No defensive terrain bonus","Must set up to ranged attack", "[This Unit] gains the [Mega Gust] status for [1] turn(s) <[2] times>"],
 		"attackSound": "cannon"
     }
 ]
