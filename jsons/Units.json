@@ -36,7 +36,12 @@
 		"cost": 185,
 		"requiredTech": "Wind Magic",
 		"requiredResource": "Mana",
-		"uniques": ["[+200]% Strength <vs [Embarked]> <when attacking>","No defensive terrain bonus","Must set up to ranged attack", "[This Unit] gains the [Mega Gust Attack] status for [3] turn(s) <[2] times>","[This Unit] gains the [Mega Gust] status for [1] turn(s) <upon gaining the [Mega Gust Attack] status>"],
+		"uniques": [
+                "[+200]% Strength <vs [Embarked]> <when attacking>",
+                "No defensive terrain bonus","Must set up to ranged attack",
+                "[This Unit] gains the [Mega Gust] status for [1] turn(s) <for [0] movement> <costs [1] [Mana]> <for units without [Mega Gust Attack]>",
+                "[This Unit] gains the [Mega Gust Attack] status for [1] turn(s) <upon gaining the [Mega Gust] status>"
+                    ],
 		"attackSound": "cannon"
     }
 ]
