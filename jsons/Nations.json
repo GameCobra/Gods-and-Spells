@@ -18,8 +18,9 @@
 		"uniqueName": "The Great Wizards Guild",
 		"uniques": [
 				"[-67]% Spread Religion Strength", 
-				"Heals [35] damage if it kills a unit", 
-				"No damage penalty for wounded units"
+				"Heals [30] damage if it kills a unit", 
+				"No damage penalty for wounded units",
+				"Provides [3] [Mana]"
 					],
 		"cities": ["Magdoor","dormer","tackon","magis","mitermen","scifen","heelth","morfel","forgon","ifen","sen-nar",
 "enerlesh","coldkeep","LAB","expiriment efri","Magon","wiznor","wickness","Gilnet"]
