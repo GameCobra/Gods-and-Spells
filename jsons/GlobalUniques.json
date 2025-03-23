@@ -1,1 +1,6 @@
-"[-100]% to Flank Attack bonuses <vs [Flank Immune] units>"
+{
+    "name": "Global uniques",
+    "uniques": [
+        "[+200]% Strength <vs [Mega Gust Attack] units>"
+    ]
+}
