@@ -9,7 +9,10 @@
         "range": 3,
         "replaces": "Warrior",
         "uniqueTo": "Wizards Guild",
-        "uniques": ["Heals [10] damage if it kills a unit"],
+        "requiredResource": "Mana",
+        "uniques": [
+                "Heals [10] damage if it kills a unit"
+                    ],
         "civilopediaText": [
 			{"text": "Who needs fighters when you have magic slinging wizards!"}
 		],
@@ -31,16 +34,18 @@
         "name": "Wind Wizard",
 		"unitType": "Magic User",
 		"movement": 8,
-		"strength": 7,
-		"rangedStrength": 20,
+		"strength": 11,
+		"rangedStrength": 28,
 		"cost": 185,
 		"requiredTech": "Wind Magic",
 		"requiredResource": "Mana",
 		"uniques": [
                 "[+200]% Strength <vs [Embarked]> <when attacking>",
-                "No defensive terrain bonus","Must set up to ranged attack",
-                "[This Unit] gains the [Mega Gust] status for [1] turn(s) <for [0] movement> <costs [1] [Mana]> <for units without [Mega Gust Attack]>",
-                "[This Unit] gains the [Mega Gust Attack] status for [1] turn(s) <upon gaining the [Mega Gust] status>"
+                "No defensive terrain bonus",
+                "Must set up to ranged attack",
+                "Ignores terrain cost <when above [0] [Mana]>",
+                "[This Unit] gains the [Mega Gust] status for [1] turn(s) <costs [35] [Mana]> <when above [34] [Mana]> <for units without [Mega Gust Cooldown]>",
+                "[This Unit] gains the [Mega Gust Cooldown] status for [3] turn(s) <upon gaining the [Mega Gust] status>"
                     ],
 		"attackSound": "cannon"
     }

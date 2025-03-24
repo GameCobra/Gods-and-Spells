@@ -28,5 +28,20 @@
                 "quote": "Zoom with the power of the wind!"
             }
         ]
-        }
+    },
+    {
+		"columnNumber": 9,
+		"era": "Industrial era",
+		"techCost": 1600,
+		"buildingCost": 300,
+		"wonderCost": 750,
+		"techs": [
+            {
+                "name": "Alchemy",
+                "row": 1,
+                "prerequisites": ["Wind Magic"],
+                "quote": "Create powerful potions granting you a edge in combat"
+            }
+        ]
+    }
 ]

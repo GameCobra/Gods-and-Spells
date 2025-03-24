@@ -31,18 +31,18 @@
 	{
 		"name": "Creative Mode",
 		"baseHappiness": 100,
-		"extraHappinessPerLuxury": 0,
-		"researchCostModifier": 0,
-		"unitCostModifier": 0,
-		"unitSupplyBase": 0,
-		"unitSupplyPerCity": 0,
-		"buildingCostModifier": 0,
-		"policyCostModifier": 0,
-		"unhappinessModifier": 0,
-		"barbarianBonus": 0,
+		"extraHappinessPerLuxury": 1,
+		"researchCostModifier": 0.001,
+		"unitCostModifier": 0.001,
+		"unitSupplyBase": 0.001,
+		"unitSupplyPerCity": 1,
+		"buildingCostModifier": 0.001,
+		"policyCostModifier": 0.001,
+		"unhappinessModifier": 0.001,
+		"barbarianBonus": 1,
 		"barbarianSpawnDelay": 10000,
 		"playerBonusStartingUnits": ["Wind Wizard", "Wind Wizard"],
-		"aiCityGrowthModifier": 0,
+		"aiCityGrowthModifier": 0.001,
 		"aiUnitCostModifier": 100000,
 		"aiBuildingCostModifier": 100000,
 		"aiWonderCostModifier": 100000,
@@ -55,6 +55,6 @@
 		"aiUnhappinessModifier": 0,
 		"aisExchangeTechs": false,
 		"turnBarbariansCanEnterPlayerTiles": 1000,
-		"clearBarbarianCampReward": 0
+		"clearBarbarianCampReward": 1
 	}
 ]

@@ -21,5 +21,13 @@
 			"Destroyed when the city is captured", "Gain a free [Wizard Tower] [in this city]", "All healing effects doubled"],
 		"requiredTech": "Magic",
 		"quote": "Magic is the future, the past, and the pressent. Thouse whom have magic rewrite time and warp it to their will."
+	},
+	{
+		"name": "Mana fountain",
+		"Mana": 1,
+		"uniques": ["Provides [1] [Mana]"],
+		"hurryCostModifier": 0,
+		"maintenance": 1,
+		"requiredTech": "Magic"
 	}
 ]

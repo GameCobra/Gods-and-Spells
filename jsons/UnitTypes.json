@@ -1,6 +1,9 @@
 [
     {
         "name": "Magic User",
-        "movementType": "Land"
+        "movementType": "Land",
+        "uniques":[
+            "[-100]% Strength <when below [0] [Mana]>"
+            ]
     }
 ]
