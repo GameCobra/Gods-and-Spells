@@ -379,7 +379,7 @@
 		"clearBarbarianCampReward": 1
 	},
 	{
-		"name": "Nightmare Prince Mode",
+		"name": "Nightmare King Mode",
 		"baseHappiness": -75,
 		"extraHappinessPerLuxury": -3.5,
 		"researchCostModifier": 3.25,

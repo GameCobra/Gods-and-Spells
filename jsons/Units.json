@@ -48,5 +48,20 @@
                 "[This Unit] gains the [Mega Gust Cooldown] status for [3] turn(s) <upon gaining the [Mega Gust] status>"
                     ],
 		"attackSound": "cannon"
+    },
+    {
+        "name": "Healer",
+		"unitType": "Magic User",
+		"movement": 2,
+		"strength": 8,
+		"cost": 120,
+		"requiredTech": "Alchemy",
+		"requiredResource": "Mana",
+		"uniques": [
+                "[This Unit] gains the [Mega Gust] promotion",
+                "[This Unit] heals [100] HP <when adjacent to a [Mega Gust] unit> <costs [1] [Mana]>",
+                "[This Unit] gains the [Mega Gust Cooldown] status for [3] turn(s) <upon gaining the [Mega Gust] status>"
+                    ],
+		"attackSound": "cannon"
     }
 ]
