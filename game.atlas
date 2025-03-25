@@ -1,47 +1,61 @@
 
 game.png
-size: 2048, 512
+size: 1024, 1024
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
+BuildingIcons/Mana Fountain
+  rotate: false
+  xy: 524, 524
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
 BuildingIcons/School of Magic
   rotate: false
-  xy: 420, 212
+  xy: 732, 732
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Wizard Tower
   rotate: false
-  xy: 836, 4
+  xy: 628, 316
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 ImprovementIcons/Mana Extractor
   rotate: false
-  xy: 212, 4
+  xy: 212, 212
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 NationIcons/Gilded Kingdom
   rotate: false
-  xy: 4, 212
+  xy: 524, 732
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 NationIcons/Wizards Guild
   rotate: false
-  xy: 1044, 212
+  xy: 628, 108
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 ResourceIcons/Mana
   rotate: false
-  xy: 212, 212
+  xy: 4, 420
+  size: 512, 512
+  orig: 512, 512
+  offset: 0, 0
+  index: -1
+TechIcons/Alchemy
+  rotate: false
+  xy: 4, 212
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
@@ -55,28 +69,28 @@ TechIcons/Magic
   index: -1
 TechIcons/Wind Magic
   rotate: false
-  xy: 628, 212
+  xy: 732, 524
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Sorcerer
   rotate: false
-  xy: 420, 4
+  xy: 212, 4
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Wind Wizard
   rotate: false
-  xy: 628, 4
+  xy: 420, 212
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Wizard
   rotate: false
-  xy: 836, 212
+  xy: 420, 4
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
