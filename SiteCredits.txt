@@ -1,3 +1,7 @@
+Other projects that I used for help and insperation
+https://github.com/AceHank/Epic-of-Fantasy/tree/main
+https://github.com/SpacedOutChicken/Resource-Recyclers/tree/master
+
 Credit to the provided sites for creating the images used:
 School of Magic : https://www.flaticon.com/free-icon/magic-book_2106231
 Wizard Towner : https://www.flaticon.com/free-icon/tower_158101

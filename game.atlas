@@ -1,6 +1,6 @@
 
 game.png
-size: 1024, 1024
+size: 2048, 1024
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
@@ -18,9 +18,16 @@ BuildingIcons/School of Magic
   orig: 200, 200
   offset: 0, 0
   index: -1
+BuildingIcons/Transmutation Center
+  rotate: false
+  xy: 732, 524
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
 BuildingIcons/Wizard Tower
   rotate: false
-  xy: 628, 316
+  xy: 1148, 524
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
@@ -41,7 +48,7 @@ NationIcons/Gilded Kingdom
   index: -1
 NationIcons/Wizards Guild
   rotate: false
-  xy: 628, 108
+  xy: 1356, 732
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
@@ -69,7 +76,7 @@ TechIcons/Magic
   index: -1
 TechIcons/Wind Magic
   rotate: false
-  xy: 732, 524
+  xy: 940, 732
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
@@ -83,14 +90,14 @@ UnitIcons/Sorcerer
   index: -1
 UnitIcons/Wind Wizard
   rotate: false
-  xy: 420, 212
+  xy: 940, 524
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Wizard
   rotate: false
-  xy: 420, 4
+  xy: 1148, 732
   size: 200, 200
   orig: 200, 200
   offset: 0, 0

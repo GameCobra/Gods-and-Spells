@@ -24,10 +24,19 @@
 	},
 	{
 		"name": "Mana fountain",
-		"Mana": 1,
 		"uniques": ["Provides [1] [Mana]"],
 		"hurryCostModifier": 0,
 		"maintenance": 1,
 		"requiredTech": "Magic"
+	},
+	{
+		"name": "Transmutation Center",
+		"uniques": ["Provides [-3] [Mana]"],
+		"gold": 8,
+		"percentStatBonus": {"gold": 30, "culture":-5},
+		"hurryCostModifier": 5,
+		"maintenance": 1,
+		"requiredResource": "Iron",
+		"requiredTech": "Alchemy"
 	}
 ]
