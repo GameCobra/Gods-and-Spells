@@ -58,9 +58,8 @@
 		"requiredTech": "Alchemy",
 		"requiredResource": "Mana",
 		"uniques": [
-                "[This Unit] gains the [Mega Gust] promotion",
-                "[This Unit] heals [100] HP <when adjacent to a [Mega Gust] unit> <costs [1] [Mana]>",
-                "[This Unit] gains the [Mega Gust Cooldown] status for [3] turn(s) <upon gaining the [Mega Gust] status>"
+                "[This Unit] gains the [Healer Buff] status for [3] turn(s) <upon ending a turn in a [All] tile> <when adjacent to a [Mega Gust Cooldown] unit>"
+
                     ],
 		"attackSound": "cannon"
     }

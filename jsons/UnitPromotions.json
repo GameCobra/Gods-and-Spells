@@ -16,5 +16,9 @@
     {
         "name": "Mega Gust Cooldown",
         "uniques": ["Unavailable","[-1] Range"]
+    },
+    {
+        "name": "Healer Buff",
+        "uniques": ["[This Unit] heals [50] HP"]
     }
 ]
