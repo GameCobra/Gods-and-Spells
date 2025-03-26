@@ -19,6 +19,6 @@
     },
     {
         "name": "Healer Buff",
-        "uniques": ["[This Unit] heals [50] HP"]
+        "uniques": ["[This Unit] heals [50] HP", "[This Unit] takes [75] damage <upon gaining the [Healer Buff] status>"]
     }
 ]

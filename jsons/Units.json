@@ -44,7 +44,7 @@
                 "No defensive terrain bonus",
                 "Must set up to ranged attack",
                 "Ignores terrain cost <when above [0] [Mana]>",
-                "[This Unit] gains the [Mega Gust] status for [1] turn(s) <costs [35] [Mana]> <when above [34] [Mana]> <for units without [Mega Gust Cooldown]>",
+                "[This Unit] gains the [Mega Gust] status for [1] turn(s) <costs [1] [Mana]> <when above [0] [Mana]> <for units without [Mega Gust Cooldown]>",
                 "[This Unit] gains the [Mega Gust Cooldown] status for [3] turn(s) <upon gaining the [Mega Gust] status>"
                     ],
 		"attackSound": "cannon"
@@ -58,7 +58,7 @@
 		"requiredTech": "Alchemy",
 		"requiredResource": "Mana",
 		"uniques": [
-                "[This Unit] gains the [Healer Buff] status for [3] turn(s) <upon ending a turn in a [All] tile> <when adjacent to a [Mega Gust Cooldown] unit>"
+                "[This Unit] gains the [Healer Buff] status for [3] turn(s) <upon turn end> <when adjacent to a [Mega Gust Cooldown] unit>"
 
                     ],
 		"attackSound": "cannon"

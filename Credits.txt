@@ -1,5 +1,9 @@
+Special thanks to:
+Ace Hank - For the help they provided!
+
 Other projects that I used for help and insperation
 https://github.com/AceHank/Epic-of-Fantasy/tree/main
+https://github.com/AceHank/EoF-Mages/tree/main
 https://github.com/SpacedOutChicken/Resource-Recyclers/tree/master
 
 Credit to the provided sites for creating the images used:
