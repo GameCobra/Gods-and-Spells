@@ -1,5 +1,7 @@
 {
     "name": "Global uniques",
     "unitUniques": [
+    "[This Unit] gains the [Healer Heal] status for [3] turn(s) <upon turn end> <when adjacent to a [Healer Buff] unit> <for units without [Healer Heal]>"
+
     ]
 }

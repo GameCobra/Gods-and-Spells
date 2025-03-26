@@ -18,7 +18,15 @@
         "uniques": ["Unavailable","[-1] Range"]
     },
     {
+        "name": "Healer Heal",
+        "uniques": ["[This Unit] heals [50] HP <upon gaining the [Healer Heal] status>"]
+    },
+    {
         "name": "Healer Buff",
-        "uniques": ["[This Unit] heals [50] HP", "[This Unit] takes [75] damage <upon gaining the [Healer Buff] status>"]
+        "uniques": []
+    },
+    {
+        "name": "Healer Cooldown",
+        "uniques": []
     }
 ]
