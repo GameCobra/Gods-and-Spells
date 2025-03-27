@@ -28,5 +28,9 @@
     {
         "name": "Healer Cooldown",
         "uniques": []
+    },
+    {
+        "name": "Sky Isle Promotion",
+        "uniques": ["Can move immediately once bought"]
     }
 ]

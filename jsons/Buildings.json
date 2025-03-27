@@ -5,7 +5,7 @@
 		"uniqueTo": "Wizards Guild",
 		"production": -2,
         "culture": 3,
-		"uniques": ["[10]% Food is carried over after population increases [in all cities]"],
+		"uniques": ["[10]% Food is carried over after population increases [in all cities] <when above [0] [Mana]>"],
 		"hurryCostModifier": 0,
 		"maintenance": 1,
 		"percentStatBonus": {"food": -5, "culture" : 5},
@@ -13,12 +13,12 @@
 	},
     {
 		"name": "School of Magic",
-		"cost": 650,
+		"cost": 500,
 		"culture": 5,
 		"isWonder": true,
 		"requiredResource": "Mana",
 		"uniques": ["Cost increases by [50] per owned city",
-			"Destroyed when the city is captured", "Gain a free [Wizard Tower] [in this city]", "All healing effects doubled"],
+			"Destroyed when the city is captured", "Gain a free [Wizard Tower] [in this city]", "All healing effects doubled <when above [0] [Mana]>"],
 		"requiredTech": "Magic",
 		"quote": "Magic is the future, the past, and the pressent. Thouse whom have magic rewrite time and warp it to their will."
 	},
@@ -40,14 +40,17 @@
 		"requiredTech": "Alchemy"
 	},
 	{
-		"name": "School of Magic",
-		"cost": 650,
+		"name": "Floating Isle",
+		"cost": 625,
 		"culture": 5,
 		"isWonder": true,
 		"requiredResource": "Mana",
-		"uniques": ["Cost increases by [50] per owned city",
-			"Destroyed when the city is captured", "Gain a free [Wizard Tower] [in this city]", "All healing effects doubled"],
-		"requiredTech": "Magic",
-		"quote": "Magic is the future, the past, and the pressent. Thouse whom have magic rewrite time and warp it to their will."
+		"uniques": [
+			"Triggers a global alert upon build start",
+			"Triggers a global alert upon completion",
+			"All newly-trained [All] units [This City] receive the [Sky Isle Promotion] promotion <when above [0] [Mana]>"
+		],
+		"requiredTech": "Wind Magic",
+		"quote": "Lift our civilization to new hights, litteraly"
 	}
 ]

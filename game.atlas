@@ -6,56 +6,56 @@ filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
 BuildingIcons/Mana Fountain
   rotate: false
-  xy: 212, 4
+  xy: 420, 212
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/School of Magic
   rotate: false
-  xy: 732, 524
+  xy: 1252, 524
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Transmutation Center
   rotate: false
-  xy: 940, 524
+  xy: 420, 4
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Wizard Tower
   rotate: false
-  xy: 1356, 524
+  xy: 628, 4
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 ImprovementIcons/Mana Extractor
   rotate: false
-  xy: 732, 732
+  xy: 212, 4
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 NationIcons/Gilded Kingdom
   rotate: false
-  xy: 524, 732
+  xy: 1044, 732
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 NationIcons/Wizards Guild
   rotate: false
-  xy: 1564, 732
+  xy: 836, 212
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 ResourceIcons/Mana
   rotate: false
-  xy: 4, 420
+  xy: 524, 420
   size: 512, 512
   orig: 512, 512
   offset: 0, 0
@@ -67,23 +67,30 @@ TechIcons/Alchemy
   orig: 200, 200
   offset: 0, 0
   index: -1
-TechIcons/Herbalism
+TechIcons/Herb Medic
   rotate: false
   xy: 212, 212
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
+TechIcons/Herbalism
+  rotate: false
+  xy: 1044, 524
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
 TechIcons/Magic
   rotate: false
-  xy: 524, 524
+  xy: 1252, 732
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 TechIcons/Wind Magic
   rotate: false
-  xy: 1148, 732
+  xy: 628, 212
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
@@ -95,23 +102,30 @@ UnitIcons/Healer
   orig: 200, 200
   offset: 0, 0
   index: -1
+UnitIcons/Herb Medic
+  rotate: false
+  xy: 4, 420
+  size: 512, 512
+  orig: 512, 512
+  offset: 0, 0
+  index: -1
 UnitIcons/Sorcerer
   rotate: false
-  xy: 940, 732
+  xy: 1460, 732
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Wind Wizard
   rotate: false
-  xy: 1148, 524
+  xy: 1460, 524
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Wizard
   rotate: false
-  xy: 1356, 732
+  xy: 1668, 732
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
