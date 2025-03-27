@@ -38,5 +38,16 @@
 		"maintenance": 1,
 		"requiredResource": "Iron",
 		"requiredTech": "Alchemy"
+	},
+	{
+		"name": "School of Magic",
+		"cost": 650,
+		"culture": 5,
+		"isWonder": true,
+		"requiredResource": "Mana",
+		"uniques": ["Cost increases by [50] per owned city",
+			"Destroyed when the city is captured", "Gain a free [Wizard Tower] [in this city]", "All healing effects doubled"],
+		"requiredTech": "Magic",
+		"quote": "Magic is the future, the past, and the pressent. Thouse whom have magic rewrite time and warp it to their will."
 	}
 ]

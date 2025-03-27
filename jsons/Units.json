@@ -62,5 +62,16 @@
             "[This Unit] gains the [Healer Cooldown] status for [3] turn(s) <upon gaining the [Healer Buff] status>"
                     ],
 		"attackSound": "cannon"
+    },
+    {
+        "name": "Herb Medic",
+		"unitType": "Herbalist",
+		"movement": 2,
+		"strength": 4,
+		"cost": 60,
+		"requiredTech": "Herbalism",
+		"uniques": [
+                    ],
+		"attackSound": "cannon"
     }
 ]

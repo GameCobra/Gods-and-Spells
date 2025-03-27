@@ -5,5 +5,11 @@
         "uniques":[
             "[-100]% Strength <when below [0] [Mana]>"
             ]
+    },
+    {
+        "name": "Herbalist",
+        "movementType": "Land",
+        "uniques":[
+            ]
     }
 ]
