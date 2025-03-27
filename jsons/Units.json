@@ -60,7 +60,6 @@
 		"uniques": [
             "[This Unit] gains the [Healer Buff] status for [2] turn(s) <costs [50] [Mana]> <when above [49] [Mana]> <for units without [Healer Cooldown]>",
             "[This Unit] gains the [Healer Cooldown] status for [3] turn(s) <upon gaining the [Healer Buff] status>"
-
                     ],
 		"attackSound": "cannon"
     }

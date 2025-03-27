@@ -5,14 +5,14 @@
 		"startBias": ["Avoid [Coast]", "Avoid [Tundra]", "Hill", "Plains"],
 		"preferredVictoryType": "Domination",
 		"startIntroPart1": "We rule this world with magic!",
-		"startIntroPart2": "Others may obtain magic but we are the supperior users of it!",
-		"declaringWar": "You stand in the way of my people. We will destroy you with our supperior magic!",
-		"attacked": "I will litteraly erase you from history! You will regreat every decision you have ever made!",
-		"defeated": "You may think that I have lost, but we are more powerful then you think, we will return and you will be death!",
+		"startIntroPart2": "Others can not fathom our true power!",
+		"declaringWar": "You stand in the way of my people. We will wipe you from this world!",
+		"attacked": "I will erase you from history! You will regreat every decision you have ever made!",
+		"defeated": "You may think that I have lost, but we are more powerful then you think, we will return and you will meet death!",
 		"introduction": "Our magic can bring peace, but threten us an we will destroy!",
 		"neutralHello": "Greetings",
 		"hateHello": "Greetings lesser beings",
-		"tradeRequest": "A generous offer.",
+		"tradeRequest": "A generous offer ofcourse",
 		"outerColor": [99,21,133],
 		"innerColor": [255,192,203],
 		"uniqueName": "The Great Wizards Guild",
@@ -48,6 +48,6 @@
 				"[-40]% Gold cost of acquiring tiles [in all cities]", 
 				"[-10]% [Culture]"
 					],
-		"cities": ["Gold","Rich","Diamond","Ruby","Gem","Quartz","Pearl"]
+		"cities": ["Gold","Rich","Diamond","Ruby","Gem","Quartz","Pearl", "Silver"]
 	}
 ]

@@ -1,5 +1,36 @@
 [
     {
+		"columnNumber": 4,
+        "era": "Classical era",
+		"techCost": 175,
+		"buildingCost": 100,
+		"wonderCost": 250,
+		"techs": [
+            {
+                "name": "Herbalism",
+                "row": 4,
+                "prerequisites": ["Horseback Riding"],
+                "quote": "Extract the essence of plants to achive great feats."
+            }
+        ]
+    },
+    {
+		"columnNumber": 6,
+		"era": "Medieval era",
+		"techCost": 485,
+		"buildingCost": 160,
+		"wonderCost": 400,
+        "techs":[
+            { //Modifing its locaton
+				"name": "Education",
+				"row": 4,
+				"prerequisites": ["Theology","Civil Service"],
+				"uniques": ["Enables conversion of city production to [Science]","Enables Research agreements","[+100]% weight to this choice for AI decisions"],
+				"quote": "'Education is the best provision for old age.' - Aristotle"
+			}
+        ]
+    },
+    {
     "columnNumber": 7,
     "era": "Renaissance era",
     "techCost": 780,
@@ -11,6 +42,13 @@
             "row": 1,
             "prerequisites": ["Education"],
             "quote": "We have learned how to extract magic from our world and channel it into our progresion."
+        },
+        { //Modifing it location
+            "name": "Astronomy",
+            "row": 3,
+            "uniques": ["[+1] Movement <for [Embarked] units>","Enables [Embarked] units to enter ocean tiles","[+50]% weight to this choice for AI decisions"],
+            "prerequisites": ["Compass","Education"],
+            "quote": "'Joyfully to the breeze royal Odysseus spread his sail, and with his rudder skillfully he steered.' - Homer"
         }
     ]
     },
@@ -26,7 +64,13 @@
                 "row": 1,
                 "prerequisites": ["Magic"],
                 "quote": "Zoom with the power of the wind!"
-            }
+            },
+            { //Modifing it location
+				"name": "Navigation",
+				"row": 3,
+				"prerequisites": ["Astronomy"],
+				"quote": "'The winds and the waves are always on the side of the ablest navigators.' - Edward Gibbon"
+			}
         ]
     },
     {
@@ -41,7 +85,14 @@
                 "row": 1,
                 "prerequisites": ["Wind Magic"],
                 "quote": "Create powerful potions granting you a edge in combat"
-            }
+            },
+            {
+				"name": "Archaeology",
+				"row": 3,
+				"prerequisites": ["Navigation","Architecture"],
+                "uniques": ["[+50]% weight to this choice for AI decisions"],
+				"quote": "'Those who cannot remember the past are condemned to repeat it.' - George Santayana"
+			}
         ]
     }
 ]
