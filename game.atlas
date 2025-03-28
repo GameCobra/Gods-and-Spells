@@ -4,51 +4,58 @@ size: 2048, 1024
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
-BuildingIcons/Mana Fountain
-  rotate: false
-  xy: 420, 212
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
-BuildingIcons/School of Magic
-  rotate: false
-  xy: 1252, 524
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
-BuildingIcons/Transmutation Center
-  rotate: false
-  xy: 420, 4
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
-BuildingIcons/Wizard Tower
-  rotate: false
-  xy: 628, 4
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
-ImprovementIcons/Mana Extractor
-  rotate: false
-  xy: 212, 4
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
-NationIcons/Gilded Kingdom
+BuildingIcons/Floating Isle
   rotate: false
   xy: 1044, 732
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-NationIcons/Wizards Guild
+BuildingIcons/Mana Fountain
+  rotate: false
+  xy: 1252, 524
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/School of Magic
+  rotate: false
+  xy: 1460, 732
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Transmutation Center
+  rotate: false
+  xy: 628, 212
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Wizard Tower
   rotate: false
   xy: 836, 212
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Mana Extractor
+  rotate: false
+  xy: 420, 212
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+NationIcons/Gilded Kingdom
+  rotate: false
+  xy: 4, 4
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+NationIcons/Wizards Guild
+  rotate: false
+  xy: 1044, 316
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
@@ -69,35 +76,35 @@ TechIcons/Alchemy
   index: -1
 TechIcons/Herb Medic
   rotate: false
-  xy: 212, 212
+  xy: 1044, 524
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 TechIcons/Herbalism
   rotate: false
-  xy: 1044, 524
+  xy: 1252, 732
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 TechIcons/Magic
   rotate: false
-  xy: 1252, 732
+  xy: 212, 4
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 TechIcons/Wind Magic
   rotate: false
-  xy: 628, 212
+  xy: 1460, 524
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Healer
   rotate: false
-  xy: 4, 4
+  xy: 212, 212
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
@@ -111,21 +118,21 @@ UnitIcons/Herb Medic
   index: -1
 UnitIcons/Sorcerer
   rotate: false
-  xy: 1460, 732
+  xy: 420, 4
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Wind Wizard
   rotate: false
-  xy: 1460, 524
+  xy: 1668, 732
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Wizard
   rotate: false
-  xy: 1668, 732
+  xy: 628, 4
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
