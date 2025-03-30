@@ -44,8 +44,9 @@
                 "No defensive terrain bonus",
                 "Must set up to ranged attack",
                 "Ignores terrain cost <when above [0] [Mana]>",
-                "[This Unit] gains the [Mega Gust] status for [1] turn(s) <costs [35] [Mana]> <when above [34] [Mana]> <for units without [Mega Gust Cooldown]>",
-                "[This Unit] gains the [Mega Gust Cooldown] status for [3] turn(s) <upon gaining the [Mega Gust] status>"
+                "Comment [Spend 35 [Mana] to preform a more powerful gust attack, 3 turn cooldown]",
+                "[This Unit] gains the [Mega Gust] status for [1] turn(s) <costs [35] [Mana]> <when above [34] [Mana]> <for units without [Mega Gust Cooldown]> <hidden from users>",
+                "[This Unit] gains the [Mega Gust Cooldown] status for [3] turn(s) <upon gaining the [Mega Gust] status> <hidden from users>"
                     ],
 		"attackSound": "cannon"
     },
@@ -58,8 +59,9 @@
 		"requiredTech": "Alchemy",
 		"requiredResource": "Mana",
 		"uniques": [
-            "[This Unit] gains the [Healer Buff] status for [2] turn(s) <costs [50] [Mana]> <when above [49] [Mana]> <for units without [Healer Cooldown]>",
-            "[This Unit] gains the [Healer Cooldown] status for [3] turn(s) <upon gaining the [Healer Buff] status>"
+            "Comment [Spend 50 [Mana] to heal all adjacent units by 50 HP, 3 turn cooldown]",
+            "[This Unit] gains the [Healer Buff] status for [2] turn(s) <costs [50] [Mana]> <when above [49] [Mana]> <for units without [Healer Cooldown]> <hidden from users>",
+            "[This Unit] gains the [Healer Cooldown] status for [3] turn(s) <upon gaining the [Healer Buff] status> <hidden from users>"
                     ],
 		"attackSound": "cannon"
     },
@@ -71,6 +73,7 @@
 		"cost": 60,
 		"requiredTech": "Herbalism",
 		"uniques": [
+            "Comment [Heal all adjacent units by 5 HP at the end of every turn, dose not stack with other [Herb Medic]'s]"
                     ],
 		"attackSound": "cannon"
     },
@@ -84,7 +87,8 @@
 		"requiredTech": "Herbalism",
         "range": 2,
 		"uniques": [
-            "[Target Unit] gains the [Poisoned] promotion <upon damaging a [All] unit>"
+            "Comment [Damaged units become poisoned taking 5 damage at the end of every turn]",
+            "[Target Unit] gains the [Poisoned] promotion <upon damaging a [All] unit> <hidden from users>"
                     ],
 		"attackSound": "cannon"
     }

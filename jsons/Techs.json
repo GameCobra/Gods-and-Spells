@@ -84,7 +84,14 @@
                 "name": "Alchemy",
                 "row": 1,
                 "prerequisites": ["Wind Magic"],
-                "quote": "Create powerful potions granting you a edge in combat"
+                "quote": "'We are entering a new age of creation, we will soon have a potion for everything!' - Tem Noron"
+            },
+            {
+                "name": "Eldritch Creations",
+                "row": 2,
+                "prerequisites": ["Wind Magic"],
+                "uniques": ["Comment [knowledge may have drastic consequences, YOU HAVE BEEN WARNED!]"],
+                "quote": "'We have oppened a door we can not close, and it will swallow us whole' - Alowe Toron, High Mage"
             },
             {
 				"name": "Archaeology",
