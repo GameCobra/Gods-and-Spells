@@ -32,5 +32,11 @@
     {
         "name": "Sky Isle Promotion",
         "uniques": ["Can move immediately once bought"]
+    },
+    {
+        "name": "Poisoned",
+        "uniques": [
+            "[This Unit] takes [5] damage <upon turn end>"
+        ]
     }
 ]

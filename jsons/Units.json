@@ -73,5 +73,20 @@
 		"uniques": [
                     ],
 		"attackSound": "cannon"
+    },
+    {
+        "name": "Poisoner",
+		"unitType": "Herbalist",
+		"movement": 2,
+		"strength": 2,
+        "rangedStrength": 4,
+		"cost": 65,
+		"requiredTech": "Herbalism",
+        "range": 2,
+		"uniques": [
+            "[Target Unit] gains the [Poisoned] promotion <upon damaging a [All] unit>"
+                    ],
+		"attackSound": "cannon"
     }
+    
 ]
