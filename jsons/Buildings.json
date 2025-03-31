@@ -20,7 +20,7 @@
 		"uniques": ["Cost increases by [50] per owned city",
 			"Destroyed when the city is captured", "Gain a free [Wizard Tower] [in this city]", "All healing effects doubled <when above [0] [Mana]>"],
 		"requiredTech": "Magic",
-		"quote": "Magic is the future, the past, and the pressent. Thouse whom have magic rewrite time and warp it to their will."
+		"quote": "'Magic is the future, the past, and the pressent. Thouse whom have magic rewrite time and warp it to their will' - Fore Ulama"
 	},
 	{
 		"name": "Mana fountain",
@@ -31,7 +31,10 @@
 	},
 	{
 		"name": "Transmutation Center",
-		"uniques": ["Provides [-3] [Mana]"],
+		"uniques": [
+			"Provides [-3] [Mana] <hidden from users>",
+			"Comment [Costs 3 [Mana] per turn]"
+			],
 		"gold": 8,
 		"percentStatBonus": {"gold": 30, "culture":-5},
 		"hurryCostModifier": 5,
