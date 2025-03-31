@@ -52,5 +52,28 @@
 		],
 		"requiredTech": "Wind Magic",
 		"quote": "Lift our civilization to new hights, litteraly"
+	},
+	{
+		"name": "Great Tree",
+		"cost": 250,
+		"culture": 3,
+		"isWonder": true,
+		"uniques": [
+			"[+10]% Yield from every [Farm]",
+			"[+10]% resources gifted by City-States"
+		],
+		"requiredTech": "Herbalism",
+		"quote": "A very big tree"
+	},
+	{
+		"name": "Nature Sigle",
+		"cost": 100,
+		"culture": 1,
+		"isWonder": true,
+		"uniques": [
+			"[-10]% Food consumption by specialists [In this city]"
+		],
+		"requiredTech": "Herbalism",
+		"quote": "A very big tree"
 	}
 ]

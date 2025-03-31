@@ -49,5 +49,17 @@
 				"[-10]% [Culture]"
 					],
 		"cities": ["Gold","Rich","Diamond","Ruby","Gem","Quartz","Pearl", "Silver"]
+	},
+	{
+		"name": "Everglade",
+		"adjective": ["Gladian"],
+		"cityStateType": "Magical",
+
+		"declaringWar": "You sadly leave us no choice. War is the only choice",
+		"attacked": "Looks like you did not want peace",
+		"defeated": "We could have been freinds",
+		"outerColor": [95, 95, 95],
+		"innerColor": [10,10,10],
+		"cities": ["Everglade"]
 	}
 ]
