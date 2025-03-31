@@ -74,7 +74,9 @@
 		"requiredTech": "Herbalism",
 		"uniques": [
             "Comment [Heal all adjacent units by 5 HP at the end of every turn, dose not stack with other [Herb Medic]'s]"
-                    ],
+            //"[This Unit] gains the [Poisoned] promotion <upon defeating a [All] unit>"
+                    
+        ],
 		"attackSound": "cannon"
     },
     {

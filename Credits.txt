@@ -1,5 +1,6 @@
-Special thanks to:
-Ace Hank - For the help they provided!
+Special thanks to for help:
+Ace Hank
+Bamboolord
 
 Other projects that I used for help and insperation
 https://github.com/AceHank/Epic-of-Fantasy/tree/main
@@ -27,4 +28,6 @@ Herb Medic : https://www.flaticon.com/free-icon/natural-herbs-and-a-mortar-for-h
 Floating Isle : https://thenounproject.com/icon/floating-island-6683806/
 Great Tree : https://www.flaticon.com/free-icon/tree-silhouette_46564
 Poisoner : https://www.flaticon.com/free-icon/poison_2765378
-Edritch Creations : https://thenounproject.com/icon/portal-63273/
+Nature Sigil : https://www.flaticon.com/free-icon/spiritual_5827668
+Eldritch Creations : https://www.flaticon.com/free-icon/ritual_1299453
+Portal : https://thenounproject.com/icon/portal-63273/

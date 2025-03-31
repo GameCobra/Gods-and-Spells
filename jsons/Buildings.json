@@ -54,7 +54,7 @@
 			"All newly-trained [All] units [This City] receive the [Sky Isle Promotion] promotion <when above [0] [Mana]>"
 		],
 		"requiredTech": "Wind Magic",
-		"quote": "Lift our civilization to new hights, litteraly"
+		"quote": "'We shall lift our civilization to new hights, litteraly' - Coor Nemb"
 	},
 	{
 		"name": "Great Tree",
@@ -66,17 +66,16 @@
 			"[+10]% resources gifted by City-States"
 		],
 		"requiredTech": "Herbalism",
-		"quote": "A very big tree"
+		"quote": "'Oh Great Tree, Protect us from harm' - Naf Wore, poet"
 	},
 	{
-		"name": "Nature Sigle",
+		"name": "Nature Sigil",
 		"cost": 100,
 		"culture": 1,
-		"isWonder": true,
+		"isWonder": false,
 		"uniques": [
 			"[-10]% Food consumption by specialists [In this city]"
 		],
-		"requiredTech": "Herbalism",
-		"quote": "A very big tree"
+		"requiredTech": "Herbalism"
 	}
 ]
