@@ -29,5 +29,17 @@
 			"Cannot be traded", 
 			"Excluded from map editor"
 		]
+	},
+	{
+		"name": "Chaos Energy",
+		"resourceType": "Strategic",
+		"uniques": [
+			"Doesn't generate naturally",
+			"Stockpiled", 
+			"Cannot be traded", 
+			"Excluded from map editor"
+		],
+		"revealedBy": "Eldritch Creations"
+
 	}
 ]

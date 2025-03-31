@@ -90,7 +90,11 @@
                 "name": "Eldritch Creations",
                 "row": 2,
                 "prerequisites": ["Wind Magic"],
-                "uniques": ["Comment [knowledge may have drastic consequences, YOU HAVE BEEN WARNED!]"],
+                "uniques": [
+                    "Comment [Knowledge may have drastic consequences, YOU HAVE BEEN WARNED!]",
+                    "[-100]% weight to this choice for AI decisions",
+                    "Provides [1] [Chaos Energy] <hidden from users>"
+                ],
                 "quote": "'We have oppened a door we can not close, and it will swallow us whole' - Alowe Toron, High Mage"
             },
             {
@@ -100,6 +104,21 @@
                 "uniques": ["[+50]% weight to this choice for AI decisions"],
 				"quote": "'Those who cannot remember the past are condemned to repeat it.' - George Santayana"
 			}
+        ]
+    },
+    {
+		"columnNumber": 10,
+		"era": "Industrial era",
+		"techCost": 2350,
+		"buildingCost": 360,
+		"wonderCost": 900, // Note that this column doesn't actually have any wonders. This just continues the wonderCost = 2.5 * buildingCost pattern from the last few columns.
+		"techs": [
+            {
+                "name": "Infernal Rituals",
+                "row": 1,
+                "prerequisites": ["Alchemy"],
+                "quote": "'With fire in out blood, we will become strogner then ever!' - Tue Mack"
+            }
         ]
     }
 ]

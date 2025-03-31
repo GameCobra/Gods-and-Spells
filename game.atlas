@@ -32,6 +32,13 @@ BuildingIcons/Nature Sigil
   orig: 200, 200
   offset: 0, 0
   index: -1
+BuildingIcons/Otherworldly Portal
+  rotate: false
+  xy: 1460, 1668
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
 BuildingIcons/School of Magic
   rotate: false
   xy: 212, 212
@@ -69,7 +76,7 @@ NationIcons/Gilded Kingdom
   index: -1
 NationIcons/Poisoner
   rotate: false
-  xy: 1460, 1668
+  xy: 4, 4
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
@@ -126,13 +133,6 @@ TechIcons/Herbalism
 TechIcons/Magic
   rotate: false
   xy: 4, 212
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
-TechIcons/Portal
-  rotate: false
-  xy: 4, 4
   size: 200, 200
   orig: 200, 200
   offset: 0, 0

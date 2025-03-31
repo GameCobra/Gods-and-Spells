@@ -83,9 +83,12 @@
 		"cost": 800,
 		"culture": 1,
 		"uniques": [
+			"Comment [Consums 500 [Mana] when built, if not enough Mana the portal will colapse]",
 			"Limited to [1] per Civilization",
-			"Instantly consumes [500] [Mana] <upon constructing [Otherworldly Portal]>",
-			"Remove [Otherworldly Portal] [in all cities] <upon turn end> <when below [0] [Mana]>"
+			"Instantly consumes [500] [Mana] <upon constructing [Otherworldly Portal]> <hidden from users>",
+			"Remove [Otherworldly Portal] [in all cities] <upon turn end> <when below [0] [Mana]> <hidden from users>",
+			"Provides [1] [Chaos Energy]",
+			"Cannot be purchased"
 		],
 		"requiredTech": "Eldritch Creations"
 	}
