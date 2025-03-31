@@ -19,5 +19,15 @@
                     "Stockpiled"],
 		"majorDepositAmount": {"sparse": 2, "default": 3, "abundant": 5},
 		"minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 4}
+	},
+	{
+		"name": "Blood God Favor",
+		"resourceType": "Strategic",
+		"uniques": [
+			"Doesn't generate naturally",
+			"Stockpiled", 
+			"Cannot be traded", 
+			"Excluded from map editor"
+		]
 	}
 ]

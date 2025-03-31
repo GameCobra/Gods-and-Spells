@@ -89,7 +89,7 @@
 		"requiredTech": "Herbalism",
         "range": 2,
 		"uniques": [
-            "Comment [Damaged units become poisoned taking 5 damage at the end of every turn]",
+            "Comment [Damaged units become poisoned taking 5 damage at the end of every turn, dose not stack]",
             "[Target Unit] gains the [Poisoned] promotion <upon damaging a [All] unit> <hidden from users>"
                     ],
 		"attackSound": "cannon"

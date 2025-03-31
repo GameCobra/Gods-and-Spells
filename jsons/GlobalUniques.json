@@ -2,7 +2,8 @@
     "name": "Global uniques",
     "unitUniques": [
     "[This Unit] gains the [Healer Heal] status for [3] turn(s) <upon turn end> <when adjacent to a [Healer Buff] unit> <for units without [Healer Heal]>",
-    "[This Unit] heals [5] HP <upon turn end> <when adjacent to a [Herb Medic] unit>"
+    "[This Unit] heals [5] HP <upon turn end> <when adjacent to a [Herb Medic] unit>",
     //"[This Unit] gains the [Poisoned] promotion <when adjacent to a [Poisoner] unit> <when defending> <upon damaging a [All] unit>"
+    "Instantly gain [1] [Blood God Favor] <upon defeating a [All] unit>"    
     ]
 }

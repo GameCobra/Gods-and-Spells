@@ -77,5 +77,16 @@
 			"[-10]% Food consumption by specialists [In this city]"
 		],
 		"requiredTech": "Herbalism"
+	},
+	{
+		"name": "Otherworldly Portal",
+		"cost": 800,
+		"culture": 1,
+		"uniques": [
+			"Limited to [1] per Civilization",
+			"Instantly consumes [500] [Mana] <upon constructing [Otherworldly Portal]>",
+			"Remove [Otherworldly Portal] [in all cities] <upon turn end> <when below [0] [Mana]>"
+		],
+		"requiredTech": "Eldritch Creations"
 	}
 ]
