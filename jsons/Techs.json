@@ -87,17 +87,6 @@
                 "quote": "'We are entering a new age of creation, we will soon have a potion for everything!' - Tem Noron"
             },
             {
-                "name": "Eldritch Creations",
-                "row": 2,
-                "prerequisites": ["Wind Magic"],
-                "uniques": [
-                    "Comment [Knowledge may have drastic consequences, YOU HAVE BEEN WARNED!]",
-                    "[-100]% weight to this choice for AI decisions",
-                    "Provides [1] [Chaos Energy] <hidden from users>"
-                ],
-                "quote": "'We have oppened a door we can not close, and it will swallow us whole' - Alowe Toron, High Mage"
-            },
-            {
 				"name": "Archaeology",
 				"row": 3,
 				"prerequisites": ["Navigation","Architecture"],
