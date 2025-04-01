@@ -4,6 +4,10 @@
     "[This Unit] gains the [Healer Heal] status for [3] turn(s) <upon turn end> <when adjacent to a [Healer Buff] unit> <for units without [Healer Heal]>",
     "[This Unit] heals [5] HP <upon turn end> <when adjacent to a [Herb Medic] unit>",
     //"[This Unit] gains the [Poisoned] promotion <when adjacent to a [Poisoner] unit> <when defending> <upon damaging a [All] unit>"
-    "Instantly gain [1] [Blood God Favor] <upon defeating a [All] unit>"    
+    "Instantly gain [1] [Blood God Favor] <upon defeating a [non-[Barbarian]] unit>",
+    "[+1]% Strength <when between [10] and [25] [Blood God Favor]>",
+    "[+2]% Strength <when between [26] and [50] [Blood God Favor]>",
+    "[+3]% Strength <when between [51] and [100] [Blood God Favor]>",
+    "[+5]% Strength <when above [100] [Blood God Favor]>"
     ]
 }
