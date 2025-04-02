@@ -11,10 +11,28 @@
         "uniqueTo": "Wizards Guild",
         "requiredResource": "Mana",
         "uniques": [
+                "Can transform to [Melee Wizard] <costs [1] [Mana]>",
                 "Heals [10] damage if it kills a unit"
                     ],
         "civilopediaText": [
 			{"text": "Who needs fighters when you have magic slinging wizards!"}
+		],
+        "attackSound": "shot"
+    },
+    {
+        "name": "Melee Wizard",
+        "unitType": "Magic User",
+        "cost": 55,
+        "movement": 4,
+        "strength": 6,
+        "requiredResource": "Mana",
+        "uniques": [
+                "Unbuildable",
+                "Cannot be purchased",
+                "Heals [10] damage if it kills a unit"
+                    ],
+        "civilopediaText": [
+			{"text": "Wizards can temporaraly conjor blades to fight with."}
 		],
         "attackSound": "shot"
     },
