@@ -11,7 +11,7 @@
         "uniqueTo": "Wizards Guild",
         "requiredResource": "Mana",
         "uniques": [
-                "Can transform to [Melee Wizard] <costs [1] [Mana]>",
+                "Can transform to [Melee Wizard] <costs [10] [Mana]>",
                 "Heals [10] damage if it kills a unit"
                     ],
         "civilopediaText": [
@@ -27,6 +27,7 @@
         "strength": 6,
         "requiredResource": "Mana",
         "uniques": [
+                "Can transform to [Wizard] <costs [10] [Mana]>",
                 "Unbuildable",
                 "Cannot be purchased",
                 "Heals [10] damage if it kills a unit"
