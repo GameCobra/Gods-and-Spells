@@ -1,0 +1,74 @@
+[
+    {
+        "name": "Secrecy",
+        "era": "Medieval era",
+        "priorities": {
+            "Neutral": 5,
+            "Cultural": 5,
+            "Diplomatic": 5,
+            "Domination": 5,
+            "Scientific": 5
+        },
+        "uniques": [
+            "[+10]% City-State Influence degradation",
+            "[+10]% Unhappiness from [Population]"
+        ],
+        "policies": [
+            {
+                "name": "Encription",
+                "uniques": [
+                    "[+10]% spy effectiveness [in all cities]",
+                    "[+15]% enemy spy effectiveness [in all cities]"
+                ],
+                "row": 1,
+                "column": 1
+            },
+            {
+                "name": "Propaganda",
+                "uniques": [
+                    "Cities are razed [3] times as fast",
+                    "[+15]% Spread Religion Strength",
+                    "[-10]% Gold cost of upgrading"
+                ],
+                "row": 1,
+                "column": 3
+            },
+            {
+                "name": "Redaction",
+                "uniques": [
+                    "Units in cities cost no Maintenance",
+                    "[-20]% XP required for promotions",
+                    "Each city founded increases Science cost of Technologies [+15]% less than normal"
+                ],
+                "row": 1,
+                "column": 5
+            },
+            {
+                "name": "Magic Purge",
+                "uniques": [
+                    "[+25]% Strength <for [non-{Magic User}] units> <vs [Magic User] units>",
+                    "Nullifies [Mana] [in all cities]"
+                ],
+                "requires": ["Propaganda", "Redaction"],
+                "row": 2,
+                "column": 4
+            },
+            {
+                "name": "e",
+                "uniques": [
+                    "[+1 Gold, +1 Happiness] per [2] population [in capital]"
+                ],
+                "requires": ["Legalism"],
+                "row": 2,
+                "column": 2
+            },
+            {
+                "name": "Magic Complete",
+                "uniques": [
+                    "[+15]% growth [in all cities]",
+                    "Provides a [Aqueduct] in your first [4] cities for free"
+                ]
+            }
+        ]
+    }
+]
