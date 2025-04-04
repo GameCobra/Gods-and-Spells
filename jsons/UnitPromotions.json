@@ -38,5 +38,11 @@
         "uniques": [
             "[This Unit] takes [5] damage <upon turn end>"
         ]
+    },
+    {
+        "name": "Watched",
+        "uniques": [
+            "[7] Sight"
+        ]
     }
 ]
