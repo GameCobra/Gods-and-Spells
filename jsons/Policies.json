@@ -28,7 +28,7 @@
             {
                 "name": "Propaganda",
                 "uniques": [
-                    "Cities are razed [3] times as fast",
+                    "Cities are razed [2] times as fast",
                     "[+15]% Spread Religion Strength",
                     "[-10]% Gold cost of upgrading"
                 ],
@@ -55,7 +55,7 @@
                 ],
                 "requires": ["Propaganda", "Redaction"],
                 "row": 2,
-                "column": 4
+                "column": 5
             },
             {
                 "name": "Monitoring",
@@ -67,7 +67,19 @@
                 ],
                 "requires": ["Encryption", "Propaganda"],
                 "row": 2,
-                "column": 2
+                "column": 1
+            },
+            {
+                "name": "No Truth",
+                "uniques": [
+                    "Cities are razed [2] times as fast",
+                    "Gifts of Gold to City-States generate [+30]% more Influence",
+                    "City-State Influence recovers at twice the normal rate",
+                    "[-20]% unhappiness from the number of cities"
+                ],
+                "requires": ["Propaganda"],
+                "row": 2,
+                "column": 3
             },
             {
                 "name": "Speaker For God",
@@ -77,11 +89,14 @@
                     "Enables conversion of city production to [Culture]",
                     "Empire enters a [10]-turn Golden Age",
                     "Gifts of Gold to City-States generate [+20]% more Influence",
-                    "[1] Happiness from each type of luxury resource"
+                    "[1] Happiness from each type of luxury resource",
+			        "Provides [-1] [Blood God Favor] <hidden from users>",
+                    "Comment [Reduce [Blood God Favor] by 1 each turn]"
+
                 ],
-                "requires": ["Magic Purge"],
+                "requires": ["Magic Purge", "No Truth"],
                 "row": 3,
-                "column": 4
+                "column": 5
             },
             {
                 "name": "Total Control",
@@ -91,9 +106,9 @@
                     "[-50]% maintenance on road & railroads",
                     "[-20]% Culture cost of adopting new Policies"
                 ],
-                "requires": ["Monitoring"],
+                "requires": ["Monitoring", "No Truth"],
                 "row": 3,
-                "column": 2
+                "column": 1
             },
             {
                 "name": "Secrecy Complete",
