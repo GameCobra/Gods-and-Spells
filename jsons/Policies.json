@@ -62,8 +62,7 @@
                 "uniques": [
                     "Enemy [All] units must spend [1] extra movement points when inside your territory",
                     "[-15]% enemy spy effectiveness [in all cities]",
-                    "Resting point for Influence with City-States is increased by [-5]",
-                    "Empire enters a [5]-turn Golden Age"
+                    "Resting point for Influence with City-States is increased by [-5]"
                 ],
                 "requires": ["Encryption", "Propaganda"],
                 "row": 2,

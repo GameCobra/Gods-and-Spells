@@ -45,7 +45,7 @@
 		"uniques": [
 				"[Great Merchant] is earned [67]% faster", 
 				"Gain [50] [Gold] <upon defeating a [Wounded] unit>", 
-				"[-40]% Gold cost of acquiring tiles [in all cities]", 
+				"[-50]% Gold cost of acquiring tiles [in all cities]", 
 				"[-10]% [Culture]"
 					],
 		"cities": ["Gold","Rich","Diamond","Ruby","Gem","Quartz","Pearl", "Silver"]
@@ -55,7 +55,7 @@
 		"adjective": ["Gladian"],
 		"cityStateType": "Magical",
 
-		"declaringWar": "You sadly leave us no choice. War is the only choice",
+		"declaringWar": "You sadly leave us no choice. War is the only option",
 		"attacked": "Looks like you did not want peace",
 		"defeated": "We could have been freinds",
 		"outerColor": [95, 95, 95],
