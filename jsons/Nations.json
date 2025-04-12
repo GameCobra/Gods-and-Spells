@@ -18,7 +18,7 @@
 		"uniqueName": "The Great Wizards Guild",
 		"uniques": [
 				"[-67]% Spread Religion Strength", 
-				"Heals [30] damage if it kills a unit", 
+				"Heals [25] damage if it kills a unit", 
 				"No damage penalty for wounded units",
 				"Provides [3] [Mana]"
 					],
