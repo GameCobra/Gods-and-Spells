@@ -51,7 +51,7 @@
 		"uniques": [
 			"Triggers a global alert upon build start",
 			"Triggers a global alert upon completion",
-			"All newly-trained [All] units [This City] receive the [Sky Isle Promotion] promotion <when above [0] [Mana]>"
+			"All newly-trained [All] units [in this city] receive the [Sky Isle Promotion] promotion <when above [0] [Mana]>"
 		],
 		"requiredTech": "Wind Magic",
 		"quote": "'We shall lift our civilization to new hights, litteraly' - Coor Nemb"
@@ -74,7 +74,7 @@
 		"culture": 1,
 		"isWonder": false,
 		"uniques": [
-			"[-10]% Food consumption by specialists [In this city]"
+			"[-10]% Food consumption by specialists [in this city]"
 		],
 		"requiredTech": "Herbalism"
 	}

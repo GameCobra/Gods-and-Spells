@@ -48,7 +48,7 @@
             {
                 "name": "Magic Purge",
                 "uniques": [
-                    "[+25]% Strength <for [non-{Magic User}] units> <vs [Magic User] units>",
+                    "[+25]% Strength <for [non-[Magic User]] units> <vs [Magic User] units>",
                     "[-25]% Strength <for [Magic User] units>",
                     "Provides [-10] [Mana] <hidden from users> <when above [0] [Mana]>",
                     "Comment [Burn 10 [Mana] per turn]"

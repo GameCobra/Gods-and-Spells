@@ -15,6 +15,21 @@
         ]
     },
     {
+		"columnNumber": 5,
+		"era": "Medieval era",
+		"techCost": 275,
+		"buildingCost": 120,
+		"wonderCost": 300,
+		"techs": [
+			{//Adding Herbalism to it
+				"name": "Theology",
+				"row": 2,
+				"prerequisites": ["Philosophy", "Drama and Poetry", "Herbalism"],
+				"quote": "'Three things are necessary for the salvation of man: to know what he ought to believe; to know what he ought to desire; and to know what he ought to do' - St. Thomas Aquinas"
+			}
+        ]
+    },
+    {
 		"columnNumber": 6,
 		"era": "Medieval era",
 		"techCost": 485,
@@ -96,6 +111,7 @@
         ]
     },
     {
+    
 		"columnNumber": 10,
 		"era": "Industrial era",
 		"techCost": 2350,
