@@ -13,8 +13,11 @@
             "[-7] to Fertility for Map Generation",
             "Nullifies all other stats this tile provides",
             "Units ending their turn on this terrain take [25] damage",
-            "Occurs in groups of [1] to [3] tiles"
-        ]
+            "Occurs in groups of [1] to [3] tiles",
+            "Neighboring tiles will convert to [Volcano] <with [5]% chance>"
+
+        ],
+        "civilopediaText": [{"text":"Don't tread across these wastelands..."}]
 	},
 	{
 		"name": "Desert",
@@ -30,6 +33,50 @@
             "A Region is formed with at least [25]% [Desert] tiles, with priority [4]",
             "Becomes [Flood plains] when adjacent to [River]",
             "Considered [Undesirable] when determining start locations <in all except [Desert] Regions>",
-            "Every [13] tiles with this terrain will receive a major deposit of a strategic resource."]
+            "Every [13] tiles with this terrain will receive a major deposit of a strategic resource.",
+            "Becomes [Ash Fields] when adjacent to [Volcano]"
+        ]
+	
+	},
+    {
+		"name": "Mountain",
+		"type": "Land",
+		"impassable": true,
+		"defenceBonus": 0.25,
+		"RGB": [102, 102, 102],
+		"uniques": ["Rough terrain",
+            "Has an elevation of [2] for visibility calculations",
+            "Occurs in chains at high elevations",
+            "Units ending their turn on this terrain take [50] damage",
+            "Always Fertility [-2] for Map Generation",
+            "Considered [Undesirable] when determining start locations",
+            "Becomes [Volcano] when adjacent to [Ash Fields] <with [75]% chance>",
+            "Becomes [Volcano] when adjacent to [Volcano] <with [50]% chance>",
+            "Becomes [Volcano] when adjacent to [Mountain] <with [15]% chance>"
+
+        ]
+	},
+	{
+		"name": "Volcano",
+		"type": "TerrainFeature",
+		"production": 2,
+		"gold": 3,
+        "impassable": true,
+		"unbuildable": true,
+		"defenceBonus": 0.25,
+		"occursOn": ["Mountain"],
+		"uniques": ["Rare feature",
+                    "Rough terrain",
+                    //"Occurs in chains at high elevations",
+					"Always Fertility [-3] for Map Generation",
+                    "Units ending their turn on this terrain take [30] damage",
+                    "Neighboring tiles will convert to [Ash Fields] <with [70]% chance>",
+                    "Occurs in groups around high elevations",
+                    "Has an elevation of [3] for visibility calculations",
+                    "Occurs in groups of [1] to [3] tiles"
+					],
+        "civilopediaText": [
+            {"text": "Magma escaping from the mountin, be warned, this could be dangerus."}
+        ]
 	}
 ]

@@ -228,6 +228,13 @@ TileSets/HexaRealm/Tiles/Ash Fields
   orig: 64, 56
   offset: 0, 0
   index: -1
+TileSets/HexaRealm/Tiles/Volcano
+  rotate: false
+  xy: 1876, 1868
+  size: 56, 64
+  orig: 56, 64
+  offset: 0, 0
+  index: -1
 UnitIcons/Healer
   rotate: false
   xy: 1252, 1732
