@@ -2,7 +2,7 @@
     {
         "name": "Holy Sands",
         "type": "Pantheon",
-        "uniques": ["[+2 Culture] in cities on [Desert] tiles"]
+        "uniques": ["[+3 Culture] in cities on [Desert] tiles"]
     },
     {
         "name": "Holy Sailers",
@@ -12,7 +12,7 @@
     {
         "name": "Religious Community",
         "type": "Follower",
-        "uniques": ["[+1]% [Faith] from every follower, up to [30]%"]
+        "uniques": ["[+1]% [Faith] from every follower, up to [25]%"]
     },
     {
         "name": "Productive Faith",

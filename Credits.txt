@@ -6,6 +6,7 @@ Other projects that I used for help and insperation
 https://github.com/AceHank/Epic-of-Fantasy/tree/main
 https://github.com/AceHank/EoF-Mages/tree/main
 https://github.com/SpacedOutChicken/Resource-Recyclers/tree/master
+https://github.com/RobLoach/Civ-V-Brave-New-World/blob/main/jsons/Terrains.json
 
 Credit to the provided sites for creating the images used:
 School of Magic : https://www.flaticon.com/free-icon/magic-book_2106231
@@ -41,3 +42,5 @@ Monitoring : https://www.flaticon.com/free-icon/security-camera_139838
 Devine Leadership : https://pngtree.com/so/black-crown
 Total control : https://www.flaticon.com/free-icon/controls_3658975
 No Truth : https://thenounproject.com/icon/lie-15281/
+Ash Fields : Me
+Volcano : Me
