@@ -7,6 +7,7 @@ https://github.com/AceHank/Epic-of-Fantasy/tree/main
 https://github.com/AceHank/EoF-Mages/tree/main
 https://github.com/SpacedOutChicken/Resource-Recyclers/tree/master
 https://github.com/RobLoach/Civ-V-Brave-New-World/blob/main/jsons/Terrains.json
+Constants -> https://github.com/chenxing61/Emperors-and-Deities/blob/main/jsons/ModOptions.json
 
 Credit to the provided sites for creating the images used:
 School of Magic : https://www.flaticon.com/free-icon/magic-book_2106231

@@ -1,5 +1,37 @@
 [
     {
+        "name": "Joint-Policies",
+        "era": "Ancient era",
+        "priorities": {
+            "Neutral": 3,
+            "Cultural": 3,
+            "Diplomatic": 3,
+            "Domination": 3,
+            "Scientific": 3
+        },
+        "uniques": [
+            "[+10]% [Culture]",
+            "Free Social Policy"
+        ],
+        "policies": [
+            {
+                "name": "Adimantite",
+                "uniques": [
+                    "Only available <after adopting [Rationalism Complete]> <after adopting [Honor Complete]>"
+                ],
+                "row":1,
+                "column":1
+            },
+            {
+                "name": "Joint-Policies Complete",
+                "uniques": [
+                    "[+10]% [Culture]"
+                ]
+            }
+        ]
+    }
+]
+    /*{
         "name": "Secrecy",
         "era": "Industrial era",
         "priorities": {
@@ -118,5 +150,4 @@
                 ]
             }
         ]
-    }
-]
+    }*/
