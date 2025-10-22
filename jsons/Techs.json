@@ -21,7 +21,7 @@
 		"buildingCost": 120,
 		"wonderCost": 300,
 		"techs": [
-			{//Adding Herbalism to it
+			{ //Adding Herbalism to it
 				"name": "Theology",
 				"row": 2,
 				"prerequisites": ["Philosophy", "Drama and Poetry", "Herbalism"],
