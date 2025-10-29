@@ -29,6 +29,68 @@
                 ]
             }
         ]
+    },
+        {
+        "name": "Gorilla Warfair",
+        "era": "Ancient era",
+        "priorities": {
+            "Neutral": 2,
+            "Cultural": 2,
+            "Diplomatic": 1,
+            "Domination": 5,
+            "Scientific": 2
+        },
+        "uniques": [
+        ],
+        "policies": [
+            {
+                "name": "Trench Warfare",
+                "uniques": [
+                     "[+10]% Strength for cities",
+                     "[+20]% Health from pillaging tiles"
+                ],
+                "row":1,
+                "column":2
+            },
+            {
+                "name": "Phyico Warfare",
+                "uniques": [
+                     "[+20]% spy effectiveness [in all cities]"
+                ],
+                "row":1,
+                "column":4
+            },
+            {
+                "name": "Magical Defences",
+                "uniques": [
+                    "[+30]% Strength for cities <when above [0] [Mana]>"
+                ],
+                "row":2,
+                "column":2
+            },
+            {
+                "name": "Sacrifices",
+                "uniques": [
+                    "Instantly gain [1] [Blood God Favor] <upon defeating a [All] unit> <in [in your cities] cities> <when above [0] [Mana]>"
+                ],
+                "row":2,
+                "column":4
+            },
+            {
+                "name": "Hexed",
+                "uniques": [
+                    "Enemy [Wounded] units must spend [0.5] extra movement points when inside your territory <before adopting [Curses]>"
+                ],
+                "row":3,
+                "column":3
+            },
+            {
+                "name": "Gorilla Warfair Complete",
+                "uniques": [
+                    "[+10]% [Culture]"
+                ]
+            }
+        ]
     }
 ]
     /*{
