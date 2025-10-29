@@ -1,38 +1,7 @@
 [
     {
-        "name": "Joint-Policies",
-        "era": "Ancient era",
-        "priorities": {
-            "Neutral": 3,
-            "Cultural": 3,
-            "Diplomatic": 3,
-            "Domination": 3,
-            "Scientific": 3
-        },
-        "uniques": [
-            "[+10]% [Culture]",
-            "Free Social Policy"
-        ],
-        "policies": [
-            {
-                "name": "Adimantite",
-                "uniques": [
-                    "Only available <after adopting [Rationalism Complete]> <after adopting [Honor Complete]>"
-                ],
-                "row":1,
-                "column":1
-            },
-            {
-                "name": "Joint-Policies Complete",
-                "uniques": [
-                    "[+10]% [Culture]"
-                ]
-            }
-        ]
-    },
-        {
         "name": "Gorilla Warfair",
-        "era": "Ancient era",
+        "era": "Medieval era",
         "priorities": {
             "Neutral": 2,
             "Cultural": 2,
@@ -65,6 +34,7 @@
                 "uniques": [
                     "[+30]% Strength for cities <when above [0] [Mana]>"
                 ],
+                "requires": ["Trench Warfare"],
                 "row":2,
                 "column":2
             },
@@ -73,19 +43,52 @@
                 "uniques": [
                     "Instantly gain [1] [Blood God Favor] <upon defeating a [All] unit> <in [in your cities] cities> <when above [0] [Mana]>"
                 ],
+                "requires": ["Phyico Warfare"],
                 "row":2,
                 "column":4
             },
             {
-                "name": "Hexed",
+                "name": "Hexes",
                 "uniques": [
-                    "Enemy [Wounded] units must spend [0.5] extra movement points when inside your territory <before adopting [Curses]>"
+                    "Enemy [Wounded] units must spend [1] extra movement points when inside your territory <before adopting [Hexes]>"
                 ],
+                "requires": ["Magical Defences", "Sacrifices"],
                 "row":3,
                 "column":3
             },
             {
                 "name": "Gorilla Warfair Complete",
+                "uniques": [
+                    "[+10]% [Culture]"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Joint-Policies",
+        "era": "Ancient era",
+        "priorities": {
+            "Neutral": 3,
+            "Cultural": 3,
+            "Diplomatic": 3,
+            "Domination": 3,
+            "Scientific": 3
+        },
+        "uniques": [
+            "[+10]% [Culture]",
+            "Free Social Policy"
+        ],
+        "policies": [
+            {
+                "name": "Adimantite",
+                "uniques": [
+                    "Only available <after adopting [Rationalism Complete]> <after adopting [Honor Complete]>"
+                ],
+                "row":1,
+                "column":1
+            },
+            {
+                "name": "Joint-Policies Complete",
                 "uniques": [
                     "[+10]% [Culture]"
                 ]
