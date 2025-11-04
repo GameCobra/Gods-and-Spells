@@ -1,6 +1,6 @@
 [
     {
-        "name": "Advanced Warfair",
+        "name": "Advanced Warfare",
         "era": "Medieval era",
         "priorities": {
             "Neutral": 2,
@@ -50,16 +50,17 @@
             {
                 "name": "Hexes",
                 "uniques": [
-                    "Enemy [Wounded] units must spend [1] extra movement points when inside your territory <before adopting [Hexes]>"
+                    "Enemy [Wounded] units must spend [1] extra movement points when inside your territory <before adopting [Hexes]> <when above [0] [Mana]>"
                 ],
                 "requires": ["Magical Defences", "Sacrifices"],
                 "row":3,
                 "column":3
             },
             {
-                "name": "Gorilla Warfair Complete",
+                "name": "Advanced Warfare Complete",
                 "uniques": [
-                    "[+10]% [Culture]"
+                     "[+5]% Strength for cities",
+                     "[+5]% spy effectiveness [in all cities]"
                 ]
             }
         ]

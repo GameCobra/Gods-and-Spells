@@ -6,154 +6,161 @@ filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
 BuildingIcons/Floating Isle
   rotate: false
-  xy: 524, 1004
+  xy: 732, 1212
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Great Tree
   rotate: false
-  xy: 1044, 1524
+  xy: 1252, 1732
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Mana Fountain
   rotate: false
-  xy: 4, 68
+  xy: 212, 276
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Nature Sigil
   rotate: false
-  xy: 1668, 1732
+  xy: 212, 68
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Otherworldly Portal
   rotate: false
-  xy: 1668, 1524
+  xy: 420, 692
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/School of Magic
   rotate: false
-  xy: 420, 68
+  xy: 940, 1212
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Transmutation Center
   rotate: false
-  xy: 628, 588
+  xy: 836, 796
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Wizard Tower
   rotate: false
-  xy: 628, 172
+  xy: 836, 380
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 ImprovementIcons/Mana Extractor
   rotate: false
-  xy: 1460, 1732
+  xy: 4, 68
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 NationIcons/Gilded Kingdom
   rotate: false
-  xy: 732, 1212
+  xy: 1044, 1524
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 NationIcons/Poisoner
   rotate: false
-  xy: 420, 692
+  xy: 420, 484
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 NationIcons/Wizards Guild
   rotate: false
-  xy: 836, 380
+  xy: 836, 172
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+PolicyBranchIcons/Advanced Warfare
+  rotate: false
+  xy: 4, 692
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 PolicyBranchIcons/Secrecy
   rotate: false
-  xy: 940, 1212
+  xy: 940, 1004
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 PolicyIcons/Devine Leadership
   rotate: false
-  xy: 1044, 1732
+  xy: 4, 484
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 PolicyIcons/Encryption
   rotate: false
-  xy: 212, 692
+  xy: 524, 1004
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 PolicyIcons/Magic Purge
   rotate: false
-  xy: 1252, 1524
+  xy: 1460, 1732
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 PolicyIcons/Monitoring
   rotate: false
-  xy: 1460, 1524
+  xy: 1668, 1732
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 PolicyIcons/No Truth
   rotate: false
-  xy: 212, 68
+  xy: 1668, 1524
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 PolicyIcons/Propaganda
   rotate: false
-  xy: 420, 484
+  xy: 420, 276
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 PolicyIcons/Redaction
   rotate: false
-  xy: 420, 276
+  xy: 420, 68
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 PolicyIcons/Total Control
   rotate: false
-  xy: 628, 796
+  xy: 628, 588
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 ResourceIcons/Blood God Favor
   rotate: false
-  xy: 524, 1212
+  xy: 1044, 1732
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
@@ -167,56 +174,56 @@ ResourceIcons/Mana
   index: -1
 TechIcons/Alchemy
   rotate: false
-  xy: 4, 692
+  xy: 524, 1212
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 TechIcons/Eldritch Creations
   rotate: false
-  xy: 4, 484
+  xy: 212, 692
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 TechIcons/Herb Medic
   rotate: false
-  xy: 4, 276
+  xy: 212, 484
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 TechIcons/Herbalism
   rotate: false
-  xy: 212, 484
+  xy: 732, 1004
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 TechIcons/Magic
   rotate: false
-  xy: 732, 1004
+  xy: 1252, 1524
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 TechIcons/Melee Wizard
   rotate: false
-  xy: 212, 276
+  xy: 1460, 1524
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Melee Wizard
   rotate: false
-  xy: 212, 276
+  xy: 1460, 1524
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 TechIcons/Wind Magic
   rotate: false
-  xy: 836, 796
+  xy: 628, 380
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
@@ -237,7 +244,7 @@ TileSets/HexaRealm/Tiles/Volcano
   index: -1
 UnitIcons/Healer
   rotate: false
-  xy: 1252, 1732
+  xy: 4, 276
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
@@ -258,21 +265,21 @@ UnitIcons/Poisoner
   index: -1
 UnitIcons/Sorcerer
   rotate: false
-  xy: 940, 1004
+  xy: 628, 796
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Wind Wizard
   rotate: false
-  xy: 628, 380
+  xy: 836, 588
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Wizard
   rotate: false
-  xy: 836, 588
+  xy: 628, 172
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
