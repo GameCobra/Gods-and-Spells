@@ -43,7 +43,7 @@
                 "uniques": [
                     "Instantly gain [1] [Blood God Favor] <upon defeating a [All] unit> <in [in your cities] cities> <when above [0] [Mana]>"
                 ],
-                "requires": ["Phyico Warfare"],
+                "requires": ["Physcological Warfare"],
                 "row":2,
                 "column":4
             },
