@@ -44,5 +44,20 @@
         "uniques": [
             "[5] Sight"
         ]
+    },
+    {
+        "name": "True Believer",
+        "uniques": [
+            "Unavailable", 
+            "[+25]% Strength", 
+            "[+15]% to Flank Attack bonuses", 
+            "[15] HP when healing",
+            "No damage penalty for wounded units",
+            "All adjacent units heal [5] HP when healing",
+            "[-30]% maintenance costs",
+            "May capture killed [Wounded] units <with [33]% chance>",
+            "[+35]% XP gained from combat",
+            "[+100]% Gold cost of upgrading"
+        ]
     }
 ]
