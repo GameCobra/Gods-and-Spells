@@ -79,7 +79,7 @@
 		"unitTypes": ["Siege","Archery","Ranged Gunpowder","Ranged Water","Submarine","Sword","Gunpowder","Mounted","Armored"],
         "column": 2,
         "row": -1
-    }
+    },
     {
 		"name": "Studys III",
         "prerequisites": ["Studys II"],
@@ -87,5 +87,12 @@
 		"unitTypes": ["Siege","Archery","Ranged Gunpowder","Ranged Water","Submarine","Sword","Gunpowder","Mounted","Armored"],
         "column": 3,
         "row": -1
+    },
+    {
+		"name": "Pillager I",
+		"uniques": ["[+25]% Health from pillaging tiles", "[+25]% Yield from pillaging tiles"],
+		"unitTypes": ["Siege","Archery","Ranged Gunpowder","Sword","Gunpowder","Mounted","Armored"],
+        "column": 1,
+        "row": -2
     }
 ]
