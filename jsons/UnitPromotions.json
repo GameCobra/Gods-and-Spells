@@ -112,10 +112,26 @@
         "row": 3
     },
     {
-		"name": "City Breaker",
-		"uniques": ["<vs cities>"],
+		"name": "City Breaker I",
+		"uniques": ["[+20]% Strength <vs cities>"],
 		"unitTypes": ["Siege","Archery","Ranged Gunpowder","Sword","Gunpowder","Mounted","Armored"],
         "column": 53,
         "row": 1
+    },
+    {
+		"name": "City Breaker II",
+        "prerequisites": ["City Breaker I"],
+		"uniques": ["[+20]% Strength <vs cities>"],
+		"unitTypes": ["Siege","Archery","Ranged Gunpowder","Sword","Gunpowder","Mounted","Armored"],
+        "column": 53,
+        "row": 2
+    },
+    {
+		"name": "City Breaker III",
+        "prerequisites": ["City Breaker II"],
+		"uniques": ["[+20]% Strength <vs cities>"],
+		"unitTypes": ["Siege","Archery","Ranged Gunpowder","Sword","Gunpowder","Mounted","Armored"],
+        "column": 53,
+        "row": 3
     }
 ]
