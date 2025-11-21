@@ -70,7 +70,7 @@
 		"uniques": ["[+30]% XP gained from combat", "[-70]% weight to this choice for AI decisions"],
 		"unitTypes": ["Siege","Archery","Ranged Gunpowder","Ranged Water","Submarine","Sword","Gunpowder","Mounted","Armored"],
         "column": 1,
-        "row": -1
+        "row": 100
     },
     {
 		"name": "Studys II",
@@ -78,7 +78,7 @@
 		"uniques": ["[+40]% XP gained from combat", "[-50]% weight to this choice for AI decisions"],
 		"unitTypes": ["Siege","Archery","Ranged Gunpowder","Ranged Water","Submarine","Sword","Gunpowder","Mounted","Armored"],
         "column": 2,
-        "row": -1
+        "row": 100
     },
     {
 		"name": "Studys III",
@@ -86,13 +86,27 @@
 		"uniques": ["[+50]% XP gained from combat", "[-30]% weight to this choice for AI decisions"],
 		"unitTypes": ["Siege","Archery","Ranged Gunpowder","Ranged Water","Submarine","Sword","Gunpowder","Mounted","Armored"],
         "column": 3,
-        "row": -1
+        "row": 100
     },
     {
 		"name": "Pillager I",
 		"uniques": ["[+25]% Health from pillaging tiles", "[+25]% Yield from pillaging tiles"],
 		"unitTypes": ["Siege","Archery","Ranged Gunpowder","Sword","Gunpowder","Mounted","Armored"],
         "column": 1,
-        "row": -2
+        "row": 101
+    },
+    {
+		"name": "Pillager II",
+		"uniques": ["[+25]% Health from pillaging tiles", "[+25]% Yield from pillaging tiles"],
+		"unitTypes": ["Siege","Archery","Ranged Gunpowder","Sword","Gunpowder","Mounted","Armored"],
+        "column": 2,
+        "row": 101
+    },
+    {
+		"name": "Pillager III",
+		"uniques": ["[+25]% Health from pillaging tiles", "[+25]% Yield from pillaging tiles"],
+		"unitTypes": ["Siege","Archery","Ranged Gunpowder","Sword","Gunpowder","Mounted","Armored"],
+        "column": 3,
+        "row": 101
     }
 ]
