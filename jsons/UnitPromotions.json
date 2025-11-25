@@ -66,7 +66,7 @@
         ]
     },
     //Custom
-    {
+    /*{
 		"name": "Studys I",
 		"uniques": ["[+30]% XP gained from combat", "[-70]% weight to this choice for AI decisions"],
 		"unitTypes": ["Siege","Archery","Ranged Gunpowder","Ranged Water","Submarine","Sword","Gunpowder","Mounted","Armored"],
@@ -134,7 +134,7 @@
 		"unitTypes": ["Siege","Archery","Ranged Gunpowder","Sword","Gunpowder","Mounted","Armored"],
         "column": 53,
         "row": 3
-    },
+    },*/
 
 
 
@@ -149,20 +149,52 @@
     //Ranged Water, Submarine, Aircraft Carrier, Fighter, Bomber, Atomic Bomber, Missile,
     //Helicopter
 
-    //Enviorment
-    {
+    //Land Enviorment
+	{
 		"name": "Shock I",
-		"uniques": ["[+5]% Strength <when fighting in [Open terrain] tiles> <when attacking>", "[-90]% weight to this choice for AI decisions"],
-		//"unitTypes": ["Siege","Archery","Ranged Gunpowder"],
+		"uniques": ["[+5]% Strength <when fighting in [Open terrain] tiles> <when attacking>", "[-50]% weight to this choice for AI decisions"],
+		"unitTypes": ["Sword","Gunpowder","Archery","Ranged Gunpowder","Mounted", "Armored", "Siege"],
         "column": 1,
         "row": 1
     },
-    {
-		"name": "Drill I",
-		"uniques": ["[+5]% Strength <when fighting in [Rough terrain] tiles> <when attacking>", "[-90]% weight to this choice for AI decisions"],
-		//"unitTypes": ["Siege","Archery","Ranged Gunpowder"],
+	{
+		"name": "Shock II",
+		"prerequisites": ["Shock I"],
+		"uniques": ["[+5]% Strength <when fighting in [Open terrain] tiles> <when attacking>"],
+		"unitTypes": ["Sword","Gunpowder","Archery","Ranged Gunpowder","Mounted", "Armored", "Siege"],
         "column": 1,
         "row": 2
+    },
+	{
+		"name": "Shock III",
+		"prerequisites": ["Shock II"],
+		"uniques": ["[+5]% Strength <when fighting in [Open terrain] tiles> <when attacking>"],
+		"unitTypes": ["Sword","Gunpowder","Archery","Ranged Gunpowder","Mounted", "Armored", "Siege"],
+        "column": 1,
+        "row": 3
+    },
+    {
+		"name": "Drill I",
+		"uniques": ["[+5]% Strength <when fighting in [Rough terrain] tiles> <when attacking>", "[-50]% weight to this choice for AI decisions"],
+		"unitTypes": ["Sword","Gunpowder","Archery","Ranged Gunpowder","Mounted", "Armored", "Siege"],
+        "column": 2,
+        "row": 1
+    },
+	{
+		"name": "Drill II",
+		"prerequisites": ["Drill I"],
+		"uniques": ["[+5]% Strength <when fighting in [Rough terrain] tiles> <when attacking>"],
+		"unitTypes": ["Sword","Gunpowder","Archery","Ranged Gunpowder","Mounted", "Armored", "Siege"],
+        "column": 2,
+        "row": 2
+    },
+	{
+		"name": "Drill III",
+		"prerequisites": ["Drill II"],
+		"uniques": ["[+5]% Strength <when fighting in [Rough terrain] tiles> <when attacking>"],
+		"unitTypes": ["Sword","Gunpowder","Archery","Ranged Gunpowder","Mounted", "Armored", "Siege"],
+        "column": 2,
+        "row": 3
     },
     {
 		"name": "Winter I",
@@ -170,18 +202,56 @@
                     "[+5]% Strength <when fighting in [Tundra] tiles>",
                     "Only available <in [Snow] tiles>",
                     "[-90]% weight to this choice for AI decisions"],
-		//"unitTypes": ["Siege","Archery","Ranged Gunpowder"],
-        "column": 1,
-        "row": 4
+		"unitTypes": ["Sword","Gunpowder","Archery","Ranged Gunpowder","Mounted", "Armored", "Siege"],
+        "column": 3,
+        "row": 1
+    },
+	{
+		"name": "Winter II",
+		"prerequisites": ["Winter I"],
+		"uniques": ["[+20]% Strength <when fighting in [Snow] tiles>",
+                    "[+5]% Strength <when fighting in [Tundra] tiles>",
+                    "Only available <in [Snow] tiles>"],
+		"unitTypes": ["Sword","Gunpowder","Archery","Ranged Gunpowder","Mounted", "Armored", "Siege"],
+        "column": 3,
+        "row": 2
+    },
+	{
+		"name": "Winter III",
+		"prerequisites": ["Winter II"],
+		"uniques": ["[+20]% Strength <when fighting in [Snow] tiles>",
+                    "[+5]% Strength <when fighting in [Tundra] tiles>",
+                    "Only available <in [Snow] tiles>"],
+		"unitTypes": ["Sword","Gunpowder","Archery","Ranged Gunpowder","Mounted", "Armored", "Siege"],
+        "column": 3,
+        "row": 3
     },
     {
 		"name": "Heat I",
 		"uniques": ["[+20]% Strength <when fighting in [Desert] tiles>",
                     "Only available <in [Desert] tiles>",
                     "[-90]% weight to this choice for AI decisions"],
-		//"unitTypes": ["Siege","Archery","Ranged Gunpowder"],
-        "column": 1,
-        "row": 5
+		"unitTypes": ["Sword","Gunpowder","Archery","Ranged Gunpowder","Mounted", "Armored", "Siege"],
+        "column": 4,
+        "row": 1
+    },
+    {
+		"name": "Heat II",
+		"prerequisites": ["Heat I"],
+		"uniques": ["[+20]% Strength <when fighting in [Desert] tiles>",
+                    "Only available <in [Desert] tiles>"],
+		"unitTypes": ["Sword","Gunpowder","Archery","Ranged Gunpowder","Mounted", "Armored", "Siege"],
+        "column": 4,
+        "row": 2
+    },
+    {
+		"name": "Heat III",
+		"prerequisites": ["Heat II"],
+		"uniques": ["[+20]% Strength <when fighting in [Desert] tiles>",
+                    "Only available <in [Desert] tiles>"],
+		"unitTypes": ["Sword","Gunpowder","Archery","Ranged Gunpowder","Mounted", "Armored", "Siege"],
+        "column": 4,
+        "row": 3
     },
 
 
@@ -190,48 +260,48 @@
 		"name": "Accuracy I",
 		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles> <when attacking>", "[-90]% weight to this choice for AI decisions"],
 		//"unitTypes": ["Siege","Archery","Ranged Gunpowder"],
-        "column": 1,
-        "row": 1
+        //"column": 1,
+        //"row": 1
     },
 	{
 		"name": "Accuracy II",
 		"prerequisites": ["Accuracy I"],
 		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles> <when attacking>"],
 		//"unitTypes": ["Siege","Archery","Ranged Gunpowder"],
-        "column": 1,
-        "row": 2
+        //"column": 1,
+        //"row": 2
     },
 	{
 		"name": "Accuracy III",
 		"prerequisites": ["Accuracy II"],
 		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles> <when attacking>"],
 		//"unitTypes": ["Siege","Archery","Ranged Gunpowder"],
-        "column": 1,
-        "row": 3
+        //"column": 1,
+        //"row": 3
     },
 
 	{
 		"name": "Barrage I",
 		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles> <when attacking>", "[-90]% weight to this choice for AI decisions"],
 		//"unitTypes": ["Siege","Archery","Ranged Gunpowder"],
-        "column": 2,
-        "row": 1
+        //"column": 2,
+        //"row": 1
 	},
 	{
 		"name": "Barrage II",
 		"prerequisites": ["Barrage I"],
 		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles> <when attacking>"],
 		//"unitTypes": ["Siege","Archery","Ranged Gunpowder"],
-        "column": 2,
-        "row": 2
+        //"column": 2,
+        //"row": 2
 	},
 	{
 		"name": "Barrage III",
 		"prerequisites": ["Barrage II"],
 		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles> <when attacking>"],
 		//"unitTypes": ["Siege","Archery","Ranged Gunpowder"],
-        "column": 2,
-        "row": 3
+        //"column": 2,
+        //"row": 3
 	},
 
 	{
@@ -239,24 +309,24 @@
 		"prerequisites": ["Accuracy I","Barrage I"],
 		"uniques": ["[+50]% Strength <vs cities>"],
 		//"unitTypes": ["Siege"],
-        "column": 3,
-        "row": 1
+        //"column": 3,
+        //"row": 1
 	},
 	{
 		"name": "Extended Range",
 		"prerequisites": ["Accuracy III","Barrage III","Targeting II","Bombardment II", "Wolfpack II"],
 		"uniques": ["[+1] Range"],
 		//"unitTypes": ["Archery","Ranged Gunpowder","Siege","Ranged Water","Submarine"],
-        "column": 3,
-        "row": 3
+        //"column": 3,
+        //"row": 3
 	},
 	{
 		"name": "Indirect Fire",
 		"prerequisites": ["Accuracy III", "Barrage III", "Bombardment II", "Targeting II"],
 		"uniques": ["Ranged attacks may be performed over obstacles"],
 		//"unitTypes": ["Archery","Ranged Gunpowder","Siege","Ranged Water"],
-        "column": 3,
-        "row": 4
+        //"column": 3,
+        //"row": 4
 	},
 
 	// Melee, Mounted+Armor
@@ -264,64 +334,64 @@
 		"name": "Shock I",
 		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>", "[-90]% weight to this choice for AI decisions"],
 		//"unitTypes": ["Sword","Gunpowder","Mounted","Armored"],
-        "column": 4,
-        "row": 1
+        //"column": 4,
+        //"row": 1
 	},
 	{
 		"name": "Shock II",
 		"prerequisites": ["Shock I"],
 		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>"],
 		//"unitTypes": ["Sword","Gunpowder","Mounted","Armored"],
-        "column": 4,
-        "row": 2
+        //"column": 4,
+        //"row": 2
 	},
 	{
 		"name": "Shock III",
 		"prerequisites": ["Shock II"],
 		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>"],
 		//"unitTypes": ["Sword","Gunpowder","Mounted","Armored"],
-        "column": 4,
-        "row": 3
+        //"column": 4,
+        //"row": 3
 	},
 
 	{
 		"name": "Drill I",
 		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>", "[-90]% weight to this choice for AI decisions"],
 		//"unitTypes": ["Sword","Gunpowder","Mounted","Armored"],
-        "column": 5,
-        "row": 1
+        //"column": 5,
+        //"row": 1
 	},
 	{
 		"name": "Drill II",
 		"prerequisites": ["Drill I"],
 		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>"],
 		//"unitTypes": ["Sword","Gunpowder","Mounted","Armored"],
-        "column": 5,
-        "row": 2
+        //"column": 5,
+        //"row": 2
 	},
 	{
 		"name": "Drill III",
 		"prerequisites": ["Drill II"],
 		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>"],
 		//"unitTypes": ["Sword","Gunpowder","Mounted","Armored"],
-        "column": 5,
-        "row": 3
+        //"column": 5,
+        //"row": 3
 	},
 	{
 		"name": "Charge",
 		"prerequisites": ["Shock II","Drill II"],
 		"uniques": ["[+33]% Strength <vs [Wounded] units>"],
 		//"unitTypes": ["Mounted","Armored"],
-        "column": 6,
-        "row": 2
+        //"column": 6,
+        //"row": 2
 	},
 	{
 		"name": "Besiege", // Not called "Siege" in order to not conflict with siege type units for translations
 		"prerequisites": ["Shock II","Drill II"],
 		"uniques": ["[+50]% Strength <vs cities>"],
 		//"unitTypes": ["Sword","Gunpowder"],
-        "column": 6,
-        "row": 3
+        //"column": 6,
+        //"row": 3
 	},
 	{
 		"name": "Formation I",
