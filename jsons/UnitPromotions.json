@@ -151,14 +151,14 @@
 
     //Land Enviorment
 	{
-		"name": "Shock I",
+		"name": "Shock I", //Remake
 		"uniques": ["[+5]% Strength <when fighting in [Open terrain] tiles> <when attacking>", "[-50]% weight to this choice for AI decisions"],
 		"unitTypes": ["Sword","Gunpowder","Archery","Ranged Gunpowder","Mounted", "Armored", "Siege"],
         "column": 1,
         "row": 1
     },
 	{
-		"name": "Shock II",
+		"name": "Shock II", //Remake
 		"prerequisites": ["Shock I"],
 		"uniques": ["[+5]% Strength <when fighting in [Open terrain] tiles> <when attacking>"],
 		"unitTypes": ["Sword","Gunpowder","Archery","Ranged Gunpowder","Mounted", "Armored", "Siege"],
@@ -166,7 +166,7 @@
         "row": 2
     },
 	{
-		"name": "Shock III",
+		"name": "Shock III", //Remake
 		"prerequisites": ["Shock II"],
 		"uniques": ["[+5]% Strength <when fighting in [Open terrain] tiles> <when attacking>"],
 		"unitTypes": ["Sword","Gunpowder","Archery","Ranged Gunpowder","Mounted", "Armored", "Siege"],
@@ -174,14 +174,14 @@
         "row": 3
     },
     {
-		"name": "Drill I",
+		"name": "Drill I", //Remake
 		"uniques": ["[+5]% Strength <when fighting in [Rough terrain] tiles> <when attacking>", "[-50]% weight to this choice for AI decisions"],
 		"unitTypes": ["Sword","Gunpowder","Archery","Ranged Gunpowder","Mounted", "Armored", "Siege"],
         "column": 2,
         "row": 1
     },
 	{
-		"name": "Drill II",
+		"name": "Drill II", //Remake
 		"prerequisites": ["Drill I"],
 		"uniques": ["[+5]% Strength <when fighting in [Rough terrain] tiles> <when attacking>"],
 		"unitTypes": ["Sword","Gunpowder","Archery","Ranged Gunpowder","Mounted", "Armored", "Siege"],
@@ -189,7 +189,7 @@
         "row": 2
     },
 	{
-		"name": "Drill III",
+		"name": "Drill III", //Remake
 		"prerequisites": ["Drill II"],
 		"uniques": ["[+5]% Strength <when fighting in [Rough terrain] tiles> <when attacking>"],
 		"unitTypes": ["Sword","Gunpowder","Archery","Ranged Gunpowder","Mounted", "Armored", "Siege"],
@@ -197,7 +197,7 @@
         "row": 3
     },
     {
-		"name": "Winter I",
+		"name": "Frostborn I",
 		"uniques": ["[+20]% Strength <when fighting in [Snow] tiles>",
                     "[+5]% Strength <when fighting in [Tundra] tiles>",
                     "Only available <in [Snow] tiles>",
@@ -207,8 +207,8 @@
         "row": 1
     },
 	{
-		"name": "Winter II",
-		"prerequisites": ["Winter I"],
+		"name": "Frostborn II",
+		"prerequisites": ["Frostborn I"],
 		"uniques": ["[+20]% Strength <when fighting in [Snow] tiles>",
                     "[+5]% Strength <when fighting in [Tundra] tiles>",
                     "Only available <in [Snow] tiles>"],
@@ -217,8 +217,8 @@
         "row": 2
     },
 	{
-		"name": "Winter III",
-		"prerequisites": ["Winter II"],
+		"name": "Frostborn III",
+		"prerequisites": ["Frostborn II"],
 		"uniques": ["[+20]% Strength <when fighting in [Snow] tiles>",
                     "[+5]% Strength <when fighting in [Tundra] tiles>",
                     "Only available <in [Snow] tiles>"],
@@ -227,7 +227,7 @@
         "row": 3
     },
     {
-		"name": "Heat I",
+		"name": "Heatwave I",
 		"uniques": ["[+20]% Strength <when fighting in [Desert] tiles>",
                     "Only available <in [Desert] tiles>",
                     "[-90]% weight to this choice for AI decisions"],
@@ -236,8 +236,8 @@
         "row": 1
     },
     {
-		"name": "Heat II",
-		"prerequisites": ["Heat I"],
+		"name": "Heatwave II",
+		"prerequisites": ["Heatwave I"],
 		"uniques": ["[+20]% Strength <when fighting in [Desert] tiles>",
                     "Only available <in [Desert] tiles>"],
 		"unitTypes": ["Sword","Gunpowder","Archery","Ranged Gunpowder","Mounted", "Armored", "Siege"],
@@ -245,65 +245,86 @@
         "row": 2
     },
     {
-		"name": "Heat III",
-		"prerequisites": ["Heat II"],
+		"name": "Heatwave III",
+		"prerequisites": ["Heatwave II"],
 		"uniques": ["[+20]% Strength <when fighting in [Desert] tiles>",
                     "Only available <in [Desert] tiles>"],
 		"unitTypes": ["Sword","Gunpowder","Archery","Ranged Gunpowder","Mounted", "Armored", "Siege"],
         "column": 4,
         "row": 3
     },
+    { //Make tier 2 special upgrades
+		"name": "Cover I", //Remake
+		"uniques": ["[+5]% Strength <vs [Ranged] units> <when defending>", "[-90]% weight to this choice for AI decisions"],
+		"unitTypes": ["Sword","Gunpowder","Archery","Ranged Gunpowder","Mounted", "Armored", "Siege"],
+        "column": 5,
+        "row": 1
+	},
+        {
+		"name": "Cover II", //Remake
+		"prerequisites": ["Cover I"],
+		"uniques": ["[+5]% Strength <vs [Ranged] units> <when defending>"],
+		"unitTypes": ["Sword","Gunpowder","Archery","Ranged Gunpowder","Mounted", "Armored", "Siege"],
+        "column": 5,
+        "row": 2
+	},
+        {
+		"name": "Cover III",
+		"prerequisites": ["Cover II"],
+		"uniques": ["[+5]% Strength <vs [Ranged] units> <when defending>"],
+		"unitTypes": ["Sword","Gunpowder","Archery","Ranged Gunpowder","Mounted", "Armored", "Siege"],
+        "column": 5,
+        "row": 3
+	},
+    {
+		"name": "Armor Piercing I",
+		"uniques": ["[+5]% Strength <vs [Armored] units>", "[-90]% weight to this choice for AI decisions"],
+		"unitTypes": ["Sword","Gunpowder","Archery","Ranged Gunpowder","Mounted", "Armored", "Siege"],
+        "column": 6,
+        "row": 1
+	},
+    {
+		"name": "Armor Piercing II",
+		"prerequisites": ["Armor Piercing I"],
+		"uniques": ["[+5]% Strength <vs [Armored] units>"],
+		"unitTypes": ["Sword","Gunpowder","Archery","Ranged Gunpowder","Mounted", "Armored", "Siege"],
+        "column": 6,
+        "row": 2
+	},
+    {
+		"name": "Armor Piercing III",
+		"prerequisites": ["Armor Piercing II"],
+		"uniques": ["[+5]% Strength <vs [Armored] units>"],
+		"unitTypes": ["Sword","Gunpowder","Archery","Ranged Gunpowder","Mounted", "Armored", "Siege"],
+        "column": 6,
+        "row": 3
+	},
+    {
+		"name": "Dismounter I",
+		"uniques": ["[+5]% Strength <vs [Mounted] units>", "[-90]% weight to this choice for AI decisions"],
+		"unitTypes": ["Sword","Gunpowder","Archery","Ranged Gunpowder","Mounted", "Armored", "Siege"],
+        "column": 7,
+        "row": 1
+	},
+    {
+		"name": "Dismounter II",
+		"prerequisites": ["Dismounter I"],
+		"uniques": ["[+5]% Strength <vs [Mounted] units>"],
+		"unitTypes": ["Sword","Gunpowder","Archery","Ranged Gunpowder","Mounted", "Armored", "Siege"],
+        "column": 7,
+        "row": 2
+	},
+    {
+		"name": "Dismounter III",
+		"prerequisites": ["Dismounter II"],
+		"uniques": ["[+5]% Strength <vs [Mounted] units>"],
+		"unitTypes": ["Sword","Gunpowder","Archery","Ranged Gunpowder","Mounted", "Armored", "Siege"],
+        "column": 7,
+        "row": 3
+	},
 
 
 	// Ranged+Siege
-	{
-		"name": "Accuracy I",
-		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles> <when attacking>", "[-90]% weight to this choice for AI decisions"],
-		//"unitTypes": ["Siege","Archery","Ranged Gunpowder"],
-        //"column": 1,
-        //"row": 1
-    },
-	{
-		"name": "Accuracy II",
-		"prerequisites": ["Accuracy I"],
-		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles> <when attacking>"],
-		//"unitTypes": ["Siege","Archery","Ranged Gunpowder"],
-        //"column": 1,
-        //"row": 2
-    },
-	{
-		"name": "Accuracy III",
-		"prerequisites": ["Accuracy II"],
-		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles> <when attacking>"],
-		//"unitTypes": ["Siege","Archery","Ranged Gunpowder"],
-        //"column": 1,
-        //"row": 3
-    },
-
-	{
-		"name": "Barrage I",
-		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles> <when attacking>", "[-90]% weight to this choice for AI decisions"],
-		//"unitTypes": ["Siege","Archery","Ranged Gunpowder"],
-        //"column": 2,
-        //"row": 1
-	},
-	{
-		"name": "Barrage II",
-		"prerequisites": ["Barrage I"],
-		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles> <when attacking>"],
-		//"unitTypes": ["Siege","Archery","Ranged Gunpowder"],
-        //"column": 2,
-        //"row": 2
-	},
-	{
-		"name": "Barrage III",
-		"prerequisites": ["Barrage II"],
-		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles> <when attacking>"],
-		//"unitTypes": ["Siege","Archery","Ranged Gunpowder"],
-        //"column": 2,
-        //"row": 3
-	},
-
 	{
 		"name": "Volley",
 		"prerequisites": ["Accuracy I","Barrage I"],
@@ -821,22 +842,6 @@
 
 	// Mixed
 	{
-		"name": "Cover I",
-		"uniques": ["[+33]% Strength <vs [Ranged] units> <when defending>", "[-90]% weight to this choice for AI decisions"],
-		//"unitTypes": ["Sword","Gunpowder","Archery","Ranged Gunpowder","Siege"],
-        "column": 24,
-        "row": 1
-	},
-	{
-		"name": "Cover II",
-		"prerequisites": ["Cover I"],
-		"uniques": ["[+33]% Strength <vs [Ranged] units> <when defending>"],
-		//"unitTypes": ["Sword","Gunpowder","Archery","Ranged Gunpowder","Siege"],
-        "column": 24,
-        "row": 2
-	},
-
-	{
 		"name": "March",
 		"prerequisites": ["Accuracy II","Barrage II","Shock III","Drill III"],
 		"uniques": ["Unit will heal every turn, even if it performs an action"],
@@ -870,23 +875,6 @@
         "column": 24,
         "row": 5
 	},
-
-	{
-		"name": "Ambush I",
-		"uniques": ["[+33]% Strength <vs [Armored] units>", "[-100]% weight to this choice for AI decisions"],
-		//"unitTypes": ["Sword","Gunpowder","Fighter","Bomber"],
-        "column": 25,
-        "row": 1
-	},
-	{
-		"name": "Ambush II",
-		"prerequisites": ["Ambush I"],
-		"uniques": ["[+33]% Strength <vs [Armored] units>"],
-		//"unitTypes": ["Sword","Gunpowder","Fighter","Bomber"],
-        "column": 25,
-        "row": 2
-	},
-
 
 	// Water ranged and air units
 	{
@@ -1018,5 +1006,42 @@
 	{	// For barbarian water units
 		"name": "Unable to pillage tiles",
 		"uniques": ["Unable to pillage tiles"]
-	}
+	},
+    
+
+
+
+    //Removed promotions
+    {
+		"name": "Accuracy I",
+		"uniques": ["Will not be displayed in Civilopedia"],
+    },
+	{
+		"name": "Accuracy II",
+		"uniques": ["Will not be displayed in Civilopedia"],
+    },
+	{
+		"name": "Accuracy III",
+		"uniques": ["Will not be displayed in Civilopedia"],
+    },
+	{
+		"name": "Barrage I",
+		"uniques": ["Will not be displayed in Civilopedia"],
+	},
+	{
+		"name": "Barrage II",
+		"uniques": ["Will not be displayed in Civilopedia"],
+	},
+	{
+		"name": "Barrage III",
+		"uniques": ["Will not be displayed in Civilopedia"],
+	},
+    {
+		"name": "Ambush I",
+		"uniques": ["Will not be displayed in Civilopedia"]
+	},
+	{
+		"name": "Ambush II",
+		"uniques": ["Will not be displayed in Civilopedia"]
+	},
 ]
