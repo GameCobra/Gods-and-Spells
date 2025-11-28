@@ -200,6 +200,29 @@
 
 	//	"prerequisites": ["Shock I", "Drill I", "Frostborn I", "Heatwave I"],
 
+	{
+		"name": "Tier 1",
+		"uniques": ["Unavailable", "Not shown on world screen"],
+    },
+
+	{
+		"name": "AAA",
+		"uniques": ["[This Unit] gains the [Tier 1] promotion"],
+		"unitTypes": ["Sword","Gunpowder","Archery","Ranged Gunpowder","Mounted", "Armored", "Siege"],
+    },
+	{
+		"name": "BBB",
+		"uniques": ["[This Unit] gains the [Tier 1] promotion"],
+		"unitTypes": ["Sword","Gunpowder","Archery","Ranged Gunpowder","Mounted", "Armored", "Siege"],
+    },
+	{
+		"name": "CCC",
+		"uniques": ["Unavailable <for units without [Tier 1]>"],
+		"unitTypes": ["Sword","Gunpowder","Archery","Ranged Gunpowder","Mounted", "Armored", "Siege"],
+		"column": 34,
+        "row": 2
+    },
+
 
     //Global Land Enviorment
 	{
