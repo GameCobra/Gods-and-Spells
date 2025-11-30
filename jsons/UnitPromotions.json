@@ -411,49 +411,6 @@
 
 	
 	// Ranged+Siege
-	{
-		"name": "Accuracy I",
-		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles> <when attacking>", 
-					"[-90]% weight to this choice for AI decisions",
-					"Will not be displayed in Civilopedia"],
-		//"unitTypes": ["Siege","Archery","Ranged Gunpowder"],
-    },
-	{
-		"name": "Accuracy II",
-		"prerequisites": ["Accuracy I"],
-		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles> <when attacking>",
-					"Will not be displayed in Civilopedia"],
-		//"unitTypes": ["Siege","Archery","Ranged Gunpowder"],
-    },
-	{
-		"name": "Accuracy III",
-		"prerequisites": ["Accuracy II"],
-		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles> <when attacking>",
-					"Will not be displayed in Civilopedia"],
-		//"unitTypes": ["Siege","Archery","Ranged Gunpowder"],
-    },
-
-	{
-		"name": "Barrage I",
-		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles> <when attacking>", 
-					"[-90]% weight to this choice for AI decisions",
-					"Will not be displayed in Civilopedia"],
-		//"unitTypes": ["Siege","Archery","Ranged Gunpowder"],
-	},
-	{
-		"name": "Barrage II",
-		"prerequisites": ["Barrage I"],
-		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles> <when attacking>",
-					"Will not be displayed in Civilopedia"],
-		//"unitTypes": ["Siege","Archery","Ranged Gunpowder"],
-	},
-	{
-		"name": "Barrage III",
-		"prerequisites": ["Barrage II"],
-		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles> <when attacking>",
-					"Will not be displayed in Civilopedia"],
-		//"unitTypes": ["Siege","Archery","Ranged Gunpowder"],
-	},
 
 	{
 		"name": "Volley",
@@ -479,49 +436,6 @@
 
 	// Melee, Mounted+Armor
 	{
-		"name": "Shock I",
-		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>", 
-					"[-90]% weight to this choice for AI decisions",
-					"Will not be displayed in Civilopedia"],
-		//"unitTypes": ["Sword","Gunpowder","Mounted","Armored"],
-	},
-	{
-		"name": "Shock II",
-		"prerequisites": ["Shock I"],
-		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>",
-					"Will not be displayed in Civilopedia"],
-		//"unitTypes": ["Sword","Gunpowder","Mounted","Armored"],
-	},
-	{
-		"name": "Shock III",
-		"prerequisites": ["Shock II"],
-		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>",
-					"Will not be displayed in Civilopedia"],
-		//"unitTypes": ["Sword","Gunpowder","Mounted","Armored"],
-	},
-
-	{
-		"name": "Drill I",
-		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>", 
-					"[-90]% weight to this choice for AI decisions",
-					"Will not be displayed in Civilopedia"],
-		//"unitTypes": ["Sword","Gunpowder","Mounted","Armored"],
-	},
-	{
-		"name": "Drill II",
-		"prerequisites": ["Drill I"],
-		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>",
-					"Will not be displayed in Civilopedia"],
-		//"unitTypes": ["Sword","Gunpowder","Mounted","Armored"],
-	},
-	{
-		"name": "Drill III",
-		"prerequisites": ["Drill II"],
-		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>",
-					"Will not be displayed in Civilopedia"],
-		//"unitTypes": ["Sword","Gunpowder","Mounted","Armored"],
-	},
-	{
 		"name": "Charge",
 		"prerequisites": ["Shock II","Drill II"],
 		"uniques": ["[+33]% Strength <vs [Wounded] units>",
@@ -536,22 +450,6 @@
 		//"unitTypes": ["Sword","Gunpowder"],
 	},
 	{
-		"name": "Formation I",
-		"prerequisites": ["Shock II","Drill II"], // G&K also has Accuracy II & Barrage II as possible prerequisites for this, but I couldn't find a source for the unittypes
-		"uniques": ["[+33]% Strength <vs [Mounted] units>", 
-					"[-50]% weight to this choice for AI decisions",
-					"Will not be displayed in Civilopedia"],
-		//"unitTypes": ["Sword","Gunpowder","Mounted"],
-	},
-	{
-		"name": "Formation II",
-		"prerequisites": ["Formation I"],
-		"uniques": ["[+33]% Strength <vs [Mounted] units>",
-					"Will not be displayed in Civilopedia"],
-		//"unitTypes": ["Sword","Gunpowder","Mounted"],
-	},
-
-	{
 		"name": "Blitz",
 		"prerequisites": ["Shock III","Drill III"],
 		"uniques": ["[1] additional attacks per turn",
@@ -563,14 +461,6 @@
 		"prerequisites": ["Shock III","Drill III"],
 		"uniques": ["Double movement in [Forest]",
 					"Double movement in [Jungle]",
-					"Will not be displayed in Civilopedia"],
-		//"unitTypes": ["Sword","Gunpowder"],
-	},
-	{
-		"name": "Amphibious",
-		"prerequisites": ["Shock I", "Drill I"],
-		"uniques": ["Eliminates combat penalty for attacking over a river", 
-					"Eliminates combat penalty for attacking across a coast",
 					"Will not be displayed in Civilopedia"],
 		//"unitTypes": ["Sword","Gunpowder"],
 	},
@@ -590,6 +480,9 @@
 					"Will not be displayed in Civilopedia"],
 		//"unitTypes": ["Sword","Gunpowder","Mounted","Scout"],
 	},
+
+
+
 
 
 
@@ -1076,5 +969,119 @@
 	{	// For barbarian water units
 		"name": "Unable to pillage tiles",
 		"uniques": ["Unable to pillage tiles"]
+	},
+
+
+
+
+
+	//Considered and removed
+	{
+		"name": "Accuracy I",
+		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles> <when attacking>", 
+					"[-90]% weight to this choice for AI decisions",
+					"Will not be displayed in Civilopedia"]
+		//"unitTypes": ["Siege","Archery","Ranged Gunpowder"],
+    },
+	{
+		"name": "Accuracy II",
+		"prerequisites": ["Accuracy I"],
+		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles> <when attacking>",
+					"Will not be displayed in Civilopedia"]
+		//"unitTypes": ["Siege","Archery","Ranged Gunpowder"],
+    },
+	{
+		"name": "Accuracy III",
+		"prerequisites": ["Accuracy II"],
+		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles> <when attacking>",
+					"Will not be displayed in Civilopedia"]
+		//"unitTypes": ["Siege","Archery","Ranged Gunpowder"],
+    },
+		{
+		"name": "Barrage I",
+		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles> <when attacking>", 
+					"[-90]% weight to this choice for AI decisions",
+					"Will not be displayed in Civilopedia"]
+		//"unitTypes": ["Siege","Archery","Ranged Gunpowder"],
+	},
+	{
+		"name": "Barrage II",
+		"prerequisites": ["Barrage I"],
+		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles> <when attacking>",
+					"Will not be displayed in Civilopedia"]
+		//"unitTypes": ["Siege","Archery","Ranged Gunpowder"],
+	},
+	{
+		"name": "Barrage III",
+		"prerequisites": ["Barrage II"],
+		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles> <when attacking>",
+					"Will not be displayed in Civilopedia"]
+		//"unitTypes": ["Siege","Archery","Ranged Gunpowder"],
+	},
+	{
+		"name": "Shock I",
+		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>", 
+					"[-90]% weight to this choice for AI decisions",
+					"Will not be displayed in Civilopedia"]
+		//"unitTypes": ["Sword","Gunpowder","Mounted","Armored"],
+	},
+	{
+		"name": "Shock II",
+		"prerequisites": ["Shock I"],
+		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>",
+					"Will not be displayed in Civilopedia"]
+		//"unitTypes": ["Sword","Gunpowder","Mounted","Armored"],
+	},
+	{
+		"name": "Shock III",
+		"prerequisites": ["Shock II"],
+		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>",
+					"Will not be displayed in Civilopedia"]
+		//"unitTypes": ["Sword","Gunpowder","Mounted","Armored"],
+	},
+
+	{
+		"name": "Drill I",
+		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>", 
+					"[-90]% weight to this choice for AI decisions",
+					"Will not be displayed in Civilopedia"]
+		//"unitTypes": ["Sword","Gunpowder","Mounted","Armored"],
+	},
+	{
+		"name": "Drill II",
+		"prerequisites": ["Drill I"],
+		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>",
+					"Will not be displayed in Civilopedia"]
+		//"unitTypes": ["Sword","Gunpowder","Mounted","Armored"],
+	},
+	{
+		"name": "Drill III",
+		"prerequisites": ["Drill II"],
+		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>",
+					"Will not be displayed in Civilopedia"]
+		//"unitTypes": ["Sword","Gunpowder","Mounted","Armored"],
+	},
+	{
+		"name": "Formation I",
+		"prerequisites": ["Shock II","Drill II"], // G&K also has Accuracy II & Barrage II as possible prerequisites for this, but I couldn't find a source for the unittypes
+		"uniques": ["[+33]% Strength <vs [Mounted] units>", 
+					"[-50]% weight to this choice for AI decisions",
+					"Will not be displayed in Civilopedia"]
+		//"unitTypes": ["Sword","Gunpowder","Mounted"],
+	},
+	{
+		"name": "Formation II",
+		"prerequisites": ["Formation I"],
+		"uniques": ["[+33]% Strength <vs [Mounted] units>",
+					"Will not be displayed in Civilopedia"]
+		//"unitTypes": ["Sword","Gunpowder","Mounted"],
+	},
+	{
+		"name": "Amphibious",
+		"prerequisites": ["Shock I", "Drill I"],
+		"uniques": ["Eliminates combat penalty for attacking over a river", 
+					"Eliminates combat penalty for attacking across a coast",
+					"Will not be displayed in Civilopedia"]
+		//"unitTypes": ["Sword","Gunpowder"],
 	}
 ]
