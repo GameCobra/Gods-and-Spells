@@ -64,6 +64,15 @@
         "name": "Melee Wizard Form",
         "uniques": ["Will not be displayed in Civilopedia"]
     },
+	{
+		"name": "Frozen",
+		"uniques": ["[-3] Sight",
+					"[-1] Movement"]
+	},
+	{
+		"name": "Burnt",
+		"uniques": ["[-10] HP when healing"]
+	},
     //Custom
     /*{
 		"name": "Studys I",
@@ -86,52 +95,6 @@
 		"uniques": ["[+50]% XP gained from combat", "[-30]% weight to this choice for AI decisions"],
 		"unitTypes": ["Siege","Archery","Ranged Gunpowder","Ranged Water","Submarine","Sword","Gunpowder","Mounted","Armored"],
         "column": 50,
-        "row": 3
-    },
-    {
-		"name": "Pillager I",
-		"uniques": ["[+25]% Health from pillaging tiles", "[+25]% Yield from pillaging tiles"],
-		"unitTypes": ["Siege","Archery","Ranged Gunpowder","Sword","Gunpowder","Mounted","Armored"],
-        "column": 51,
-        "row": 1
-    },
-    {
-		"name": "Pillager II",
-        "prerequisites": ["Pillager I"],
-		"uniques": ["[+25]% Health from pillaging tiles", "[+25]% Yield from pillaging tiles"],
-		"unitTypes": ["Siege","Archery","Ranged Gunpowder","Sword","Gunpowder","Mounted","Armored"],
-        "column": 51,
-        "row": 2
-    },
-    {
-		"name": "Pillager III",
-        "prerequisites": ["Pillager II"],
-		"uniques": ["[+25]% Health from pillaging tiles", "[+25]% Yield from pillaging tiles"],
-		"unitTypes": ["Siege","Archery","Ranged Gunpowder","Sword","Gunpowder","Mounted","Armored"],
-        "column": 51,
-        "row": 3
-    },
-    {
-		"name": "City Breaker I",
-		"uniques": ["[+20]% Strength <vs cities>"],
-		"unitTypes": ["Siege","Archery","Ranged Gunpowder","Sword","Gunpowder","Mounted","Armored"],
-        "column": 53,
-        "row": 1
-    },
-    {
-		"name": "City Breaker II",
-        "prerequisites": ["City Breaker I"],
-		"uniques": ["[+20]% Strength <vs cities>"],
-		"unitTypes": ["Siege","Archery","Ranged Gunpowder","Sword","Gunpowder","Mounted","Armored"],
-        "column": 53,
-        "row": 2
-    },
-    {
-		"name": "City Breaker III",
-        "prerequisites": ["City Breaker II"],
-		"uniques": ["[+20]% Strength <vs cities>"],
-		"unitTypes": ["Siege","Archery","Ranged Gunpowder","Sword","Gunpowder","Mounted","Armored"],
-        "column": 53,
         "row": 3
     },*/
 
@@ -164,6 +127,10 @@
     },
 	{
 		"name": "Tier III",
+		"uniques": ["Unavailable", "Not shown on world screen", "[10]% XP gained from combat"]
+    },
+	{
+		"name": "Mastery",
 		"uniques": ["Unavailable", "Not shown on world screen", "[10]% XP gained from combat"]
     },
 
@@ -208,7 +175,7 @@
 
 
 
-    //Global Land Enviorment
+    //Global Land
     {
 		"name": "Frostborn I",
 		"uniques": ["[+20]% Strength <when fighting in [Snow] tiles>",
@@ -236,6 +203,17 @@
 					"[This Unit] gains the [Tier III] promotion"],
 		"unitTypes": ["Sword","Gunpowder","Archery","Ranged Gunpowder","Mounted", "Armored", "Siege"]
     },
+	{
+		"name": "Age Of Frost",
+		"prerequisites": ["Frostborn III"],
+		"uniques": ["[+20]% Strength <when fighting in [Snow] tiles>",
+                    "[+5]% Strength <when fighting in [Tundra] tiles>",
+                    "Only available <in [Snow] tiles>",
+					"Unavailable <for units with [Mastery]>",
+					"[This Unit] gains the [Mastery] promotion",
+					"Comment [Units that damage this unit become [Frozen] for 2 turns]"],
+		"unitTypes": ["Sword","Gunpowder","Archery","Ranged Gunpowder","Mounted", "Armored", "Siege"]
+    },
 
 
     {
@@ -260,6 +238,16 @@
 		"uniques": ["[+20]% Strength <when fighting in [Desert] tiles>",
                     "Only available <in [Desert] tiles>",
 					"[This Unit] gains the [Tier III] promotion"],
+		"unitTypes": ["Sword","Gunpowder","Archery","Ranged Gunpowder","Mounted", "Armored", "Siege"]
+    },
+	{
+		"name": "Solar Flare",
+		"prerequisites": ["Heatwave III"],
+		"uniques": ["[+20]% Strength <when fighting in [Desert] tiles>",
+                    "Only available <in [Desert] tiles>",
+					"Unavailable <for units with [Mastery]>",
+					"[This Unit] gains the [Mastery] promotion",
+					"Comment [Units that damage this unit become [Burnt] for 2 turns]"],
 		"unitTypes": ["Sword","Gunpowder","Archery","Ranged Gunpowder","Mounted", "Armored", "Siege"]
     },
 
@@ -401,6 +389,70 @@
 					"[This Unit] gains the [Tier III] promotion"],
 		"unitTypes": ["Sword","Gunpowder","Archery","Ranged Gunpowder","Mounted", "Armored", "Siege"]
     },
+
+
+	{
+		"name": "Pillager I",
+		"uniques": ["[+25]% Health from pillaging tiles", 
+					"[+25]% Yield from pillaging tiles",
+					"No movement cost to pillage",
+					"[This Unit] gains the [Tier I] promotion"],
+		"unitTypes": ["Siege","Archery","Ranged Gunpowder","Sword","Gunpowder","Mounted","Armored"]
+    },
+    {
+		"name": "Pillager II",
+        "prerequisites": ["Pillager I"],
+		"uniques": ["[+25]% Health from pillaging tiles", 
+					"[+25]% Yield from pillaging tiles",
+					"[This Unit] gains the [Tier II] promotion"],
+		"unitTypes": ["Siege","Archery","Ranged Gunpowder","Sword","Gunpowder","Mounted","Armored"]
+    },
+    {
+		"name": "Pillager III",
+        "prerequisites": ["Pillager II"],
+		"uniques": ["[+25]% Health from pillaging tiles", 
+					"[+25]% Yield from pillaging tiles",
+					"[This Unit] gains the [Tier III] promotion"],
+		"unitTypes": ["Siege","Archery","Ranged Gunpowder","Sword","Gunpowder","Mounted","Armored"]
+    },
+	{
+		"name": "Grand Pillager",
+        "prerequisites": ["Pillager III"],
+		"uniques": ["[+25]% Health from pillaging tiles", 
+					"[+25]% Yield from pillaging tiles",
+					"May enter foreign tiles without open borders",
+					"Unavailable <for units with [Mastery]>",
+					"[This Unit] gains the [Mastery] promotion"],
+		"unitTypes": ["Siege","Archery","Ranged Gunpowder","Sword","Gunpowder","Mounted","Armored"]
+    },
+
+
+    {
+		"name": "City Breaker I",
+		"uniques": ["[+10]% Strength <vs cities>"],
+		"unitTypes": ["Siege","Archery","Ranged Gunpowder","Sword","Gunpowder","Mounted","Armored"]
+    },
+    {
+		"name": "City Breaker II",
+        "prerequisites": ["City Breaker I"],
+		"uniques": ["[+10]% Strength <vs cities>"],
+		"unitTypes": ["Siege","Archery","Ranged Gunpowder","Sword","Gunpowder","Mounted","Armored"]
+    },
+    {
+		"name": "City Breaker III",
+        "prerequisites": ["City Breaker II"],
+		"uniques": ["[+10]% Strength <vs cities>"],
+		"unitTypes": ["Siege","Archery","Ranged Gunpowder","Sword","Gunpowder","Mounted","Armored"]
+    },
+	{
+		"name": "Grand Seige",
+        "prerequisites": ["City Breaker II"],
+		"uniques": ["[+20]% Strength <vs cities>",
+					"Unavailable <for units with [Mastery]>",
+					"[This Unit] gains the [Mastery] promotion",
+					"[+50]% Strength <when fighting in [Citadel] tiles>"],
+		"unitTypes": ["Siege","Archery","Ranged Gunpowder","Sword","Gunpowder","Mounted","Armored"]
+    },
 	
 
 
@@ -411,14 +463,6 @@
 
 	
 	// Ranged+Siege
-
-	{
-		"name": "Volley",
-		"prerequisites": ["Accuracy I","Barrage I"],
-		"uniques": ["[+50]% Strength <vs cities>",
-					"Will not be displayed in Civilopedia"],
-		//"unitTypes": ["Siege"],
-	},
 	{
 		"name": "Extended Range",
 		"prerequisites": ["Accuracy III","Barrage III","Targeting II","Bombardment II", "Wolfpack II"],
@@ -441,13 +485,6 @@
 		"uniques": ["[+33]% Strength <vs [Wounded] units>",
 					"Will not be displayed in Civilopedia"],
 		//"unitTypes": ["Mounted","Armored"],
-	},
-	{
-		"name": "Besiege", // Not called "Siege" in order to not conflict with siege type units for translations
-		"prerequisites": ["Shock II","Drill II"],
-		"uniques": ["[+50]% Strength <vs cities>",
-					"Will not be displayed in Civilopedia"],
-		//"unitTypes": ["Sword","Gunpowder"],
 	},
 	{
 		"name": "Blitz",
@@ -1083,5 +1120,19 @@
 					"Eliminates combat penalty for attacking across a coast",
 					"Will not be displayed in Civilopedia"]
 		//"unitTypes": ["Sword","Gunpowder"],
-	}
+	},
+	{
+		"name": "Volley",
+		"prerequisites": ["Accuracy I","Barrage I"],
+		"uniques": ["[+50]% Strength <vs cities>",
+					"Will not be displayed in Civilopedia"]
+		//"unitTypes": ["Siege"],
+	},
+	{
+		"name": "Besiege", // Not called "Siege" in order to not conflict with siege type units for translations
+		"prerequisites": ["Shock II","Drill II"],
+		"uniques": ["[+50]% Strength <vs cities>",
+					"Will not be displayed in Civilopedia"]
+		//"unitTypes": ["Sword","Gunpowder"],
+	},
 ]
