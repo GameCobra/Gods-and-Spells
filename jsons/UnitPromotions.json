@@ -446,7 +446,7 @@
     },
 	{
 		"name": "Grand Seige",
-        "prerequisites": ["City Breaker II"],
+        "prerequisites": ["City Breaker III"],
 		"uniques": ["[+20]% Strength <vs cities>",
 					"Unavailable <for units with [Mastery]>",
 					"[This Unit] gains the [Mastery] promotion",
