@@ -119,19 +119,27 @@
 	//! MAIN TIERS
 	{
 		"name": "Tier I",
-		"uniques": ["Unavailable", "Not shown on world screen", "[10]% XP gained from combat"]
+		"uniques": ["Unavailable", 
+					"Not shown on world screen", 
+					"[10]% XP gained from combat"]
     },
 	{
 		"name": "Tier II",
-		"uniques": ["Unavailable", "Not shown on world screen", "[10]% XP gained from combat"]
+		"uniques": ["Unavailable", 
+					"Not shown on world screen", 
+					"[10]% XP gained from combat"]
     },
 	{
 		"name": "Tier III",
-		"uniques": ["Unavailable", "Not shown on world screen", "[10]% XP gained from combat"]
+		"uniques": ["Unavailable", 
+					"Not shown on world screen", 
+					"[10]% XP gained from combat"]
     },
 	{
-		"name": "Mastery",
-		"uniques": ["Unavailable", "Not shown on world screen", "[10]% XP gained from combat"]
+		"name": "Expertise",
+		"uniques": ["Unavailable", 
+					"Not shown on world screen", 
+					"[10]% XP gained from combat"]
     },
 
 	//SCOUTS
@@ -177,7 +185,7 @@
 
     //Global Land
     {
-		"name": "Frostborn I",
+		"name": "(A) Frostborn I",
 		"uniques": ["[+20]% Strength <when fighting in [Snow] tiles>",
                     "[+5]% Strength <when fighting in [Tundra] tiles>",
                     "Only available <in [Snow] tiles>",
@@ -187,7 +195,7 @@
     },
 	{
 		"name": "Frostborn II",
-		"prerequisites": ["Frostborn I"],
+		"prerequisites": ["(A) Frostborn I"],
 		"uniques": ["[+20]% Strength <when fighting in [Snow] tiles>",
                     "[+5]% Strength <when fighting in [Tundra] tiles>",
                     "Only available <in [Snow] tiles>",
@@ -209,15 +217,15 @@
 		"uniques": ["[+20]% Strength <when fighting in [Snow] tiles>",
                     "[+5]% Strength <when fighting in [Tundra] tiles>",
                     "Only available <in [Snow] tiles>",
-					"Unavailable <for units with [Mastery]>",
-					"[This Unit] gains the [Mastery] promotion",
+					"Unavailable <for units with [Expertise]>",
+					"[This Unit] gains the [Expertise] promotion",
 					"Comment [Units that damage this unit become [Frozen] for 2 turns]"],
 		"unitTypes": ["Sword","Gunpowder","Archery","Ranged Gunpowder","Mounted", "Armored", "Siege"]
     },
 
 
     {
-		"name": "Heatwave I",
+		"name": "(A) Heatwave I",
 		"uniques": ["[+20]% Strength <when fighting in [Desert] tiles>",
                     "Only available <in [Desert] tiles>",
                     "[-90]% weight to this choice for AI decisions",
@@ -226,7 +234,7 @@
     },
     {
 		"name": "Heatwave II",
-		"prerequisites": ["Heatwave I"],
+		"prerequisites": ["(A) Heatwave I"],
 		"uniques": ["[+20]% Strength <when fighting in [Desert] tiles>",
                     "Only available <in [Desert] tiles>",
 					"[This Unit] gains the [Tier II] promotion"],
@@ -245,15 +253,15 @@
 		"prerequisites": ["Heatwave III"],
 		"uniques": ["[+20]% Strength <when fighting in [Desert] tiles>",
                     "Only available <in [Desert] tiles>",
-					"Unavailable <for units with [Mastery]>",
-					"[This Unit] gains the [Mastery] promotion",
+					"Unavailable <for units with [Expertise]>",
+					"[This Unit] gains the [Expertise] promotion",
 					"Comment [Units that damage this unit become [Burnt] for 2 turns]"],
 		"unitTypes": ["Sword","Gunpowder","Archery","Ranged Gunpowder","Mounted", "Armored", "Siege"]
     },
 
 
 	{
-		"name": "Free Fighter I",
+		"name": "(B) Free Fighter I",
 		"uniques": ["[+5]% Strength <when fighting in [Open terrain] tiles> <when attacking>", 
 					"[-50]% weight to this choice for AI decisions",
 					"[This Unit] gains the [Tier I] promotion"],
@@ -261,7 +269,7 @@
     },
 	{
 		"name": "Free Fighter II",
-		"prerequisites": ["Free Fighter I"],
+		"prerequisites": ["(B) Free Fighter I"],
 		"uniques": ["[+5]% Strength <when fighting in [Open terrain] tiles> <when attacking>",
 					"[This Unit] gains the [Tier II] promotion"],
 		"unitTypes": ["Sword","Gunpowder","Archery","Ranged Gunpowder","Mounted", "Armored", "Siege"]
@@ -276,7 +284,7 @@
 
 
     {
-		"name": "Rough Fighter I",
+		"name": "(B) Rough Fighter I",
 		"uniques": ["[+5]% Strength <when fighting in [Rough terrain] tiles> <when attacking>", 
 					"[-50]% weight to this choice for AI decisions",
 					"[This Unit] gains the [Tier I] promotion"],
@@ -284,7 +292,7 @@
     },
 	{
 		"name": "Rough Fighter II",
-		"prerequisites": ["Rough Fighter I"],
+		"prerequisites": ["(B) Rough Fighter I"],
 		"uniques": ["[+5]% Strength <when fighting in [Rough terrain] tiles> <when attacking>",
 					"[This Unit] gains the [Tier II] promotion"],
 		"unitTypes": ["Sword","Gunpowder","Archery","Ranged Gunpowder","Mounted", "Armored", "Siege"]
@@ -299,7 +307,7 @@
 
 
 	{
-		"name": "Aquatic I",
+		"name": "(C) Aquatic I",
 		"uniques": ["[+10]% Strength <vs [Water] units> <when attacking>",
 					"Eliminates combat penalty for attacking over a river", 
 					"Eliminates combat penalty for attacking across a coast",
@@ -308,7 +316,7 @@
     },
 	{
 		"name": "Aquatic II",
-		"prerequisites": ["Aquatic I"],
+		"prerequisites": ["(C) Aquatic I"],
 		"uniques": ["[+10]% Strength <vs [Water] units> <when attacking>",
 					"[This Unit] gains the [Tier II] promotion"],
 		"unitTypes": ["Sword","Gunpowder","Archery","Ranged Gunpowder","Mounted", "Armored", "Siege"]
@@ -323,7 +331,7 @@
 
 
 	{
-		"name": "Sea Barrier I",
+		"name": "(C) Sea Barrier I",
 		"uniques": ["[+10]% Strength <vs [Water] units> <when defending>",
 					"[+20]% Strength <when defending> <when [Embarked]>",
 					"[This Unit] gains the [Tier I] promotion"],
@@ -331,7 +339,7 @@
     },
 	{
 		"name": "Sea Barrier II",
-		"prerequisites": ["Sea Barrier I"],
+		"prerequisites": ["(C) Sea Barrier I"],
 		"uniques": ["[+10]% Strength <vs [Water] units> <when defending>",
 					"[+20]% Strength <when defending> <when [Embarked]>",
 					"[This Unit] gains the [Tier II] promotion"],
@@ -348,14 +356,14 @@
 
 
 	{
-		"name": "Dismounter I",
+		"name": "(D) Dismounter I",
 		"uniques": ["[+10]% Strength <vs [Mounted] units>",
 					"[This Unit] gains the [Tier I] promotion"],
 		"unitTypes": ["Sword","Gunpowder","Archery","Ranged Gunpowder","Mounted", "Armored", "Siege"]
     },
 	{
 		"name": "Dismounter II",
-		"prerequisites": ["Dismounter I"],
+		"prerequisites": ["(D) Dismounter I"],
 		"uniques": ["[+10]% Strength <vs [Mounted] units>",
 					"[This Unit] gains the [Tier II] promotion"],
 		"unitTypes": ["Sword","Gunpowder","Archery","Ranged Gunpowder","Mounted", "Armored", "Siege"]
@@ -370,14 +378,14 @@
 
 
 	{
-		"name": "Armor Piercing I",
+		"name": "(D) Armor Piercing I",
 		"uniques": ["[+10]% Strength <vs [Armored] units>",
 					"[This Unit] gains the [Tier I] promotion"],
 		"unitTypes": ["Sword","Gunpowder","Archery","Ranged Gunpowder","Mounted", "Armored", "Siege"]
     },
 	{
 		"name": "Armor Piercing II",
-		"prerequisites": ["Armor Piercing I"],
+		"prerequisites": ["(D) Armor Piercing I"],
 		"uniques": ["[+10]% Strength <vs [Armored] units>",
 					"[This Unit] gains the [Tier II] promotion"],
 		"unitTypes": ["Sword","Gunpowder","Archery","Ranged Gunpowder","Mounted", "Armored", "Siege"]
@@ -392,7 +400,7 @@
 
 
 	{
-		"name": "Pillager I",
+		"name": "(E) Pillager I",
 		"uniques": ["[+25]% Health from pillaging tiles", 
 					"[+25]% Yield from pillaging tiles",
 					"No movement cost to pillage",
@@ -401,7 +409,7 @@
     },
     {
 		"name": "Pillager II",
-        "prerequisites": ["Pillager I"],
+        "prerequisites": ["(E) Pillager I"],
 		"uniques": ["[+25]% Health from pillaging tiles", 
 					"[+25]% Yield from pillaging tiles",
 					"[This Unit] gains the [Tier II] promotion"],
@@ -421,20 +429,20 @@
 		"uniques": ["[+25]% Health from pillaging tiles", 
 					"[+25]% Yield from pillaging tiles",
 					"May enter foreign tiles without open borders",
-					"Unavailable <for units with [Mastery]>",
-					"[This Unit] gains the [Mastery] promotion"],
+					"Unavailable <for units with [Expertise]>",
+					"[This Unit] gains the [Expertise] promotion"],
 		"unitTypes": ["Siege","Archery","Ranged Gunpowder","Sword","Gunpowder","Mounted","Armored"]
     },
 
 
     {
-		"name": "City Breaker I",
+		"name": "(E) City Breaker I",
 		"uniques": ["[+10]% Strength <vs cities>"],
 		"unitTypes": ["Siege","Archery","Ranged Gunpowder","Sword","Gunpowder","Mounted","Armored"]
     },
     {
 		"name": "City Breaker II",
-        "prerequisites": ["City Breaker I"],
+        "prerequisites": ["(E) City Breaker I"],
 		"uniques": ["[+10]% Strength <vs cities>"],
 		"unitTypes": ["Siege","Archery","Ranged Gunpowder","Sword","Gunpowder","Mounted","Armored"]
     },
@@ -448,8 +456,8 @@
 		"name": "Grand Seige",
         "prerequisites": ["City Breaker III"],
 		"uniques": ["[+20]% Strength <vs cities>",
-					"Unavailable <for units with [Mastery]>",
-					"[This Unit] gains the [Mastery] promotion",
+					"Unavailable <for units with [Expertise]>",
+					"[This Unit] gains the [Expertise] promotion",
 					"[+50]% Strength <when fighting in [Citadel] tiles>"],
 		"unitTypes": ["Siege","Archery","Ranged Gunpowder","Sword","Gunpowder","Mounted","Armored"]
     },
