@@ -14,7 +14,8 @@
     "[-4]% Strength <when between [-26] and [-50] [Blood God Favor]>",
     "[-6]% Strength <when between [-51] and [-100] [Blood God Favor]>",
     "[-10]% Strength <when below [-100] [Blood God Favor]>",
-    "[This Unit] gains the [Frozen] status for [2] turn(s) <upon damaging a [Age Of Frost] unit>",
-    "[This Unit] gains the [Burnt] status for [2] turn(s) <upon damaging a [Burnt] unit>"
+    "[This Unit] gains the [Frozen] status for [2] turn(s) <upon damaging a [Age Of Frost] unit> <in [Snow] tiles>",
+    "[This Unit] gains the [Burnt] status for [2] turn(s) <upon damaging a [Burnt] unit> <in [Desert] tiles>",
+    "[This Unit] gains the [Chained] status for [2] turn(s) <upon damaging a [Mount Chainer] unit>"
     ]
 }

@@ -73,6 +73,10 @@
 		"name": "Burnt",
 		"uniques": ["[-10] HP when healing"]
 	},
+	{
+		"name": "Chained",
+		"uniques": ["Cannot move"]
+	},
     //Custom
     /*{
 		"name": "Studys I",
@@ -119,27 +123,29 @@
 	//! MAIN TIERS
 	{
 		"name": "Tier I",
-		"uniques": ["Unavailable", 
+		"uniques": ["Comment [Unlocks Tier I promotions]",
 					"Not shown on world screen", 
-					"[10]% XP gained from combat"]
+					"[5]% XP gained from combat"]
     },
 	{
 		"name": "Tier II",
-		"uniques": ["Unavailable", 
+		"uniques": ["Comment [Unlocks Tier II promotions]",
 					"Not shown on world screen", 
-					"[10]% XP gained from combat"]
+					"[5]% XP gained from combat"]
     },
 	{
 		"name": "Tier III",
-		"uniques": ["Unavailable", 
+		"uniques": ["Comment [Unlocks Tier III promotions]",
 					"Not shown on world screen", 
-					"[10]% XP gained from combat"]
+					"[5]% XP gained from combat"]
     },
 	{
 		"name": "Expertise",
-		"uniques": ["Unavailable", 
+		"uniques": ["Comment [A troop may only have 1 Expertise promotion]",
+					"Comment [Creating a expert unit requires 10 [Blood God Favor]]",
 					"Not shown on world screen", 
-					"[10]% XP gained from combat"]
+					"[5]% XP gained from combat"
+					]
     },
 
 	//SCOUTS
@@ -190,7 +196,8 @@
                     "[+5]% Strength <when fighting in [Tundra] tiles>",
                     "Only available <in [Snow] tiles>",
                     "[-90]% weight to this choice for AI decisions",
-					"[This Unit] gains the [Tier I] promotion"],
+					"[This Unit] gains the [Tier I] promotion",
+					"Unavailable <for units with [(A) Heatwave I]>"],
 		"unitTypes": ["Sword","Gunpowder","Archery","Ranged Gunpowder","Mounted", "Armored", "Siege"]
     },
 	{
@@ -217,9 +224,14 @@
 		"uniques": ["[+20]% Strength <when fighting in [Snow] tiles>",
                     "[+5]% Strength <when fighting in [Tundra] tiles>",
                     "Only available <in [Snow] tiles>",
-					"Unavailable <for units with [Expertise]>",
-					"[This Unit] gains the [Expertise] promotion",
-					"Comment [Units that damage this unit become [Frozen] for 2 turns]"],
+					"Comment [Units that damage this unit become [Frozen] for 2 turns when in [Snow] tiles]",
+
+					"Comment [An [Expertise] promotion]",
+					"Unavailable <for units with [Expertise]> <hidden from users>",
+					"[This Unit] gains the [Expertise] promotion <hidden from users>",
+					"Unavailable <when below [10] [Blood God Favor]> <hidden from users>",
+					"Costs [10] [Blood God Favor] <hidden from users>"
+					],
 		"unitTypes": ["Sword","Gunpowder","Archery","Ranged Gunpowder","Mounted", "Armored", "Siege"]
     },
 
@@ -229,7 +241,8 @@
 		"uniques": ["[+20]% Strength <when fighting in [Desert] tiles>",
                     "Only available <in [Desert] tiles>",
                     "[-90]% weight to this choice for AI decisions",
-					"[This Unit] gains the [Tier I] promotion"],
+					"[This Unit] gains the [Tier I] promotion",
+					"Unavailable <for units with [(A) Frostborn I]>"],
 		"unitTypes": ["Sword","Gunpowder","Archery","Ranged Gunpowder","Mounted", "Armored", "Siege"]
     },
     {
@@ -253,9 +266,14 @@
 		"prerequisites": ["Heatwave III"],
 		"uniques": ["[+20]% Strength <when fighting in [Desert] tiles>",
                     "Only available <in [Desert] tiles>",
-					"Unavailable <for units with [Expertise]>",
-					"[This Unit] gains the [Expertise] promotion",
-					"Comment [Units that damage this unit become [Burnt] for 2 turns]"],
+					"Comment [Units that damage this unit become [Burnt] for 2 turns when in [Desert] tiles]",
+
+					"Comment [An [Expertise] promotion]",
+					"Unavailable <for units with [Expertise]> <hidden from users>",
+					"[This Unit] gains the [Expertise] promotion <hidden from users>",
+					"Unavailable <when below [10] [Blood God Favor]> <hidden from users>",
+					"Costs [10] [Blood God Favor] <hidden from users>"
+					],
 		"unitTypes": ["Sword","Gunpowder","Archery","Ranged Gunpowder","Mounted", "Armored", "Siege"]
     },
 
@@ -263,8 +281,8 @@
 	{
 		"name": "(B) Free Fighter I",
 		"uniques": ["[+5]% Strength <when fighting in [Open terrain] tiles> <when attacking>", 
-					"[-50]% weight to this choice for AI decisions",
-					"[This Unit] gains the [Tier I] promotion"],
+					"[This Unit] gains the [Tier I] promotion",
+					"Unavailable <for units with [(B) Rough Fighter I]>"],
 		"unitTypes": ["Sword","Gunpowder","Archery","Ranged Gunpowder","Mounted", "Armored", "Siege"]
     },
 	{
@@ -286,8 +304,8 @@
     {
 		"name": "(B) Rough Fighter I",
 		"uniques": ["[+5]% Strength <when fighting in [Rough terrain] tiles> <when attacking>", 
-					"[-50]% weight to this choice for AI decisions",
-					"[This Unit] gains the [Tier I] promotion"],
+					"[This Unit] gains the [Tier I] promotion",
+					"Unavailable <for units with [(B) Free Fighter I]>"],
 		"unitTypes": ["Sword","Gunpowder","Archery","Ranged Gunpowder","Mounted", "Armored", "Siege"]
     },
 	{
@@ -311,7 +329,9 @@
 		"uniques": ["[+10]% Strength <vs [Water] units> <when attacking>",
 					"Eliminates combat penalty for attacking over a river", 
 					"Eliminates combat penalty for attacking across a coast",
-					"[This Unit] gains the [Tier I] promotion"],
+					"[This Unit] gains the [Tier I] promotion",
+					"[-90]% weight to this choice for AI decisions",
+					"Unavailable <for units with [(C) Sea Barrier I]>"],
 		"unitTypes": ["Sword","Gunpowder","Archery","Ranged Gunpowder","Mounted", "Armored", "Siege"]
     },
 	{
@@ -334,7 +354,9 @@
 		"name": "(C) Sea Barrier I",
 		"uniques": ["[+10]% Strength <vs [Water] units> <when defending>",
 					"[+20]% Strength <when defending> <when [Embarked]>",
-					"[This Unit] gains the [Tier I] promotion"],
+					"[This Unit] gains the [Tier I] promotion",
+					"[-90]% weight to this choice for AI decisions",
+					"Unavailable <for units with [(C) Aquatic I]>"],
 		"unitTypes": ["Sword","Gunpowder","Archery","Ranged Gunpowder","Mounted", "Armored", "Siege"]
     },
 	{
@@ -358,7 +380,9 @@
 	{
 		"name": "(D) Dismounter I",
 		"uniques": ["[+10]% Strength <vs [Mounted] units>",
-					"[This Unit] gains the [Tier I] promotion"],
+					"[This Unit] gains the [Tier I] promotion",
+					"[-50]% weight to this choice for AI decisions",
+					"Unavailable <for units with [(D) Armor Piercing I]>"],
 		"unitTypes": ["Sword","Gunpowder","Archery","Ranged Gunpowder","Mounted", "Armored", "Siege"]
     },
 	{
@@ -375,12 +399,28 @@
 					"[This Unit] gains the [Tier III] promotion"],
 		"unitTypes": ["Sword","Gunpowder","Archery","Ranged Gunpowder","Mounted", "Armored", "Siege"]
     },
+	{
+		"name": "Mount Chainer",
+		"prerequisites": ["Dismounter III"],
+		"uniques": ["[+10]% Strength <vs [Mounted] units>",
+					"Comment [Make mounted units [Chained] for 2 turns]",
+					
+					"Comment [An [Expertise] promotion]",
+					"Unavailable <for units with [Expertise]> <hidden from users>",
+					"[This Unit] gains the [Expertise] promotion <hidden from users>",
+					"Unavailable <when below [10] [Blood God Favor]> <hidden from users>",
+					"Costs [10] [Blood God Favor] <hidden from users>"
+					],
+		"unitTypes": ["Sword","Gunpowder","Archery","Ranged Gunpowder","Mounted", "Armored", "Siege"]
+    },
 
 
 	{
 		"name": "(D) Armor Piercing I",
 		"uniques": ["[+10]% Strength <vs [Armored] units>",
-					"[This Unit] gains the [Tier I] promotion"],
+					"[This Unit] gains the [Tier I] promotion",
+					"[-50]% weight to this choice for AI decisions",
+					"Unavailable <for units with [(D) Dismounter I]>"],
 		"unitTypes": ["Sword","Gunpowder","Archery","Ranged Gunpowder","Mounted", "Armored", "Siege"]
     },
 	{
@@ -404,7 +444,9 @@
 		"uniques": ["[+25]% Health from pillaging tiles", 
 					"[+25]% Yield from pillaging tiles",
 					"No movement cost to pillage",
-					"[This Unit] gains the [Tier I] promotion"],
+					"[This Unit] gains the [Tier I] promotion",
+					"[-75]% weight to this choice for AI decisions",
+					"Unavailable <for units with [(E) City Breaker I]>"],
 		"unitTypes": ["Siege","Archery","Ranged Gunpowder","Sword","Gunpowder","Mounted","Armored"]
     },
     {
@@ -429,78 +471,91 @@
 		"uniques": ["[+25]% Health from pillaging tiles", 
 					"[+25]% Yield from pillaging tiles",
 					"May enter foreign tiles without open borders",
-					"Unavailable <for units with [Expertise]>",
-					"[This Unit] gains the [Expertise] promotion"],
+				
+					"Comment [An [Expertise] promotion]",
+					"Unavailable <for units with [Expertise]> <hidden from users>",
+					"[This Unit] gains the [Expertise] promotion <hidden from users>",
+					"Unavailable <when below [10] [Blood God Favor]> <hidden from users>",
+					"Costs [10] [Blood God Favor] <hidden from users>"
+					],
 		"unitTypes": ["Siege","Archery","Ranged Gunpowder","Sword","Gunpowder","Mounted","Armored"]
     },
 
 
     {
 		"name": "(E) City Breaker I",
-		"uniques": ["[+10]% Strength <vs cities>"],
+		"uniques": ["[+10]% Strength <vs cities>",
+					"[-20]% weight to this choice for AI decisions",
+					"[This Unit] gains the [Tier I] promotion",
+					"Unavailable <for units with [(E) Pillager I]>"],
 		"unitTypes": ["Siege","Archery","Ranged Gunpowder","Sword","Gunpowder","Mounted","Armored"]
     },
     {
 		"name": "City Breaker II",
         "prerequisites": ["(E) City Breaker I"],
-		"uniques": ["[+10]% Strength <vs cities>"],
+		"uniques": ["[+10]% Strength <vs cities>",
+					"[This Unit] gains the [Tier I] promotion"],
 		"unitTypes": ["Siege","Archery","Ranged Gunpowder","Sword","Gunpowder","Mounted","Armored"]
     },
     {
 		"name": "City Breaker III",
         "prerequisites": ["City Breaker II"],
-		"uniques": ["[+10]% Strength <vs cities>"],
+		"uniques": ["[+10]% Strength <vs cities>",
+					"[This Unit] gains the [Tier III] promotion"],
 		"unitTypes": ["Siege","Archery","Ranged Gunpowder","Sword","Gunpowder","Mounted","Armored"]
     },
 	{
 		"name": "Grand Seige",
         "prerequisites": ["City Breaker III"],
 		"uniques": ["[+20]% Strength <vs cities>",
-					"Unavailable <for units with [Expertise]>",
-					"[This Unit] gains the [Expertise] promotion",
-					"[+50]% Strength <when fighting in [Citadel] tiles>"],
+					"[+50]% Strength <when fighting in [Citadel] tiles>",
+					
+					"Comment [An [Expertise] promotion]",
+					"Unavailable <for units with [Expertise]> <hidden from users>",
+					"[This Unit] gains the [Expertise] promotion <hidden from users>",
+					"Unavailable <when below [10] [Blood God Favor]> <hidden from users>",
+					"Costs [10] [Blood God Favor] <hidden from users>"
+					],
 		"unitTypes": ["Siege","Archery","Ranged Gunpowder","Sword","Gunpowder","Mounted","Armored"]
     },
-	
 
 
 
 
-
-
-
-	
-	// Ranged+Siege
+	//Special Promotions
 	{
-		"name": "Extended Range",
-		"prerequisites": ["Accuracy III","Barrage III","Targeting II","Bombardment II", "Wolfpack II"],
+		"name": "(T3) Great Range",
 		"uniques": ["[+1] Range",
-					"Will not be displayed in Civilopedia"],
-		//"unitTypes": ["Archery","Ranged Gunpowder","Siege","Ranged Water","Submarine"],
+					"Unavailable <for units without [Tier III]>"],
+		"unitTypes": ["Siege","Archery","Ranged Gunpowder","Sword","Gunpowder","Mounted","Armored"]
 	},
 	{
-		"name": "Indirect Fire",
-		"prerequisites": ["Accuracy III", "Barrage III", "Bombardment II", "Targeting II"],
+		"name": "(T3) Blitz",
+		"uniques": ["[1] additional attacks per turn",
+					"Unavailable <for units without [Tier III]>"],
+		"unitTypes": ["Siege","Archery","Ranged Gunpowder","Sword","Gunpowder","Mounted","Armored"]
+	},
+	{
+		"name": "(T2) Obstical Training",
 		"uniques": ["Ranged attacks may be performed over obstacles",
-					"Will not be displayed in Civilopedia"],
-		//"unitTypes": ["Archery","Ranged Gunpowder","Siege","Ranged Water"],
+					"Unavailable <for units without [Tier II]>"],
+		"unitTypes": ["Siege","Archery","Ranged Gunpowder","Sword","Gunpowder","Mounted","Armored"]
+	},
+	{
+		"name": "(T1) Bleader",
+		"prerequisites": ["Shock II","Drill II"],
+		"uniques": ["[+15]% Strength <vs [Wounded] units>",
+					"Unavailable <for units without [Tier I]>"],
+		"unitTypes": ["Siege","Archery","Ranged Gunpowder","Sword","Gunpowder","Mounted","Armored"]
 	},
 
-	// Melee, Mounted+Armor
-	{
-		"name": "Charge",
-		"prerequisites": ["Shock II","Drill II"],
-		"uniques": ["[+33]% Strength <vs [Wounded] units>",
-					"Will not be displayed in Civilopedia"],
-		//"unitTypes": ["Mounted","Armored"],
-	},
-	{
-		"name": "Blitz",
-		"prerequisites": ["Shock III","Drill III"],
-		"uniques": ["[1] additional attacks per turn",
-					"Will not be displayed in Civilopedia"],
-		//"unitTypes": ["Sword","Gunpowder","Mounted","Armored"],
-	},
+
+
+
+
+
+
+	
 	{
 		"name": "Woodsman",
 		"prerequisites": ["Shock III","Drill III"],
@@ -1142,5 +1197,36 @@
 		"uniques": ["[+50]% Strength <vs cities>",
 					"Will not be displayed in Civilopedia"]
 		//"unitTypes": ["Sword","Gunpowder"],
+	},
+		// Ranged+Siege
+	{
+		"name": "Extended Range",
+		"prerequisites": ["Accuracy III","Barrage III","Targeting II","Bombardment II", "Wolfpack II"],
+		"uniques": ["[+1] Range",
+					"Will not be displayed in Civilopedia"],
+		//"unitTypes": ["Archery","Ranged Gunpowder","Siege","Ranged Water","Submarine"],
+	},
+	{
+		"name": "Indirect Fire",
+		"prerequisites": ["Accuracy III", "Barrage III", "Bombardment II", "Targeting II"],
+		"uniques": ["Ranged attacks may be performed over obstacles",
+					"Will not be displayed in Civilopedia"],
+		//"unitTypes": ["Archery","Ranged Gunpowder","Siege","Ranged Water"],
+	},
+
+	// Melee, Mounted+Armor
+	{
+		"name": "Charge",
+		"prerequisites": ["Shock II","Drill II"],
+		"uniques": ["[+33]% Strength <vs [Wounded] units>",
+					"Will not be displayed in Civilopedia"],
+		//"unitTypes": ["Mounted","Armored"],
+	},
+	{
+		"name": "Blitz",
+		"prerequisites": ["Shock III","Drill III"],
+		"uniques": ["[1] additional attacks per turn",
+					"Will not be displayed in Civilopedia"],
+		//"unitTypes": ["Sword","Gunpowder","Mounted","Armored"],
 	},
 ]
