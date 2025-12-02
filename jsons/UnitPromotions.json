@@ -536,6 +536,13 @@
 		"unitTypes": ["Siege","Archery","Ranged Gunpowder","Sword","Gunpowder","Mounted","Armored"]
 	},
 	{
+		"name": "(T3) Tree Walker",
+		"uniques": ["Double movement in [Forest]",
+					"Double movement in [Jungle]",
+					"Unavailable <for units without [Tier III]>"],
+		"unitTypes": ["Siege","Archery","Ranged Gunpowder","Sword","Gunpowder","Mounted","Armored"]
+	},
+	{
 		"name": "(T2) Obstical Training",
 		"uniques": ["Ranged attacks may be performed over obstacles",
 					"Unavailable <for units without [Tier II]>"],
@@ -543,9 +550,23 @@
 	},
 	{
 		"name": "(T1) Bleader",
-		"prerequisites": ["Shock II","Drill II"],
 		"uniques": ["[+15]% Strength <vs [Wounded] units>",
 					"Unavailable <for units without [Tier I]>"],
+		"unitTypes": ["Siege","Archery","Ranged Gunpowder","Sword","Gunpowder","Mounted","Armored"]
+	},
+	{
+		"name": "(T1) Healer",
+		"uniques": ["All adjacent units heal [+5] HP when healing", 
+					"[-50]% weight to this choice for AI decisions",
+					"Unavailable <for units without [Tier I]>"],
+		"unitTypes": ["Siege","Archery","Ranged Gunpowder","Sword","Gunpowder","Mounted","Armored"]
+	},
+	{
+		"name": "Healer II",
+		"prerequisites": ["(T1) Healer"],
+		"uniques": ["[+5] HP when healing <in [Foreign Land] tiles>", 
+					"All adjacent units heal [+5] HP when healing",
+					"Will not be displayed in Civilopedia"],
 		"unitTypes": ["Siege","Archery","Ranged Gunpowder","Sword","Gunpowder","Mounted","Armored"]
 	},
 
@@ -553,33 +574,6 @@
 
 
 
-
-
-	
-	{
-		"name": "Woodsman",
-		"prerequisites": ["Shock III","Drill III"],
-		"uniques": ["Double movement in [Forest]",
-					"Double movement in [Jungle]",
-					"Will not be displayed in Civilopedia"],
-		//"unitTypes": ["Sword","Gunpowder"],
-	},
-	{
-		"name": "Medic",
-		"prerequisites": ["Shock I", "Drill I", "Scouting II", "Survivalism II"],
-		"uniques": ["All adjacent units heal [+5] HP when healing", 
-					"[-50]% weight to this choice for AI decisions",
-					"Will not be displayed in Civilopedia"],
-		//"unitTypes": ["Sword","Gunpowder","Mounted","Scout"],
-	},
-	{
-		"name": "Medic II",
-		"prerequisites": ["Medic"],
-		"uniques": ["[+5] HP when healing <in [Foreign Land] tiles>", 
-					"All adjacent units heal [+5] HP when healing",
-					"Will not be displayed in Civilopedia"],
-		//"unitTypes": ["Sword","Gunpowder","Mounted","Scout"],
-	},
 
 
 
@@ -1228,5 +1222,29 @@
 		"uniques": ["[1] additional attacks per turn",
 					"Will not be displayed in Civilopedia"],
 		//"unitTypes": ["Sword","Gunpowder","Mounted","Armored"],
+	},
+	{
+		"name": "Woodsman",
+		"prerequisites": ["Shock III","Drill III"],
+		"uniques": ["Double movement in [Forest]",
+					"Double movement in [Jungle]",
+					"Will not be displayed in Civilopedia"],
+		//"unitTypes": ["Sword","Gunpowder"],
+	},
+	{
+		"name": "Medic",
+		"prerequisites": ["Shock I", "Drill I", "Scouting II", "Survivalism II"],
+		"uniques": ["All adjacent units heal [+5] HP when healing", 
+					"[-50]% weight to this choice for AI decisions",
+					"Will not be displayed in Civilopedia"],
+		//"unitTypes": ["Sword","Gunpowder","Mounted","Scout"],
+	},
+	{
+		"name": "Medic II",
+		"prerequisites": ["Medic"],
+		"uniques": ["[+5] HP when healing <in [Foreign Land] tiles>", 
+					"All adjacent units heal [+5] HP when healing",
+					"Will not be displayed in Civilopedia"],
+		//"unitTypes": ["Sword","Gunpowder","Mounted","Scout"],
 	},
 ]
