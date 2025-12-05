@@ -326,51 +326,26 @@
 
 	{
 		"name": "(C) Aquatic I",
-		"uniques": ["[+10]% Strength <vs [Water] units> <when attacking>",
+		"uniques": ["[+10]% Strength <vs [Water] units>",
+					"[+20]% Strength <when defending> <when [Embarked]>",
 					"Eliminates combat penalty for attacking over a river", 
 					"Eliminates combat penalty for attacking across a coast",
 					"[This Unit] gains the [Tier I] promotion",
-					"[-90]% weight to this choice for AI decisions",
-					"Unavailable <for units with [(C) Sea Barrier I]>"],
+					"[-90]% weight to this choice for AI decisions"],
 		"unitTypes": ["Sword","Gunpowder","Archery","Ranged Gunpowder","Mounted", "Armored", "Siege"]
     },
 	{
 		"name": "Aquatic II",
 		"prerequisites": ["(C) Aquatic I"],
-		"uniques": ["[+10]% Strength <vs [Water] units> <when attacking>",
+		"uniques": ["[+10]% Strength <vs [Water] units>",
+					"[+20]% Strength <when defending> <when [Embarked]>",
 					"[This Unit] gains the [Tier II] promotion"],
 		"unitTypes": ["Sword","Gunpowder","Archery","Ranged Gunpowder","Mounted", "Armored", "Siege"]
     },
 	{
 		"name": "Aquatic III",
 		"prerequisites": ["Aquatic II"],
-		"uniques": ["[+10]% Strength <vs [Water] units> <when attacking>",
-					"[This Unit] gains the [Tier III] promotion"],
-		"unitTypes": ["Sword","Gunpowder","Archery","Ranged Gunpowder","Mounted", "Armored", "Siege"]
-    },
-
-
-	{
-		"name": "(C) Sea Barrier I",
-		"uniques": ["[+10]% Strength <vs [Water] units> <when defending>",
-					"[+20]% Strength <when defending> <when [Embarked]>",
-					"[This Unit] gains the [Tier I] promotion",
-					"[-90]% weight to this choice for AI decisions",
-					"Unavailable <for units with [(C) Aquatic I]>"],
-		"unitTypes": ["Sword","Gunpowder","Archery","Ranged Gunpowder","Mounted", "Armored", "Siege"]
-    },
-	{
-		"name": "Sea Barrier II",
-		"prerequisites": ["(C) Sea Barrier I"],
-		"uniques": ["[+10]% Strength <vs [Water] units> <when defending>",
-					"[+20]% Strength <when defending> <when [Embarked]>",
-					"[This Unit] gains the [Tier II] promotion"],
-		"unitTypes": ["Sword","Gunpowder","Archery","Ranged Gunpowder","Mounted", "Armored", "Siege"]
-    },
-	{
-		"name": "Sea Barrier III",
-		"prerequisites": ["Sea Barrier II"],
-		"uniques": ["[+10]% Strength <vs [Water] units> <when defending>",
+		"uniques": ["[+10]% Strength <vs [Water] units>",
 					"[+20]% Strength <when defending> <when [Embarked]>",
 					"[This Unit] gains the [Tier III] promotion"],
 		"unitTypes": ["Sword","Gunpowder","Archery","Ranged Gunpowder","Mounted", "Armored", "Siege"]
@@ -466,7 +441,7 @@
 		"unitTypes": ["Siege","Archery","Ranged Gunpowder","Sword","Gunpowder","Mounted","Armored"]
     },
 	{
-		"name": "Grand Pillager",
+		"name": "Great Pillager",
         "prerequisites": ["Pillager III"],
 		"uniques": ["[+25]% Health from pillaging tiles", 
 					"[+25]% Yield from pillaging tiles",
