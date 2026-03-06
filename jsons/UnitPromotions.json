@@ -2,7 +2,8 @@
     //Special
 	{
 		"name": "Heal Instantly",
-		"uniques": ["[This Unit] heals [50] HP", "Doing so will consume this opportunity to choose a Promotion"],
+		"uniques": ["[This Unit] heals [50] HP", 
+					"Doing so will consume this opportunity to choose a Promotion"],
 		"unitTypes": ["Sword","Gunpowder","Mounted","Scout","Siege","Archery","Ranged Gunpowder","Armored","Melee Water","Ranged Water","Submarine","Magic User","Herbalist"],
 		"innerColor": [195,53,43],
 		"outerColor": [253,236,234],
@@ -125,26 +126,26 @@
 		"name": "Tier I",
 		"uniques": ["Comment [Unlocks Tier I promotions]",
 					"Not shown on world screen", 
-					"[5]% XP gained from combat"]
+					"[10]% XP gained from combat"]
     },
 	{
 		"name": "Tier II",
 		"uniques": ["Comment [Unlocks Tier II promotions]",
 					"Not shown on world screen", 
-					"[5]% XP gained from combat"]
+					"[10]% XP gained from combat"]
     },
 	{
 		"name": "Tier III",
 		"uniques": ["Comment [Unlocks Tier III promotions]",
 					"Not shown on world screen", 
-					"[5]% XP gained from combat"]
+					"[10]% XP gained from combat"]
     },
 	{
 		"name": "Expertise",
 		"uniques": ["Comment [A troop may only have 1 Expertise promotion]",
 					"Comment [Creating a expert unit requires 10 [Blood God Favor]]",
 					"Not shown on world screen", 
-					"[5]% XP gained from combat"
+					"[10]% XP gained from combat"
 					]
     },
 
@@ -195,10 +196,13 @@
 		"uniques": ["[+20]% Strength <when fighting in [Snow] tiles>",
                     "[+5]% Strength <when fighting in [Tundra] tiles>",
                     "Only available <in [Snow] tiles>",
+
+
                     "[-90]% weight to this choice for AI decisions",
 					"[This Unit] gains the [Tier I] promotion",
+					"Comment [A [Tier I] promotion]",
 					"Unavailable <for units with [(A) Heatwave I]>"],
-		"unitTypes": ["Sword","Gunpowder","Archery","Ranged Gunpowder","Mounted", "Armored", "Siege"]
+		"unitTypes": ["Sword","Gunpowder","Archery","Ranged Gunpowder","Mounted", "Armored", "Siege", "Magic User"]
     },
 	{
 		"name": "Frostborn II",
@@ -206,8 +210,10 @@
 		"uniques": ["[+20]% Strength <when fighting in [Snow] tiles>",
                     "[+5]% Strength <when fighting in [Tundra] tiles>",
                     "Only available <in [Snow] tiles>",
-					"[This Unit] gains the [Tier II] promotion"],
-		"unitTypes": ["Sword","Gunpowder","Archery","Ranged Gunpowder","Mounted", "Armored", "Siege"]
+
+					"[This Unit] gains the [Tier II] promotion",
+					"Comment [A [Tier II] promotion]"],
+		"unitTypes": ["Sword","Gunpowder","Archery","Ranged Gunpowder","Mounted", "Armored", "Siege", "Magic User"]
     },
 	{
 		"name": "Frostborn III",
@@ -215,8 +221,9 @@
 		"uniques": ["[+20]% Strength <when fighting in [Snow] tiles>",
                     "[+5]% Strength <when fighting in [Tundra] tiles>",
                     "Only available <in [Snow] tiles>",
-					"[This Unit] gains the [Tier III] promotion"],
-		"unitTypes": ["Sword","Gunpowder","Archery","Ranged Gunpowder","Mounted", "Armored", "Siege"]
+					"[This Unit] gains the [Tier III] promotion",
+					"Comment [A [Tier III] promotion]"],
+		"unitTypes": ["Sword","Gunpowder","Archery","Ranged Gunpowder","Mounted", "Armored", "Siege", "Magic User"]
     },
 	{
 		"name": "Age Of Frost",
@@ -232,7 +239,7 @@
 					"Unavailable <when below [10] [Blood God Favor]> <hidden from users>",
 					"Costs [10] [Blood God Favor] <hidden from users>"
 					],
-		"unitTypes": ["Sword","Gunpowder","Archery","Ranged Gunpowder","Mounted", "Armored", "Siege"]
+		"unitTypes": ["Sword","Gunpowder","Archery","Ranged Gunpowder","Mounted", "Armored", "Siege", "Magic User"]
     },
 
 
@@ -240,26 +247,31 @@
 		"name": "(A) Heatwave I",
 		"uniques": ["[+20]% Strength <when fighting in [Desert] tiles>",
                     "Only available <in [Desert] tiles>",
+
                     "[-90]% weight to this choice for AI decisions",
 					"[This Unit] gains the [Tier I] promotion",
+					"Comment [A [Tier I] promotion]",
 					"Unavailable <for units with [(A) Frostborn I]>"],
-		"unitTypes": ["Sword","Gunpowder","Archery","Ranged Gunpowder","Mounted", "Armored", "Siege"]
+		"unitTypes": ["Sword","Gunpowder","Archery","Ranged Gunpowder","Mounted", "Armored", "Siege", "Magic User"]
     },
     {
 		"name": "Heatwave II",
 		"prerequisites": ["(A) Heatwave I"],
 		"uniques": ["[+20]% Strength <when fighting in [Desert] tiles>",
                     "Only available <in [Desert] tiles>",
-					"[This Unit] gains the [Tier II] promotion"],
-		"unitTypes": ["Sword","Gunpowder","Archery","Ranged Gunpowder","Mounted", "Armored", "Siege"]
+
+					"[This Unit] gains the [Tier II] promotion",
+					"Comment [A [Tier II] promotion]"],
+		"unitTypes": ["Sword","Gunpowder","Archery","Ranged Gunpowder","Mounted", "Armored", "Siege", "Magic User"]
     },
     {
 		"name": "Heatwave III",
 		"prerequisites": ["Heatwave II"],
 		"uniques": ["[+20]% Strength <when fighting in [Desert] tiles>",
                     "Only available <in [Desert] tiles>",
-					"[This Unit] gains the [Tier III] promotion"],
-		"unitTypes": ["Sword","Gunpowder","Archery","Ranged Gunpowder","Mounted", "Armored", "Siege"]
+					"[This Unit] gains the [Tier III] promotion",
+					"Comment [A [Tier III] promotion]"],
+		"unitTypes": ["Sword","Gunpowder","Archery","Ranged Gunpowder","Mounted", "Armored", "Siege", "Magic User"]
     },
 	{
 		"name": "Solar Flare",
@@ -274,7 +286,7 @@
 					"Unavailable <when below [10] [Blood God Favor]> <hidden from users>",
 					"Costs [10] [Blood God Favor] <hidden from users>"
 					],
-		"unitTypes": ["Sword","Gunpowder","Archery","Ranged Gunpowder","Mounted", "Armored", "Siege"]
+		"unitTypes": ["Sword","Gunpowder","Archery","Ranged Gunpowder","Mounted", "Armored", "Siege", "Magic User"]
     },
 
 
@@ -282,22 +294,25 @@
 		"name": "(B) Free Fighter I",
 		"uniques": ["[+5]% Strength <when fighting in [Open terrain] tiles> <when attacking>", 
 					"[This Unit] gains the [Tier I] promotion",
+					"Comment [A [Tier I] promotion]",
 					"Unavailable <for units with [(B) Rough Fighter I]>"],
-		"unitTypes": ["Sword","Gunpowder","Archery","Ranged Gunpowder","Mounted", "Armored", "Siege"]
+		"unitTypes": ["Sword","Gunpowder","Archery","Ranged Gunpowder","Mounted", "Armored", "Siege", "Magic User"]
     },
 	{
 		"name": "Free Fighter II",
 		"prerequisites": ["(B) Free Fighter I"],
 		"uniques": ["[+5]% Strength <when fighting in [Open terrain] tiles> <when attacking>",
-					"[This Unit] gains the [Tier II] promotion"],
-		"unitTypes": ["Sword","Gunpowder","Archery","Ranged Gunpowder","Mounted", "Armored", "Siege"]
+					"[This Unit] gains the [Tier II] promotion",
+					"Comment [A [Tier II] promotion]"],
+		"unitTypes": ["Sword","Gunpowder","Archery","Ranged Gunpowder","Mounted", "Armored", "Siege", "Magic User"]
     },
 	{
 		"name": "Free Fighter III", 
 		"prerequisites": ["Free Fighter II"],
 		"uniques": ["[+5]% Strength <when fighting in [Open terrain] tiles> <when attacking>",
-					"[This Unit] gains the [Tier III] promotion"],
-		"unitTypes": ["Sword","Gunpowder","Archery","Ranged Gunpowder","Mounted", "Armored", "Siege"]
+					"[This Unit] gains the [Tier III] promotion",
+					"Comment [A [Tier III] promotion]"],
+		"unitTypes": ["Sword","Gunpowder","Archery","Ranged Gunpowder","Mounted", "Armored", "Siege", "Magic User"]
     },
 
 
@@ -305,22 +320,25 @@
 		"name": "(B) Rough Fighter I",
 		"uniques": ["[+5]% Strength <when fighting in [Rough terrain] tiles> <when attacking>", 
 					"[This Unit] gains the [Tier I] promotion",
+					"Comment [A [Tier I] promotion]",
 					"Unavailable <for units with [(B) Free Fighter I]>"],
-		"unitTypes": ["Sword","Gunpowder","Archery","Ranged Gunpowder","Mounted", "Armored", "Siege"]
+		"unitTypes": ["Sword","Gunpowder","Archery","Ranged Gunpowder","Mounted", "Armored", "Siege", "Magic User"]
     },
 	{
 		"name": "Rough Fighter II",
 		"prerequisites": ["(B) Rough Fighter I"],
 		"uniques": ["[+5]% Strength <when fighting in [Rough terrain] tiles> <when attacking>",
-					"[This Unit] gains the [Tier II] promotion"],
-		"unitTypes": ["Sword","Gunpowder","Archery","Ranged Gunpowder","Mounted", "Armored", "Siege"]
+					"[This Unit] gains the [Tier II] promotion",
+					"Comment [A [Tier II] promotion]"],
+		"unitTypes": ["Sword","Gunpowder","Archery","Ranged Gunpowder","Mounted", "Armored", "Siege", "Magic User"]
     },
 	{
 		"name": "Rough Fighter III",
 		"prerequisites": ["Rough Fighter II"],
 		"uniques": ["[+5]% Strength <when fighting in [Rough terrain] tiles> <when attacking>",
-					"[This Unit] gains the [Tier III] promotion"],
-		"unitTypes": ["Sword","Gunpowder","Archery","Ranged Gunpowder","Mounted", "Armored", "Siege"]
+					"[This Unit] gains the [Tier III] promotion",
+					"Comment [A [Tier III] promotion]"],
+		"unitTypes": ["Sword","Gunpowder","Archery","Ranged Gunpowder","Mounted", "Armored", "Siege", "Magic User"]
     },
 
 
@@ -331,24 +349,27 @@
 					"Eliminates combat penalty for attacking over a river", 
 					"Eliminates combat penalty for attacking across a coast",
 					"[This Unit] gains the [Tier I] promotion",
+					"Comment [A [Tier I] promotion]",
 					"[-90]% weight to this choice for AI decisions"],
-		"unitTypes": ["Sword","Gunpowder","Archery","Ranged Gunpowder","Mounted", "Armored", "Siege"]
+		"unitTypes": ["Sword","Gunpowder","Archery","Ranged Gunpowder","Mounted", "Armored", "Siege", "Magic User"]
     },
 	{
 		"name": "Aquatic II",
 		"prerequisites": ["(C) Aquatic I"],
 		"uniques": ["[+10]% Strength <vs [Water] units>",
 					"[+20]% Strength <when defending> <when [Embarked]>",
-					"[This Unit] gains the [Tier II] promotion"],
-		"unitTypes": ["Sword","Gunpowder","Archery","Ranged Gunpowder","Mounted", "Armored", "Siege"]
+					"[This Unit] gains the [Tier II] promotion",
+					"Comment [A [Tier II] promotion]"],
+		"unitTypes": ["Sword","Gunpowder","Archery","Ranged Gunpowder","Mounted", "Armored", "Siege", "Magic User"]
     },
 	{
 		"name": "Aquatic III",
 		"prerequisites": ["Aquatic II"],
 		"uniques": ["[+10]% Strength <vs [Water] units>",
 					"[+20]% Strength <when defending> <when [Embarked]>",
-					"[This Unit] gains the [Tier III] promotion"],
-		"unitTypes": ["Sword","Gunpowder","Archery","Ranged Gunpowder","Mounted", "Armored", "Siege"]
+					"[This Unit] gains the [Tier III] promotion",
+					"Comment [A [Tier III] promotion]"],
+		"unitTypes": ["Sword","Gunpowder","Archery","Ranged Gunpowder","Mounted", "Armored", "Siege", "Magic User"]
     },
 
 
@@ -356,23 +377,26 @@
 		"name": "(D) Dismounter I",
 		"uniques": ["[+10]% Strength <vs [Mounted] units>",
 					"[This Unit] gains the [Tier I] promotion",
+					"Comment [A [Tier I] promotion]",
 					"[-50]% weight to this choice for AI decisions",
 					"Unavailable <for units with [(D) Armor Piercing I]>"],
-		"unitTypes": ["Sword","Gunpowder","Archery","Ranged Gunpowder","Mounted", "Armored", "Siege"]
+		"unitTypes": ["Sword","Gunpowder","Archery","Ranged Gunpowder","Mounted", "Armored", "Siege", "Magic User"]
     },
 	{
 		"name": "Dismounter II",
 		"prerequisites": ["(D) Dismounter I"],
 		"uniques": ["[+10]% Strength <vs [Mounted] units>",
-					"[This Unit] gains the [Tier II] promotion"],
-		"unitTypes": ["Sword","Gunpowder","Archery","Ranged Gunpowder","Mounted", "Armored", "Siege"]
+					"[This Unit] gains the [Tier II] promotion",
+					"Comment [A [Tier II] promotion]"],
+		"unitTypes": ["Sword","Gunpowder","Archery","Ranged Gunpowder","Mounted", "Armored", "Siege", "Magic User"]
     },
 	{
 		"name": "Dismounter III",
 		"prerequisites": ["Dismounter II"],
 		"uniques": ["[+10]% Strength <vs [Mounted] units>",
-					"[This Unit] gains the [Tier III] promotion"],
-		"unitTypes": ["Sword","Gunpowder","Archery","Ranged Gunpowder","Mounted", "Armored", "Siege"]
+					"[This Unit] gains the [Tier III] promotion",
+					"Comment [A [Tier III] promotion]"],
+		"unitTypes": ["Sword","Gunpowder","Archery","Ranged Gunpowder","Mounted", "Armored", "Siege", "Magic User"]
     },
 	{
 		"name": "Mount Chainer",
@@ -386,7 +410,7 @@
 					"Unavailable <when below [10] [Blood God Favor]> <hidden from users>",
 					"Costs [10] [Blood God Favor] <hidden from users>"
 					],
-		"unitTypes": ["Sword","Gunpowder","Archery","Ranged Gunpowder","Mounted", "Armored", "Siege"]
+		"unitTypes": ["Sword","Gunpowder","Archery","Ranged Gunpowder","Mounted", "Armored", "Siege", "Magic User"]
     },
 
 
@@ -394,23 +418,26 @@
 		"name": "(D) Armor Piercing I",
 		"uniques": ["[+10]% Strength <vs [Armored] units>",
 					"[This Unit] gains the [Tier I] promotion",
+					"Comment [A [Tier I] promotion]",
 					"[-50]% weight to this choice for AI decisions",
 					"Unavailable <for units with [(D) Dismounter I]>"],
-		"unitTypes": ["Sword","Gunpowder","Archery","Ranged Gunpowder","Mounted", "Armored", "Siege"]
+		"unitTypes": ["Sword","Gunpowder","Archery","Ranged Gunpowder","Mounted", "Armored", "Siege", "Magic User"]
     },
 	{
 		"name": "Armor Piercing II",
 		"prerequisites": ["(D) Armor Piercing I"],
 		"uniques": ["[+10]% Strength <vs [Armored] units>",
-					"[This Unit] gains the [Tier II] promotion"],
-		"unitTypes": ["Sword","Gunpowder","Archery","Ranged Gunpowder","Mounted", "Armored", "Siege"]
+					"[This Unit] gains the [Tier II] promotion",
+					"Comment [A [Tier II] promotion]"],
+		"unitTypes": ["Sword","Gunpowder","Archery","Ranged Gunpowder","Mounted", "Armored", "Siege", "Magic User"]
     },
 	{
 		"name": "Armor Piercing III",
 		"prerequisites": ["Armor Piercing II"],
 		"uniques": ["[+10]% Strength <vs [Armored] units>",
-					"[This Unit] gains the [Tier III] promotion"],
-		"unitTypes": ["Sword","Gunpowder","Archery","Ranged Gunpowder","Mounted", "Armored", "Siege"]
+					"[This Unit] gains the [Tier III] promotion",
+					"Comment [A [Tier III] promotion]"],
+		"unitTypes": ["Sword","Gunpowder","Archery","Ranged Gunpowder","Mounted", "Armored", "Siege", "Magic User"]
     },
 
 
@@ -420,25 +447,28 @@
 					"[+25]% Yield from pillaging tiles",
 					"No movement cost to pillage",
 					"[This Unit] gains the [Tier I] promotion",
+					"Comment [A [Tier I] promotion]",
 					"[-75]% weight to this choice for AI decisions",
 					"Unavailable <for units with [(E) City Breaker I]>"],
-		"unitTypes": ["Siege","Archery","Ranged Gunpowder","Sword","Gunpowder","Mounted","Armored"]
+		"unitTypes": ["Siege","Archery","Ranged Gunpowder","Sword","Gunpowder","Mounted","Armored", "Magic User"]
     },
     {
 		"name": "Pillager II",
         "prerequisites": ["(E) Pillager I"],
 		"uniques": ["[+25]% Health from pillaging tiles", 
 					"[+25]% Yield from pillaging tiles",
-					"[This Unit] gains the [Tier II] promotion"],
-		"unitTypes": ["Siege","Archery","Ranged Gunpowder","Sword","Gunpowder","Mounted","Armored"]
+					"[This Unit] gains the [Tier II] promotion",
+					"Comment [A [Tier II] promotion]"],
+		"unitTypes": ["Siege","Archery","Ranged Gunpowder","Sword","Gunpowder","Mounted","Armored", "Magic User"]
     },
     {
 		"name": "Pillager III",
         "prerequisites": ["Pillager II"],
 		"uniques": ["[+25]% Health from pillaging tiles", 
 					"[+25]% Yield from pillaging tiles",
-					"[This Unit] gains the [Tier III] promotion"],
-		"unitTypes": ["Siege","Archery","Ranged Gunpowder","Sword","Gunpowder","Mounted","Armored"]
+					"[This Unit] gains the [Tier III] promotion",
+					"Comment [A [Tier III] promotion]"],
+		"unitTypes": ["Siege","Archery","Ranged Gunpowder","Sword","Gunpowder","Mounted","Armored", "Magic User"]
     },
 	{
 		"name": "Great Pillager",
@@ -453,7 +483,7 @@
 					"Unavailable <when below [10] [Blood God Favor]> <hidden from users>",
 					"Costs [10] [Blood God Favor] <hidden from users>"
 					],
-		"unitTypes": ["Siege","Archery","Ranged Gunpowder","Sword","Gunpowder","Mounted","Armored"]
+		"unitTypes": ["Siege","Archery","Ranged Gunpowder","Sword","Gunpowder","Mounted","Armored", "Magic User"]
     },
 
 
@@ -462,22 +492,25 @@
 		"uniques": ["[+10]% Strength <vs cities>",
 					"[-20]% weight to this choice for AI decisions",
 					"[This Unit] gains the [Tier I] promotion",
+					"Comment [A [Tier I] promotion]",
 					"Unavailable <for units with [(E) Pillager I]>"],
-		"unitTypes": ["Siege","Archery","Ranged Gunpowder","Sword","Gunpowder","Mounted","Armored"]
+		"unitTypes": ["Siege","Archery","Ranged Gunpowder","Sword","Gunpowder","Mounted","Armored", "Magic User"]
     },
     {
 		"name": "City Breaker II",
         "prerequisites": ["(E) City Breaker I"],
 		"uniques": ["[+10]% Strength <vs cities>",
-					"[This Unit] gains the [Tier I] promotion"],
-		"unitTypes": ["Siege","Archery","Ranged Gunpowder","Sword","Gunpowder","Mounted","Armored"]
+					"[This Unit] gains the [Tier I] promotion",
+					"Comment [A [Tier II] promotion]"],
+		"unitTypes": ["Siege","Archery","Ranged Gunpowder","Sword","Gunpowder","Mounted","Armored", "Magic User"]
     },
     {
 		"name": "City Breaker III",
         "prerequisites": ["City Breaker II"],
 		"uniques": ["[+10]% Strength <vs cities>",
-					"[This Unit] gains the [Tier III] promotion"],
-		"unitTypes": ["Siege","Archery","Ranged Gunpowder","Sword","Gunpowder","Mounted","Armored"]
+					"[This Unit] gains the [Tier III] promotion",
+					"Comment [A [Tier III] promotion]"],
+		"unitTypes": ["Siege","Archery","Ranged Gunpowder","Sword","Gunpowder","Mounted","Armored", "Magic User"]
     },
 	{
 		"name": "Grand Seige",
@@ -491,7 +524,7 @@
 					"Unavailable <when below [10] [Blood God Favor]> <hidden from users>",
 					"Costs [10] [Blood God Favor] <hidden from users>"
 					],
-		"unitTypes": ["Siege","Archery","Ranged Gunpowder","Sword","Gunpowder","Mounted","Armored"]
+		"unitTypes": ["Siege","Archery","Ranged Gunpowder","Sword","Gunpowder","Mounted","Armored", "Magic User"]
     },
 
 
@@ -503,21 +536,21 @@
 		"name": "(T2) Fear Mongering I",
 		"uniques": ["[-10]% Strength for enemy [Military] units in adjacent [All] tiles",
 					"Unavailable <for units without [Tier II]>"],
-		"unitTypes": ["Siege","Archery","Ranged Gunpowder","Sword","Gunpowder","Mounted","Armored"]
+		"unitTypes": ["Siege","Archery","Ranged Gunpowder","Sword","Gunpowder","Mounted","Armored", "Magic User"]
 	},
 	{
 		"name": "(T3) Fear Mongering II",
         "prerequisites": ["(T2) Fear Mongering I"],
 		"uniques": ["[-10]% Strength for enemy [Military] units in adjacent [All] tiles",
 					"Unavailable <for units without [Tier III]>"],
-		"unitTypes": ["Siege","Archery","Ranged Gunpowder","Sword","Gunpowder","Mounted","Armored"]
+		"unitTypes": ["Siege","Archery","Ranged Gunpowder","Sword","Gunpowder","Mounted","Armored", "Magic User"]
 	},
 	{
 		"name": "(T1) Healer",
 		"uniques": ["All adjacent units heal [+5] HP when healing", 
 					"[-50]% weight to this choice for AI decisions",
 					"Unavailable <for units without [Tier I]>"],
-		"unitTypes": ["Siege","Archery","Ranged Gunpowder","Sword","Gunpowder","Mounted","Armored"]
+		"unitTypes": ["Siege","Archery","Ranged Gunpowder","Sword","Gunpowder","Mounted","Armored", "Magic User"]
 	},
 	{
 		"name": "(T2) Healer II",
@@ -525,7 +558,7 @@
 		"uniques": ["[+5] HP when healing <in [Foreign Land] tiles>", 
 					"All adjacent units heal [+5] HP when healing",
 					"Unavailable <for units without [Tier II]>"],
-		"unitTypes": ["Siege","Archery","Ranged Gunpowder","Sword","Gunpowder","Mounted","Armored"]
+		"unitTypes": ["Siege","Archery","Ranged Gunpowder","Sword","Gunpowder","Mounted","Armored", "Magic User"]
 	},
 
 
@@ -537,20 +570,20 @@
 		"name": "(T3) Great Range",
 		"uniques": ["[+1] Range",
 					"Unavailable <for units without [Tier III]>"],
-		"unitTypes": ["Siege","Archery","Ranged Gunpowder","Sword","Gunpowder","Mounted","Armored"]
+		"unitTypes": ["Siege","Archery","Ranged Gunpowder","Sword","Gunpowder","Mounted","Armored", "Magic User"]
 	},
 	{
 		"name": "(T3) Blitz",
 		"uniques": ["[1] additional attacks per turn",
 					"Unavailable <for units without [Tier III]>"],
-		"unitTypes": ["Siege","Archery","Ranged Gunpowder","Sword","Gunpowder","Mounted","Armored"]
+		"unitTypes": ["Siege","Archery","Ranged Gunpowder","Sword","Gunpowder","Mounted","Armored", "Magic User"]
 	},
 	{
 		"name": "(T3) Tree Walker",
 		"uniques": ["Double movement in [Forest]",
 					"Double movement in [Jungle]",
 					"Unavailable <for units without [Tier III]>"],
-		"unitTypes": ["Siege","Archery","Ranged Gunpowder","Sword","Gunpowder","Mounted","Armored"]
+		"unitTypes": ["Siege","Archery","Ranged Gunpowder","Sword","Gunpowder","Mounted","Armored", "Magic User"]
 	},	
 
 
@@ -558,7 +591,7 @@
 		"name": "(T2) Obstical Training",
 		"uniques": ["Ranged attacks may be performed over obstacles",
 					"Unavailable <for units without [Tier II]>"],
-		"unitTypes": ["Siege","Archery","Ranged Gunpowder","Sword","Gunpowder","Mounted","Armored"]
+		"unitTypes": ["Siege","Archery","Ranged Gunpowder","Sword","Gunpowder","Mounted","Armored", "Magic User"]
 	},
 
 
@@ -566,7 +599,7 @@
 		"name": "(T1) Bleader",
 		"uniques": ["[+15]% Strength <vs [Wounded] units>",
 					"Unavailable <for units without [Tier I]>"],
-		"unitTypes": ["Siege","Archery","Ranged Gunpowder","Sword","Gunpowder","Mounted","Armored"]
+		"unitTypes": ["Siege","Archery","Ranged Gunpowder","Sword","Gunpowder","Mounted","Armored", "Magic User"]
 	},
 
 

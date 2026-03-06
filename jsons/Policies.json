@@ -76,14 +76,14 @@
             "Scientific": 3
         },
         "uniques": [
-            "[+10]% [Culture]",
             "Free Social Policy"
         ],
         "policies": [
             {
                 "name": "Adimantite",
                 "uniques": [
-                    "Only available <after adopting [Rationalism Complete]> <after adopting [Honor Complete]>"
+                    "Only available <after adopting [Rationalism Complete]> <after adopting [Honor Complete]>",
+                    "Free Social Policy"
                 ],
                 "row":1,
                 "column":1
