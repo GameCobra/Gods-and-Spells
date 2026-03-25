@@ -54,8 +54,9 @@
     "techs": [
         {
             "name": "Magic",
-            "row": 1,
-            "prerequisites": ["Education"],
+            "row": 11,
+            //"prerequisites": ["Education"],
+            "uniques": ["Only available <after discovering [Education]>"],
             "quote": "We have learned how to extract magic from our world and channel it into our progresion."
         },
         { //Modifing it location
@@ -75,8 +76,15 @@
 		"wonderCost": 625,
         "techs": [
             {
+                "name": "History",
+                "Row": 1,
+                "prerequisites": ["Astronomy"],
+                "uniques": ["[+10]% [Culture]"],
+                "quote": "'If we discover the past we will uncover the future' - Dr. James Pordal"
+            }
+            {
                 "name": "Wind Magic",
-                "row": 1,
+                "row": 11,
                 "prerequisites": ["Magic"],
                 "quote": "Zoom with the power of the wind!"
             },
@@ -97,7 +105,7 @@
 		"techs": [
             {
                 "name": "Alchemy",
-                "row": 1,
+                "row": 11,
                 "prerequisites": ["Wind Magic"],
                 "quote": "'We are entering a new age of creation, we will soon have a potion for everything!' - Tem Noron"
             },
@@ -120,7 +128,7 @@
 		"techs": [
             {
                 "name": "Infernal Rituals",
-                "row": 1,
+                "row": 11,
                 "prerequisites": ["Alchemy"],
                 "quote": "'With fire in out blood, we will become strogner then ever!' - Tue Mack"
             }
