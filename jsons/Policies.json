@@ -66,6 +66,77 @@
         ]
     },
     {
+        "name": "Past",
+        "era": "Renaissance era",
+        "priorities": {
+            "Neutral": 1,
+            "Cultural": 5,
+            "Diplomatic": 2,
+            "Domination": 1,
+            "Scientific": 1
+        },
+        "uniques": [ "Only available <after discovering [History]>",
+                     "[+2 Culture, +1 Gold] from each Trade Route"
+        ],
+        "policies": [
+            {
+                "name": "Cultural Heritage",
+                "uniques": [
+                    "Provides the cheapest [Culture] building in your first [3] cities for free",
+                    "[+20]% [Culture] [in capital]"
+                ],
+                "row":1,
+                "column":1
+            },
+            {
+                "name": "Signs of the Past",
+                "uniques": [
+                    "[+20]% [Culture] from City-States",
+                    "Allied City-States provide [Culture] equal to [+10]% of what they produce for themselves",
+                    "[+10]% Production when constructing [Culture] buildings [in all cities]"
+                ],
+                "row":1,
+                "column":3
+            },
+            {
+                "name": "Great Archives",
+                "uniques": [
+                    "[+25]% Production when constructing [Culture] wonders [in all cities]"
+                ],
+                "row":1,
+                "column":5
+            },
+            {
+                "name": "Never Forget",
+                "uniques": [
+                    "[+30]% of excess happiness converted to [Culture]",
+                    "[Gold] cost of purchasing [Culture] buildings [-25]%"
+                ],
+                "requires": ["Cultural Heritage", "Signs of the Past"],
+                "row":2,
+                "column":2
+            },
+            {
+                "name": "Faith in the Past",
+                "uniques": [
+                    "Enables conversion of city production to [Culture]",
+                    "Production to [Culture] conversion in cities changed by [-50]%",
+                    "[+1 Culture] per every [20] [Faith]"
+                ],
+                "requires": ["Signs of the Past", "Great Archives"],
+                "row":2,
+                "column":4
+            },
+            {
+                "name": "Past Complete",
+                "uniques": [
+                    "[+20]% [Culture] [in all cities]"
+                ]
+            }
+        ]
+    }
+
+    /*{   
         "name": "Joint-Policies",
         "era": "Ancient era",
         "priorities": {
@@ -95,7 +166,7 @@
                 ]
             }
         ]
-    }
+    }*/
 ]
     /*{
         "name": "Secrecy",

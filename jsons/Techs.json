@@ -61,7 +61,7 @@
         },
         { //Modifing it location
             "name": "Astronomy",
-            "row": 3,
+            "row": 2,
             "uniques": ["[+1] Movement <for [Embarked] units>","Enables [Embarked] units to enter ocean tiles","[+50]% weight to this choice for AI decisions"],
             "prerequisites": ["Compass","Education"],
             "quote": "'Joyfully to the breeze royal Odysseus spread his sail, and with his rudder skillfully he steered.' - Homer"
@@ -77,11 +77,11 @@
         "techs": [
             {
                 "name": "History",
-                "Row": 1,
+                "row": 2,
                 "prerequisites": ["Astronomy"],
-                "uniques": ["[+10]% [Culture]"],
+                //"uniques": [""],
                 "quote": "'If we discover the past we will uncover the future' - Dr. James Pordal"
-            }
+            },
             {
                 "name": "Wind Magic",
                 "row": 11,
@@ -112,7 +112,7 @@
             {
 				"name": "Archaeology",
 				"row": 3,
-				"prerequisites": ["Navigation","Architecture"],
+				"prerequisites": ["Navigation","Architecture", "History"],
                 "uniques": ["[+50]% weight to this choice for AI decisions"],
 				"quote": "'Those who cannot remember the past are condemned to repeat it.' - George Santayana"
 			}

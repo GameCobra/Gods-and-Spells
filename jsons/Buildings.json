@@ -77,5 +77,33 @@
 			"[-10]% Food consumption by specialists [in this city]"
 		],
 		"requiredTech": "Herbalism"
+	},
+	{
+		"name": "Archives",
+		"cost": 275,
+		"uniques": [
+			"Destroyed when the city is captured"
+			],
+		"culture": 3,
+		"percentStatBonus": {"culture":25},
+		"hurryCostModifier": 4,
+		"maintenance": 2,
+		"requiredTech": "History"
+	},
+	{
+		"name": "Great Archives",
+		"cost": 650,
+		"uniques": [
+			"Destroyed when the city is captured",
+			"[+1 Culture, +1 Production] per [2] social policies adopted"
+			],
+		"culture": 3,
+		"percentStatBonus": {"culture":33},
+		"maintenance": 2,
+		"requiredResource": "Iron",
+		"requiredTech": "History",
+		"isWonder": true,
+		"quote": "'One may not live in the past or they risk being lost to it, but one may live with the past and be stronger then the present alone' - unknown"
+
 	}
 ]
