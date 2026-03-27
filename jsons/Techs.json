@@ -84,7 +84,7 @@
             },
             {
                 "name": "Wind Magic",
-                "row": 11,
+                "row": 12,
                 "prerequisites": ["Magic"],
                 "quote": "Zoom with the power of the wind!"
             },
@@ -106,7 +106,7 @@
             {
                 "name": "Alchemy",
                 "row": 11,
-                "prerequisites": ["Wind Magic"],
+                "prerequisites": ["Magic"],
                 "quote": "'We are entering a new age of creation, we will soon have a potion for everything!' - Tem Noron"
             },
             {
