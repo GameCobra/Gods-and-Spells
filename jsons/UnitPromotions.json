@@ -34,6 +34,16 @@
         "name": "Sky Isle Promotion",
         "uniques": ["Can move immediately once bought"]
     },
+	{
+		"name": "Brew Temp",
+		"uniques": ["[This Unit] gains the [Brew Buff] status for [15] turn(s)",
+					"[This Unit] loses the [Brew Temp] promotion",
+					"Will not be displayed in Civilopedia"]
+	},
+	{
+		"name": "Brew Buff",
+		"uniques": ["Unit will heal every turn, even if it performs an action"]
+	},
     {
         "name": "Poisoned",
         "uniques": [

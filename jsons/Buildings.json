@@ -40,7 +40,7 @@
 		"hurryCostModifier": 5,
 		"maintenance": 1,
 		"requiredResource": "Iron",
-		"requiredTech": "Alchemy"
+		"requiredTech": "Transmutation"
 	},
 	{
 		"name": "Floating Isle",
@@ -85,7 +85,7 @@
 			"Destroyed when the city is captured"
 			],
 		"culture": 3,
-		"percentStatBonus": {"culture":25},
+		"percentStatBonus": {"culture":20},
 		"hurryCostModifier": 4,
 		"maintenance": 2,
 		"requiredTech": "History"
@@ -104,6 +104,17 @@
 		"requiredTech": "History",
 		"isWonder": true,
 		"quote": "'One may not live in the past or they risk being lost to it, but one may live with the past and be stronger then the present alone' - unknown"
-
+	},
+		{
+		"name": "Brewery",
+		"uniques": [
+			"Limited to [1] per Civilization",
+			"Destroyed when the city is captured",
+			"All newly-trained [All] units [in this city] receive the [Brew Temp] promotion <when above [0] [Mana]> <hidden from users>",
+			"Comment [All newly-trained units in this city receive the [Brew Buff] statis for 15 turns when above 0 [Mana]]"
+			],
+		"hurryCostModifier": 3,
+		"maintenance": 3,
+		"requiredTech": "Alchemy"
 	}
 ]

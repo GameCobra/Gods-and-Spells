@@ -118,8 +118,17 @@
 			}
         ]
     },
+
+            /*
+            {
+                "name": "Infernal Rituals",
+                "row": 11,
+                "prerequisites": ["Alchemy"],
+                "quote": "'With fire in out blood, we will become strogner then ever!' - Tue Mack"
+            }
+            */
+
     {
-    
 		"columnNumber": 10,
 		"era": "Industrial era",
 		"techCost": 2350,
@@ -127,7 +136,7 @@
 		"wonderCost": 900, // Note that this column doesn't actually have any wonders. This just continues the wonderCost = 2.5 * buildingCost pattern from the last few columns.
 		"techs": [
             {
-                "name": "Infernal Rituals",
+                "name": "Transmutation",
                 "row": 11,
                 "prerequisites": ["Alchemy"],
                 "quote": "'With fire in out blood, we will become strogner then ever!' - Tue Mack"
