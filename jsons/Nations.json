@@ -25,7 +25,49 @@
 		"cities": ["Magdoor","dormer","tackon","magis","mitermen","scifen","heelth","morfel","forgon","ifen","sen-nar",
 "enerlesh","coldkeep","LAB","expiriment efri","Magon","wiznor","wickness","Gilnet"]
 	},
+
 	{
+		"name": "The Holy Toren Church",
+		"leaderName": "Mighty Toren",
+		"startBias": ["Hill", "Plains"],
+		"preferredVictoryType": "Diplomatic",
+		"startIntroPart1": "Praise the lord",
+		"startIntroPart2": "Join us and we will be greater together",
+		"declaringWar": "We shall spread the holy word",
+		"attacked": "Toren will make swift work of you",
+		"defeated": "Toren will make you suffer for what you have done!",
+		"introduction": "Way Toren have mercy on your soul",
+		"neutralHello": "Pleasure to be meeting you",
+		"hateHello": "Toren looks down upon you",
+		"tradeRequest": "A generous offer in the light of Toren",
+		"outerColor": [99,144,171],
+		"innerColor": [255,251,251],
+		"uniqueName": "The Holy Toren Church",
+		"uniques": [
+				"[+75]% Spread Religion Strength", 
+				"[+33]% [Faith]",
+				"[+2 Faith]",
+				"'Borrows' city names from other civilizations in the game",
+				"May buy [Culture] buildings with [Faith] [in all cities]",
+				"May choose [1] additional belief(s) of any type when [founding] a religion",
+				"May choose [1] additional belief(s) of any type when [enhancing] a religion"
+					],
+		"cities": ["The Holy City"]
+	},
+
+	{
+		"name": "Everglade",
+		"adjective": ["Gladian"],
+		"cityStateType": "Magical",
+
+		"declaringWar": "You sadly leave us no choice. War is the only option",
+		"attacked": "Looks like you did not want peace",
+		"defeated": "We could have been freinds",
+		"outerColor": [95, 95, 95],
+		"innerColor": [10,10,10],
+		"cities": ["Everglade"]
+	}/*,
+		{
 		"name": "Gilded Kingdom",
 		"leaderName": "Midas",
 		"startBias": ["Avoid [Coast]"],
@@ -49,17 +91,5 @@
 				"[-10]% [Culture]"
 					],
 		"cities": ["Gold","Rich","Diamond","Ruby","Gem","Quartz","Pearl", "Silver"]
-	},
-	{
-		"name": "Everglade",
-		"adjective": ["Gladian"],
-		"cityStateType": "Magical",
-
-		"declaringWar": "You sadly leave us no choice. War is the only option",
-		"attacked": "Looks like you did not want peace",
-		"defeated": "We could have been freinds",
-		"outerColor": [95, 95, 95],
-		"innerColor": [10,10,10],
-		"cities": ["Everglade"]
-	}
+	},*/
 ]
