@@ -55,5 +55,42 @@
         "name": "Truest Believer",
         "type": "Enhancer",
         "uniques": ["[All] units gain the [True Believer] promotion <once>"]
+    },
+    {
+        "name": "Raiding sands",
+        "type": "Enhancer",
+        "uniques": ["[+33]% Yield from pillaging tiles",
+                    "[+33]% Health from pillaging tiles",
+                    "No movement cost to pillage"]
+    },
+    {
+        "name": "Hand of Gold",
+        "type": "Follower",
+        "uniques": ["Gifts of Gold to City-States generate [+33]% more Influence",
+                    "[-10]% City-State Influence degradation",
+                    "Resting point for Influence with City-States is increased by [5]"]
+    },
+    {
+        "name": "Empire Ideals",
+        "type": "Follower",
+        "uniques": ["[-66]% Unhappiness from [Followers of this Religion] [in all cities]"]
+    },
+    {
+        "name": "Self Starvation",
+        "type": "Follower",
+        "uniques": ["[4] Unit Supply", 
+                    "[1] Unit Supply per city",
+                    "[5] units cost no maintenance"]
+    },
+    {
+        "name": "Helping Hand",
+        "type": "Founder",
+        "uniques": ["May buy items in puppet cities"]
+    },
+    {
+        "name": "Expirianced",
+        "type": "Enhancer",
+        "uniques": ["[+33]% XP gained from combat",
+                    "[Great General] is earned [+15]% faster"]
     }
 ]
